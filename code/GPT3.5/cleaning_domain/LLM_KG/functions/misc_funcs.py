@@ -21,7 +21,7 @@ import tiktoken
 
 
 os.environ["AZURE_OPENAI_API_KEY"] = "ENTER-KEY"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://shivam.openai.azure.com/"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "ENTER-ENDPOINT"
 
 def token_counter(messages):
     encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
@@ -1070,10 +1070,6 @@ def back_to_LLM(main_prompt, my_prompt, RBO, co, i):
 
 
     LLM_feedback_with_error = triple(f"./LLM_KG/feedback/LLM_feedback_with_error_{i}.txt")
-
-
-    os.environ["AZURE_OPENAI_API_KEY"] = "ENTER-KEY"
-    os.environ["AZURE_OPENAI_ENDPOINT"] = "https://shivam.openai.azure.com/"
 
     client = AzureOpenAI(
             api_key=os.getenv("AZURE_OPENAI_API_KEY"), 

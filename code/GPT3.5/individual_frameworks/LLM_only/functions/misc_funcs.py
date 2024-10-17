@@ -1049,9 +1049,6 @@ def back_to_LLM(main_prompt, my_prompt, co, i):
     LLM_feedback_with_error = triple(f"./feedback/LLM_feedback_with_error_{i}.txt")
 
 
-    os.environ["AZURE_OPENAI_API_KEY"] = "ENTER-KEY"
-    os.environ["AZURE_OPENAI_ENDPOINT"] = "ENTER-ENDPOINT"
-
     client = AzureOpenAI(
             api_key=os.getenv("AZURE_OPENAI_API_KEY"), 
             api_version="2024-02-01",
