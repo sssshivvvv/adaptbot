@@ -1,9 +1,0 @@
-[plate]
-robot picks up plate from cabinet ----> robot puts down plate to countertop ----> robot puts down pan to plate
-
-[cutting_board]
-robot puts down potato to cutting_board ----> robot picks up sliced_potato from cutting_board
-
-[pan]
-pan already cleaned! ----> robot picks up pan from cabinet ----> robot puts down pan to countertop ----> robot puts down oil to pan ----> robot picks up pan from countertop ----> robot puts down pan to stove ----> robot puts down potato to pan ----> contents of pan are ['oil', 'potato'] ----> contents of pan are stirred! ----> robot puts down salt to pan ----> robot picks up pan from stove ----> robot puts down pan to plate
-

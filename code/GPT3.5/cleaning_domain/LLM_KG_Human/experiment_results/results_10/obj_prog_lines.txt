@@ -1,3 +1,0 @@
-[phone]
-robot picks up phone from dining_table ----> robot puts down phone to countertop ----> robot picks up phone from countertop ----> robot puts down phone to charging_pod
-

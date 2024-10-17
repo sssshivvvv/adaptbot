@@ -1,3 +1,0 @@
-put_down_rec("charging_pod", "table")
-switch("charging_pod", "./LLM_only/updated_onto.ttl")
-put_down_obj("phone", "charging_pod")

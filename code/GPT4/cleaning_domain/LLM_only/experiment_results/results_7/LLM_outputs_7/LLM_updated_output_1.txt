@@ -1,2 +1,0 @@
-put_down_obj("cleaning_solution", "countertop")
-mop("countertop", "./LLM_only/updated_onto.ttl")

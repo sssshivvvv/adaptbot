@@ -1,4 +1,0 @@
-robot picks up brioche from cabinet
-robot puts down brioche to countertop
-robot picks up milk from fridge
-robot puts down milk to countertop

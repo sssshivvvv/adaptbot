@@ -1,6 +1,0 @@
-[plate]
-robot picks up plate from sink ----> robot puts down plate to countertop ----> plate already cleaned! ----> robot picks up plate from countertop ----> robot puts down plate to sink
-
-[bowl]
-bowl already cleaned! ----> robot picks up bowl from countertop ----> robot puts down bowl to sink
-

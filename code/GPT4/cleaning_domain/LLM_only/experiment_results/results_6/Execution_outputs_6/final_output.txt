@@ -1,3 +1,0 @@
-robot moved from dining_table to washing_machine
-robot moved from washing_machine to fridge
-robot moved from fridge to window

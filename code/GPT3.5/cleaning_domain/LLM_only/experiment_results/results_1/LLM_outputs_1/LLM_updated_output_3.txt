@@ -1,3 +1,0 @@
-move("tv", "./LLM_only/updated_onto.ttl")
-clean("tv", "./LLM_only/updated_onto.ttl")
-put_down_obj("mop_cloth", "countertop")

@@ -1,3 +1,0 @@
-[glass]
-robot picks up glass from cabinet ----> robot puts down glass to countertop
-

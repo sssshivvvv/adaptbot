@@ -1,3 +1,0 @@
-[pan]
-robot picks up pan from cabinet ----> robot puts down pan to countertop ----> robot puts down spatula to pan
-

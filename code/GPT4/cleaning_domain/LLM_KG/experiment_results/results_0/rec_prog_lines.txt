@@ -1,3 +1,0 @@
-[robot_arm]
-robot picks up robot_arm from dining_table
-

@@ -1,4 +1,0 @@
-move("bedroom", "./LLM_only/updated_onto.ttl")
-move("living_room", "./LLM_only/updated_onto.ttl")
-put_down_rec("music_player", "living_room_floor")
-switch("music_player", "./LLM_only/updated_onto.ttl")

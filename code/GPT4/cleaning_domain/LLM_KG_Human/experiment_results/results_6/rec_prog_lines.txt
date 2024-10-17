@@ -1,3 +1,0 @@
-[plate]
-robot picks up plate from rack ----> robot puts down plate to side_table ----> robot puts down mop_cloth to plate ----> robot puts down cleaning_solution to plate
-

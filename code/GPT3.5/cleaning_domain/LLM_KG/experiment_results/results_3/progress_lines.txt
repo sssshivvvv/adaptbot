@@ -1,9 +1,0 @@
-robot picks up plate from sink
-robot puts down plate to countertop
-plate already cleaned!
-bowl already cleaned!
-robot picks up plate from countertop
-robot puts down plate to sink
-robot picks up bowl from countertop
-robot puts down bowl to sink
-sink not toggleable! skipping this action

@@ -1,9 +1,0 @@
-[pan]
-robot picks up pan from stove ----> robot puts down pan to stove ----> contents of bowl poured to pan ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['egg', 'salt'] ----> contents of pan poured to plate ----> robot picks up pan from countertop ----> robot puts down pan to stove ----> contents of bowl poured to pan ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['egg', 'salt'] ----> contents of pan poured to plate
-
-[plate]
-robot picks up plate from cabinet ----> robot puts down plate to countertop ----> contents of pan poured to plate ----> robot picks up egg from plate ----> robot picks up salt from plate ----> contents of pan poured to plate
-
-[bowl]
-robot picks up bowl from cabinet ----> robot puts down bowl to countertop ----> robot puts down egg to bowl ----> robot puts down salt to bowl ----> contents of bowl are ['egg', 'salt'] ----> contents of bowl are stirred! ----> robot picks up bowl from countertop ----> robot puts down bowl to stove ----> contents of bowl are ['egg', 'salt'] ----> contents of bowl poured to pan ----> robot picks up bowl from stove ----> robot puts down bowl to countertop ----> robot puts down egg to bowl ----> robot puts down salt to bowl ----> contents of bowl already stirred! ----> robot picks up bowl from countertop ----> robot puts down bowl to stove ----> contents of bowl are ['egg', 'salt'] ----> contents of bowl poured to pan
-

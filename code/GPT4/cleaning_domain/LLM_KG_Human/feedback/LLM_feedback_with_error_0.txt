@@ -1,4 +1,0 @@
-There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
-
-pick_up_obj("phone", ".llm_kg_humaninitial_onto.ttl") #item "phone" not found! Please use the items provided by the user
-put_down_obj("phone", "charging_pod") #item "phone" not found! Please use the items provided by the user

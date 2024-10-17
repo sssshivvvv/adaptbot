@@ -1,8 +1,0 @@
-pick_up_obj("clothes", "./LLM_KG/initial_onto.ttl")
-put_down_obj("clothes", "bedroom_floor")
-put_down_obj("detergent", "washing_machine")
-put_down_rec("washing_machine", "kitchen_floor")
-put_down_obj("clothes", "washing_machine")
-wait(5)
-put_down_rec("washing_machine", "bedroom_floor")
-put_down_obj("clothes", "bedroom_floor")

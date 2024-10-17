@@ -1,6 +1,0 @@
-[mop_cloth]
-robot picks up mop_cloth from rack ----> robot puts down mop_cloth to countertop ----> robot picks up mop_cloth from countertop ----> robot puts down mop_cloth to countertop
-
-[cleaning_solution]
-robot picks up cleaning_solution from rack ----> robot puts down cleaning_solution to countertop
-

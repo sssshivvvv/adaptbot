@@ -1,6 +1,0 @@
-move("dustbin", "./LLM_only/updated_onto.ttl")
-put_down_obj("trash", "countertop")
-open("dustbin", "./LLM_only/updated_onto.ttl")
-put_down_obj("trash", "dustbin")
-close("dustbin", "./LLM_only/updated_onto.ttl")
-move("dustbin", "./LLM_only/updated_onto.ttl")

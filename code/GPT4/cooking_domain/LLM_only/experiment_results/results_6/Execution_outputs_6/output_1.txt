@@ -1,4 +1,0 @@
-robot moved from cabinet to fridge
-robot picks up potato from fridge
-robot moved from fridge to countertop
-robot puts down potato to countertop

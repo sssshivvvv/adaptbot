@@ -1,6 +1,0 @@
-[water]
-robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to glass ----> contents of glass are ['lime', 'water']
-
-[lime]
-robot picks up lime from fridge ----> robot puts down lime to countertop ----> robot picks up lime from countertop ----> robot puts down lime to sink ----> lime successfully cleaned! ----> robot picks up lime from sink ----> robot puts down lime to cutting_board ----> lime sliced! ----> robot picks up sliced_lime from cutting_board ----> robot puts down lime to glass ----> contents of glass are ['lime', 'water']
-

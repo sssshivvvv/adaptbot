@@ -1,2 +1,0 @@
-robot picks up cleaning_solution from rack
-robot puts down cleaning_solution to dustbin

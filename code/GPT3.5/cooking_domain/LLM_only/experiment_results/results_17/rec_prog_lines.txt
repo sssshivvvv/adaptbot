@@ -1,9 +1,0 @@
-[pan]
-robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down water to pan ----> contents of pan are ['water'] ----> contents of pan are stirred! ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['water'] ----> contents of pan poured to bowl
-
-[bowl]
-robot picks up bowl from cabinet ----> robot puts down bowl to countertop ----> contents of pan poured to bowl
-
-[cutting_board]
-robot puts down onion to cutting_board
-

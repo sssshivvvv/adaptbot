@@ -1,6 +1,0 @@
-[plate]
-robot picks up plate from cabinet ----> robot puts down plate to sink ----> plate successfully cleaned! ----> robot picks up plate from sink ----> robot puts down plate to countertop ----> robot puts down bread to plate ----> robot puts down egg to plate
-
-[pan]
-robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down butter to pan ----> robot puts down egg to pan ----> robot puts down bread to pan ----> robot picks up bread from pan ----> robot picks up egg from pan
-

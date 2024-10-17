@@ -1,2 +1,0 @@
-robot moved from toy_box to side_table
-music_player switched on!

@@ -1,5 +1,0 @@
-robot moved from dining_table to dustbin
-robot moved from dustbin to rack
-robot picks up cleaning_solution from rack
-robot moved from rack to dustbin
-robot puts down cleaning_solution to dustbin

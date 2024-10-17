@@ -1,6 +1,0 @@
-[onion]
-robot picks up onion from fridge ----> robot puts down onion to countertop ----> onion sliced! ----> robot picks up sliced_onion from countertop ----> robot puts down onion to pan ----> robot picks up sliced_onion from pan ----> robot puts down onion to countertop ----> onion already sliced! ----> robot picks up sliced_onion from countertop ----> robot puts down onion to pan
-
-[water]
-robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> robot picks up water from pan ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan
-

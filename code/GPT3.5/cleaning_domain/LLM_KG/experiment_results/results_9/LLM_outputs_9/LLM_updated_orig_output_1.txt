@@ -1,9 +1,0 @@
-COT: 
-To clean the table, I will first fetch the item I need, which is the mop cloth. I will pick up the mop cloth and then put it onto the table. Next, I will mop the table using the mop cloth. Finally, I will put down the mop cloth.
-
-ACTION SEQUENCE: 
-
-pick_up_obj("mop_cloth", "updated_onto.ttl")            # picking up the mop cloth
-put_down_obj("mop_cloth", "table")                       # putting down the mop cloth onto the table
-mop("table", "updated_onto.ttl")                         # mopping the table using the mop cloth
-put_down_obj("mop_cloth", "table")                       # putting down the mop cloth

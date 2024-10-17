@@ -1,2 +1,0 @@
-put_down_rec("charging_pod", "countertop")
-put_down_obj("phone", "charging_pod")

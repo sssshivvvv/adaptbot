@@ -1,8 +1,0 @@
-COT:
-To charge the phone, I will fetch the phone and the charging pod. First, I will pick up the charging pod and place it on the countertop. Then, I will put the phone onto the charging pod. The phone is now charging.
-
-ACTION SEQUENCE:
-pick_up_rec("charging_pod", "updated_onto.ttl") #picking up the charging pod
-put_down_rec("charging_pod", "countertop") #putting down the charging pod on the countertop
-pick_up_obj("phone", "updated_onto.ttl") #picking up the phone
-put_down_obj("phone", "charging_pod") #putting down the phone onto the charging pod

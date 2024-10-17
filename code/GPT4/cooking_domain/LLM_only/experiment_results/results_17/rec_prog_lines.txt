@@ -1,6 +1,0 @@
-[bowl]
-robot picks up bowl from cabinet ----> robot puts down bowl to sink ----> bowl successfully cleaned! ----> robot picks up bowl from sink ----> robot puts down bowl to countertop ----> bowl already cleaned!
-
-[pan]
-robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down onion to pan ----> robot puts down water to pan ----> robot picks up sliced_onion from pan ----> robot picks up water from pan ----> robot puts down onion to pan ----> robot puts down water to pan
-

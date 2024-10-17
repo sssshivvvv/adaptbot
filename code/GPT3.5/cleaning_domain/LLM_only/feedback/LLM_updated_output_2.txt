@@ -1,4 +1,0 @@
-put_down_obj("water", "countertop")
-put_down_obj("plant", "pot_or_vase")
-put_down_tool("watering_can", "countertop")
-pour_contents("watering_can", "pot_or_vase")

@@ -1,5 +1,0 @@
-robot picks up clothes from laundry_bag
-robot puts down clothes to washing_machine
-robot picks up cleaning_solution from rack
-robot puts down cleaning_solution to washing_machine
-washing_machine switched on!

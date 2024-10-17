@@ -1,6 +1,0 @@
-[blender]
-robot puts down apple to blender ----> robot puts down milk to blender ----> robot picks up sliced_apple from blender ----> robot picks up milk from blender ----> robot puts down apple to blender ----> robot puts down milk to blender ----> contents of blender are ['apple', 'milk'] ----> contents of blender are mixed!
-
-[glass]
-robot picks up glass from cabinet ----> robot puts down glass to sink ----> glass successfully cleaned! ----> glass already cleaned! ----> robot picks up glass from sink ----> robot puts down glass to countertop
-

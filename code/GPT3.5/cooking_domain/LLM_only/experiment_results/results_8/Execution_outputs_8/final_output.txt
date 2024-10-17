@@ -1,8 +1,0 @@
-knife already cleaned!
-knife already cleaned!
-robot moved from countertop to fridge
-robot picks up avocado from fridge
-robot moved from fridge to countertop
-robot puts down avocado to countertop
-knife already cleaned!
-knife already cleaned!

@@ -1,7 +1,0 @@
-robot picks up bowl from cabinet
-robot puts down bowl to sink
-bowl successfully cleaned!
-robot picks up bowl from sink
-robot puts down bowl to countertop
-robot picks up all_purpose_flour from cabinet
-robot puts down all_purpose_flour to countertop

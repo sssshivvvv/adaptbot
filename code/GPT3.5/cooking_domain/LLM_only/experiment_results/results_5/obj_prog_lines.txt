@@ -1,9 +1,0 @@
-[water]
-robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> water is boiled! ----> robot picks up water from pan ----> robot puts down water to countertop ----> water already boiled! ----> robot picks up water from countertop ----> robot puts down water to pan ----> robot picks up water from pan ----> robot puts down water to countertop ----> water already boiled! ----> robot picks up water from countertop ----> robot puts down water to pan ----> robot picks up water from pan ----> robot puts down water to countertop ----> water already boiled! ----> robot picks up water from countertop ----> robot puts down water to pan
-
-[tea]
-robot picks up tea from cabinet ----> robot puts down tea to countertop ----> robot picks up tea from countertop ----> robot puts down tea to pan ----> robot picks up tea from pan ----> robot puts down tea to countertop ----> robot picks up tea from countertop ----> robot puts down tea to pan ----> robot picks up tea from pan ----> robot puts down tea to countertop ----> robot picks up tea from countertop ----> robot puts down tea to pan ----> robot picks up tea from pan ----> robot puts down tea to countertop ----> robot picks up tea from countertop ----> robot puts down tea to pan
-
-[lime]
-robot picks up lime from fridge ----> robot puts down lime to countertop ----> lime sliced! ----> lime already sliced! ----> lime already sliced! ----> lime already sliced!
-

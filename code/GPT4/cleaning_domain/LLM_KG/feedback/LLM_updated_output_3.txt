@@ -1,3 +1,0 @@
-pick_up_obj("cleaning_solution", "./LLM_KG/updated_onto.ttl")
-put_down_obj("cleaning_solution", "table")
-clean("table", "./LLM_KG/updated_onto.ttl")

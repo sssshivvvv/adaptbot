@@ -1,2 +1,0 @@
-robot moved from window to living_room_floor
-robot puts down cleaning_solution to living_room_floor

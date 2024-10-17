@@ -1,2 +1,0 @@
-put_down_obj("mop_cloth", "bedroom_floor")
-mop("bedroom_floor", "./LLM_only/updated_onto.ttl")

@@ -1,5 +1,0 @@
-There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
-
-pick_up_obj("mop_cloth", ".llm_kginitial_onto.ttl") #item "mop_cloth" not found! Please use the ingredients provided by the user
-move("mop_cloth", ".llm_kgupdated_onto.ttl") #item "mop_cloth" not found! Please use the ingredients provided by the user
-put_down_obj("mop_cloth", "window") #item "mop_cloth" not found! Please use the ingredients provided by the user

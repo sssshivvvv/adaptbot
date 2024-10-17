@@ -1,6 +1,0 @@
-[apple]
-robot picks up apple from fridge ----> robot puts down apple to countertop ----> robot picks up apple from countertop ----> robot puts down apple to sink ----> apple successfully cleaned! ----> robot picks up apple from sink ----> robot puts down apple to cutting_board ----> apple sliced! ----> robot picks up sliced_apple from cutting_board ----> robot puts down apple to countertop ----> robot picks up sliced_apple from countertop ----> robot puts down apple to blender ----> contents of blender are ['apple', 'milk'] ----> contents of blender are ['apple', 'milk']
-
-[milk]
-robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to blender ----> contents of blender are ['apple', 'milk'] ----> contents of blender are ['apple', 'milk']
-

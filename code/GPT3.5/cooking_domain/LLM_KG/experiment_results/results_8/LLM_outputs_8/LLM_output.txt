@@ -1,8 +1,0 @@
-clean("knife", "./LLM_KG/initial_onto.ttl")
-put_down_tool("knife", "countertop")
-put_down_obj("bread", "countertop")
-put_down_obj("avocado", "countertop")
-put_down_obj("salt", "countertop")
-slice("avocado", "knife", "./LLM_KG/updated_onto.ttl")
-put_down_obj("avocado", "plate")
-put_down_obj("salt", "countertop")

@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/other_domains/for_knowledge_expansion_2/./LLM_only/final_run.py", line 4, in <module>
-    clean("tv", "./LLM_only/updated_onto.ttl")
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/other_domains/for_knowledge_expansion_2/LLM_only/functions/actions.py", line 1412, in clean
-    raise RuntimeError(f"clean({item}, {onto_file}) #{item} not present in the environment!")
-RuntimeError: clean(tv, ./LLM_only/updated_onto.ttl) #tv not present in the environment!

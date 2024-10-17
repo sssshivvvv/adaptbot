@@ -1,6 +1,0 @@
-[plate]
-robot picks up plate from cabinet ----> robot puts down plate to countertop ----> contents of pan poured to plate
-
-[pan]
-robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot picks up pan from stove ----> robot puts down pan to stove ----> robot puts down chicken to pan ----> robot puts down butter to pan ----> robot puts down tomato to pan ----> robot puts down onion to pan ----> contents of pan are ['butter', 'chicken', 'onion', 'tomato'] ----> contents of pan are stirred! ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['butter', 'chicken', 'onion', 'tomato'] ----> contents of pan poured to plate
-

@@ -1,6 +1,0 @@
-[carrot]
-robot picks up carrot from fridge ----> robot puts down carrot to countertop
-
-[butter]
-robot picks up butter from fridge ----> robot puts down butter to countertop
-

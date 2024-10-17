@@ -1,4 +1,0 @@
-robot picks up potato from bowl
-robot puts down potato to countertop
-robot picks up butter from bowl
-robot puts down butter to countertop

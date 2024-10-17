@@ -1,6 +1,0 @@
-[apple]
-robot picks up apple from fridge ----> robot puts down apple to countertop
-
-[milk]
-robot picks up milk from fridge ----> robot puts down milk to countertop
-

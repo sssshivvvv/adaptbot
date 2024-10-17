@@ -1,6 +1,0 @@
-[choco_powder]
-robot picks up choco_powder from cabinet ----> robot puts down choco_powder to countertop ----> robot picks up choco_powder from countertop ----> robot puts down choco_powder to pan ----> contents of pan are ['choco_powder', 'milk'] ----> contents of pan are ['choco_powder', 'milk']
-
-[milk]
-robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to pan ----> milk is boiled! ----> contents of pan are ['choco_powder', 'milk'] ----> contents of pan are ['choco_powder', 'milk']
-

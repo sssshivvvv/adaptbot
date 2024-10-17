@@ -1,2 +1,0 @@
-put_down_obj("clothes", "washing_machine")
-switch("washing_machine", "./LLM_only/updated_onto.ttl")

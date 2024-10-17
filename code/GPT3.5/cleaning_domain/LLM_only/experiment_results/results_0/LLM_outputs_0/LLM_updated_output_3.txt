@@ -1,1 +1,0 @@
-clean("bedroom_floor", "./LLM_only/updated_onto.ttl")

@@ -1,6 +1,0 @@
-[yogurt]
-robot picks up yogurt from fridge ----> robot puts down yogurt to countertop ----> robot picks up yogurt from countertop ----> robot puts down yogurt to blender ----> contents of blender are ['mango', 'yogurt'] ----> contents of blender are ['mango', 'yogurt']
-
-[mango]
-robot picks up mango from fridge ----> robot puts down mango to countertop ----> robot picks up mango from countertop ----> robot puts down mango to sink ----> mango successfully cleaned! ----> robot picks up mango from sink ----> robot puts down mango to cutting_board ----> mango sliced! ----> robot picks up sliced_mango from cutting_board ----> robot puts down mango to blender ----> contents of blender are ['mango', 'yogurt'] ----> contents of blender are ['mango', 'yogurt']
-

@@ -1,7 +1,0 @@
-robot picks up bun from cabinet
-robot moved from cabinet to countertop
-robot puts down bun to countertop
-robot moved from countertop to fridge
-robot picks up avocado from fridge
-robot moved from fridge to countertop
-robot puts down avocado to countertop

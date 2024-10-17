@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/other_domains/for_knowledge_expansion/./LLM_only/final_run.py", line 4, in <module>
-    put_down_obj("trash", "countertop")
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/other_domains/for_knowledge_expansion/LLM_only/functions/actions.py", line 442, in put_down_obj
-    raise RuntimeError(f"put_down_obj({obj}, {loc}) #{obj} not present in the environment!")
-RuntimeError: put_down_obj(trash, countertop) #trash not present in the environment!

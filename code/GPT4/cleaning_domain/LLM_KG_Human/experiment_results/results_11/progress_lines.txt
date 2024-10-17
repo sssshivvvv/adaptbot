@@ -1,2 +1,0 @@
-couldnt pick music_player! skipping this action
-music_player switched on!

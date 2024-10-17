@@ -1,9 +1,0 @@
-[water]
-robot picks up water from fridge ----> robot puts down water to pan
-
-[butter]
-robot picks up butter from fridge ----> robot puts down butter to countertop ----> robot picks up butter from countertop ----> robot puts down butter to pan
-
-[potato]
-robot picks up potato from fridge ----> robot puts down potato to countertop ----> robot picks up potato from countertop ----> robot puts down potato to pan ----> potato is boiled!
-

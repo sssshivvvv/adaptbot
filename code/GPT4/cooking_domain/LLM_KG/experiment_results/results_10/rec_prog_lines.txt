@@ -1,6 +1,0 @@
-[bowl]
-robot picks up bowl from cabinet ----> robot puts down bowl to sink ----> bowl successfully cleaned! ----> robot picks up bowl from sink ----> robot puts down bowl to countertop ----> robot puts down apple to bowl ----> robot puts down mango to bowl ----> contents of bowl are ['apple', 'mango'] ----> contents of bowl are mixed!
-
-[cutting_board]
-robot puts down apple to cutting_board ----> robot puts down mango to cutting_board ----> robot picks up sliced_apple from cutting_board ----> robot picks up sliced_mango from cutting_board
-

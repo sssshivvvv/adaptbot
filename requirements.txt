@@ -1,7 +1,0 @@
-rdflib
-networkx
-matplotlib
-openai
-nltk
-tiktoken
-numpy

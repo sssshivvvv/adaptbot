@@ -1,2 +1,0 @@
-robot picks up water from fridge
-robot puts down water to countertop

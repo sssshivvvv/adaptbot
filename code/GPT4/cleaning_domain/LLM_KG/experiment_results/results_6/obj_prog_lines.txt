@@ -1,3 +1,0 @@
-[cleaning_solution]
-robot puts down cleaning_solution to living_room_floor
-

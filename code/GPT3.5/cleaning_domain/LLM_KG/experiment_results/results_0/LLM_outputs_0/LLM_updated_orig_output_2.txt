@@ -1,9 +1,0 @@
-            COT & ACTION SEQUENCE:
-
-To clean the bedroom floor, I will need a mop cloth. I will pick up the mop cloth from the wardrobe. Then, I will put it on the bedroom floor and mop the floor using the mop cloth. The bedroom floor is now cleaned!
-
-pick_up_obj("mop_cloth", "wardrobe") #picking up the mop cloth from the wardrobe
-put_down_obj("mop_cloth", "bedroom_floor") #putting down the mop cloth onto the bedroom floor
-mop("bedroom_floor", "updated_onto.ttl") #mopping the bedroom floor
-
-Note: The mop cloth should be available in the wardrobe. If it is not present in the wardrobe, please make sure it is added to the initial ontology (.llm_kginitial_onto.ttl) in the wardrobe.

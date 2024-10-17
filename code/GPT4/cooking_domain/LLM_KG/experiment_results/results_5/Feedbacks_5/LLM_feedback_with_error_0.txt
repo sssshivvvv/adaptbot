@@ -1,3 +1,0 @@
-There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
-
-squeeze("lime", ".llm_kgupdated_onto.ttl") #action "squeeze" is not present in ther knowledge base!

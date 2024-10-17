@@ -1,8 +1,0 @@
-robot picks up mop_cloth from rack
-robot puts down mop_cloth to sink
-mop_cloth successfully cleaned!
-robot picks up mop_cloth from sink
-robot puts down mop_cloth to tv
-agent mopped the tv successfully!
-robot picks up mop_cloth from tv
-robot puts down mop_cloth to countertop

@@ -1,8 +1,0 @@
-robot picks up plate from rack
-robot puts down plate to sink
-robot picks up bowl from rack
-robot puts down bowl to sink
-plate already in the sink!
-plate successfully cleaned!
-bowl already in the sink!
-bowl successfully cleaned!

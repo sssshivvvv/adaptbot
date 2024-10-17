@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/other_domains/for_knowledge_expansion/./LLM_only/final_run.py", line 4, in <module>
-    put_down_rec("plant", "pot")
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/other_domains/for_knowledge_expansion/LLM_only/functions/actions.py", line 858, in put_down_rec
-    raise RuntimeError(f"put_down_obj({rec}, {loc}) #Second argument of put down function must be a location")
-RuntimeError: put_down_obj(plant, pot) #Second argument of put down function must be a location

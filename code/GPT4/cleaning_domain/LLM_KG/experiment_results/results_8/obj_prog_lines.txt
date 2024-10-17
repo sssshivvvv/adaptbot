@@ -1,3 +1,0 @@
-[cleaning_solution]
-robot picks up cleaning_solution from table ----> robot puts down cleaning_solution to table
-

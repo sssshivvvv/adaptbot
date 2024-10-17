@@ -1,9 +1,0 @@
-robot picks up mop_cloth from rack
-robot puts down mop_cloth to window
-agent mopped the window successfully!
-robot picks up mop_cloth from window
-robot picks up plate from rack
-robot puts down plate to side_table
-robot puts down mop_cloth to plate
-robot picks up cleaning_solution from rack
-robot puts down cleaning_solution to plate

@@ -1,3 +1,0 @@
-move("bedroom_floor", "./LLM_KG_Human/initial_onto.ttl")
-mop("bedroom_floor", "./LLM_KG_Human/updated_onto.ttl")
-put_down_obj("mop_cloth", "sink")

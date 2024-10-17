@@ -1,2 +1,0 @@
-robot picks up cleaning_solution from countertop
-robot puts down cleaning_solution to countertop

@@ -1,8 +1,0 @@
-put_down_obj("water", "countertop")
-put_down_obj("lime", "countertop")
-clean("glass", "./LLM_only/updated_onto.ttl")
-put_down_rec("glass", "countertop")
-put_down_tool("knife", "countertop")
-slice("lime", "knife", "./LLM_only/updated_onto.ttl")
-put_down_obj("water", "glass")
-mix_contents("glass", "./LLM_only/updated_onto.ttl")

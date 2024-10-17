@@ -1,3 +1,0 @@
-[banana]
-robot picks up banana from fridge ----> robot puts down banana to countertop
-

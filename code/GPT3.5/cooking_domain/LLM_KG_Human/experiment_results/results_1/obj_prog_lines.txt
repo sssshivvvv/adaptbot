@@ -1,9 +1,0 @@
-[water]
-robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to glass
-
-[sugar]
-robot picks up sugar from countertop ----> robot puts down sugar to glass
-
-[lime]
-robot picks up lime from fridge ----> robot puts down lime to countertop ----> robot picks up lime from countertop ----> robot puts down lime to glass
-

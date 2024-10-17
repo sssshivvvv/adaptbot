@@ -1,9 +1,0 @@
-[potato]
-robot picks up potato from fridge ----> robot puts down potato to countertop ----> robot picks up potato from countertop ----> robot puts down potato to sink ----> potato successfully cleaned! ----> robot picks up potato from sink ----> robot puts down potato to cutting_board ----> potato sliced! ----> robot picks up sliced_potato from cutting_board ----> robot puts down potato to pan ----> potato Fried! ----> contents of pan are ['oil', 'potato']
-
-[oil]
-robot picks up oil from countertop ----> robot puts down oil to pan ----> contents of pan are ['oil', 'potato']
-
-[salt]
-robot picks up salt from countertop ----> robot puts down salt to pan
-

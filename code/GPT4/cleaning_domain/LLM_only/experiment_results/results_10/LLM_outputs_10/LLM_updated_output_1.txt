@@ -1,2 +1,0 @@
-put_down_rec("charging_pod", "countertop")
-switch("charging_pod", "./LLM_only/updated_onto.ttl")

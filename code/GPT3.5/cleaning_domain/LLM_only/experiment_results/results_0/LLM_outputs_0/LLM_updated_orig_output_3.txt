@@ -1,8 +1,0 @@
-Apologies for the mistake in the previous action sequence. Here is the corrected COT and action sequence to clean the bedroom floor using the mop cloth:
-
-COT & ACTION SEQUENCE:
-
-To clean the bedroom floor, I will need a mop cloth. Since the mop cloth is already present in the environment, I will pick it up from the laundry bag and start cleaning the floor.
-
-pick_up_obj("mop_cloth", "updated_onto.ttl")  # Picking up the mop cloth from the laundry bag
-clean("bedroom_floor", "updated_onto.ttl")  # Cleaning the bedroom floor with the mop cloth

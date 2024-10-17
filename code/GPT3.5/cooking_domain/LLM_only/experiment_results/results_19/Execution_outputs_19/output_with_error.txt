@@ -1,7 +1,0 @@
-pan already cleaned!
-Traceback (most recent call last):
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/streamlined_for_experiments/for_knowledge_expansion/./LLM_only/final_run.py", line 5, in <module>
-    put_down_rec("oil", "countertop")
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/streamlined_for_experiments/for_knowledge_expansion/LLM_only/functions/actions.py", line 867, in put_down_rec
-    raise RuntimeError(f"put_down_rec({rec}, {loc}) #{rec} not present in the environment!")
-RuntimeError: put_down_rec(oil, countertop) #oil not present in the environment!

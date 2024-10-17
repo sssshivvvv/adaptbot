@@ -1,3 +1,0 @@
-[avocado]
-robot picks up avocado from fridge ----> robot puts down avocado to countertop
-

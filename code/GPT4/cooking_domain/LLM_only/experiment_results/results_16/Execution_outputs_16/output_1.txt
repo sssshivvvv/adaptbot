@@ -1,7 +1,0 @@
-robot picks up all_purpose_flour from cabinet
-robot moved from cabinet to countertop
-robot puts down all_purpose_flour to countertop
-robot moved from countertop to fridge
-robot picks up onion from fridge
-robot moved from fridge to countertop
-robot puts down onion to countertop

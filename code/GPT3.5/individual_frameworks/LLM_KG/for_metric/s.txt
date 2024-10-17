@@ -1,7 +1,0 @@
-slice("apple", "knife", "initial_onto.ttl")
-mix_contents("bowl", "updated_onto.ttl")
-pick_up_obj("butter", "updated_onto.ttl")
-put_down_obj("butter", "bowl")
-pick_up_obj("water", "updated_onto.ttl")
-put_down_obj("water", "bowl")
-stir_contents("bowl", "updated_onto.ttl")

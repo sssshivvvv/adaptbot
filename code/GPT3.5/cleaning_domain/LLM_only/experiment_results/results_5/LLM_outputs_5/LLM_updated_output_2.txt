@@ -1,3 +1,0 @@
-move("dustbin", "./LLM_only/updated_onto.ttl")
-put_down_obj("trash", "dustbin")
-move("dustbin", "./LLM_only/updated_onto.ttl")

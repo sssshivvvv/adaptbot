@@ -1,3 +1,0 @@
-[potato]
-robot picks up potato from fridge ----> robot puts down potato to countertop ----> robot picks up potato from countertop ----> robot puts down potato to sink ----> potato successfully cleaned! ----> robot picks up potato from sink ----> robot puts down potato to cutting_board ----> potato sliced!
-

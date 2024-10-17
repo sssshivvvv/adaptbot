@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/other_domains/for_knowledge_expansion_2/./LLM_only/final_run.py", line 4, in <module>
-    mop("countertop", "./LLM_only/updated_onto.ttl")
-  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/other_domains/for_knowledge_expansion_2/LLM_only/functions/actions.py", line 2650, in mop
-    pick_up_obj(mopping_item, onto_file)
-                ^^^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'mopping_item' where it is not associated with a value

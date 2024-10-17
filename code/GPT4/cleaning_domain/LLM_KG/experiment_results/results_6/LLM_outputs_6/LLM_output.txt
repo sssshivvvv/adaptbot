@@ -1,6 +1,0 @@
-move("washing_machine", "./LLM_KG/initial_onto.ttl")
-move("fridge", "./LLM_KG/updated_onto.ttl")
-move("window", "./LLM_KG/updated_onto.ttl")
-mop("window", "./LLM_KG/updated_onto.ttl")
-put_down_obj("mop", "countertop")
-put_down_obj("cleaning_solution", "plate")

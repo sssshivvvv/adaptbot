@@ -1,9 +1,0 @@
-robot moved from dining_table to laundry_bag
-robot picks up clothes from laundry_bag
-robot moved from laundry_bag to washing_machine
-robot puts down clothes to washing_machine
-robot moved from washing_machine to rack
-robot picks up cleaning_solution from rack
-robot moved from rack to washing_machine
-robot puts down cleaning_solution to washing_machine
-washing_machine switched on!

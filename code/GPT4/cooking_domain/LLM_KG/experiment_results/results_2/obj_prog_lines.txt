@@ -1,9 +1,0 @@
-[coffee]
-robot picks up coffee from cabinet ----> robot puts down coffee to countertop ----> robot picks up coffee from countertop ----> robot puts down coffee to glass ----> contents of glass are ['coffee', 'milk', 'water']
-
-[water]
-robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> contents of pan are ['milk', 'water'] ----> contents of glass are ['coffee', 'milk', 'water']
-
-[milk]
-robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to pan ----> contents of pan are ['milk', 'water'] ----> contents of glass are ['coffee', 'milk', 'water']
-

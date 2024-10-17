@@ -1,8 +1,0 @@
-put_down_obj("milk", "countertop")
-put_down_obj("choco_powder", "countertop")
-clean("glass", "./LLM_only/updated_onto.ttl")
-put_down_rec("glass", "countertop")
-pour_contents("choco_powder", "glass")
-pour_contents("milk", "glass")
-wait(5)
-put_down_rec("glass", "countertop")

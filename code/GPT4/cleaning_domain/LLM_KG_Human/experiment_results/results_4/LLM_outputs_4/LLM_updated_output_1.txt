@@ -1,4 +1,0 @@
-pick_up_obj("clothes", "./LLM_KG_Human/initial_onto.ttl")
-put_down_obj("clothes", "washing_machine")
-put_down_obj("cleaning_solution", "washing_machine")
-switch("washing_machine", "./LLM_KG_Human/updated_onto.ttl")

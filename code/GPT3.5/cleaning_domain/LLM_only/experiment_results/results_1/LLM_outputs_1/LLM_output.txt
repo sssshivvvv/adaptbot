@@ -1,4 +1,0 @@
-pick_up_obj("mop_cloth", "./LLM_only/initial_onto.ttl")
-clean("mop_cloth", "./LLM_only/updated_onto.ttl")
-stir_contents("tv", "./LLM_only/updated_onto.ttl")
-put_down_tool("mop_cloth", "countertop")

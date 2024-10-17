@@ -1,9 +1,0 @@
-Apologies for the error in the previous response. Here is the corrected COT and action sequence for mopping the countertop using the mop cloth:
-
-COT & ACTION SEQUENCE:
-
-To mop the countertop, I will first fetch the mop cloth. If the countertop is dirty, I will clean it using the mop cloth. Then, I will mop the countertop to make it clean.
-
-pick_up_obj("mop_cloth", "updated_onto.ttl") #picking up the mop cloth
-clean("countertop", "updated_onto.ttl") #cleaning the countertop using the mop cloth
-mop("countertop", "updated_onto.ttl") #mopping the countertop 

@@ -1,6 +1,0 @@
-[plant]
-robot picks up plant from dining_table ----> robot puts down plant to plate
-
-[water]
-robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to bowl
-

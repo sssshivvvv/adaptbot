@@ -1,3 +1,0 @@
-[music_player]
-music_player switched on!
-

@@ -1,9 +1,0 @@
-[oil]
-robot picks up oil from countertop ----> robot puts down oil to pan ----> contents of pan are ['banana', 'oil']
-
-[salt]
-robot picks up salt from countertop ----> robot puts down salt to plate
-
-[banana]
-robot picks up banana from fridge ----> robot puts down banana to countertop ----> robot picks up banana from countertop ----> robot puts down banana to sink ----> banana successfully cleaned! ----> robot picks up banana from sink ----> robot puts down banana to cutting_board ----> banana sliced! ----> robot picks up sliced_banana from cutting_board ----> robot puts down banana to pan ----> banana Fried! ----> contents of pan are ['banana', 'oil']
-

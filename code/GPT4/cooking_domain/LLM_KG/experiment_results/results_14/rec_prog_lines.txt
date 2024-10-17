@@ -1,6 +1,0 @@
-[glass]
-robot picks up glass from cabinet ----> robot puts down glass to sink ----> glass successfully cleaned! ----> robot picks up glass from sink ----> robot puts down glass to countertop ----> contents of pan poured to glass ----> robot picks up glass from countertop ----> robot puts down glass to table
-
-[pan]
-robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down milk to pan ----> robot picks up pan from stove ----> robot puts down pan to stove ----> robot puts down choco_powder to pan ----> contents of pan are ['choco_powder', 'milk'] ----> contents of pan are stirred! ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['choco_powder', 'milk'] ----> contents of pan poured to glass
-

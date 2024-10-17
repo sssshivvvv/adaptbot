@@ -1,8 +1,0 @@
-COT & ACTION SEQUENCE:
-
-To dust the TV, I need to ensure I have the necessary items. Since the relevant item suggested is the 'mop_cloth', I will use it to clean the TV. While the TV itself is not explicitly listed in the environment, I will assume it to be an implied object in the living room. Firstly, I will move to the living room where the TV is located. Then, I will pick up the mop_cloth, use it to clean the TV, and place it back once done. 
-
-move("living_room", "initial_onto.ttl") # Moving to the living room
-pick_up_obj("mop_cloth", "updated_onto.ttl") # Picking up the mop_cloth
-mop("TV", "updated_onto.ttl") # Mopping the TV with the mop_cloth
-put_down_obj("mop_cloth", "living_room_floor") # Placing the mop_cloth on the living room floor

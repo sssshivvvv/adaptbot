@@ -1,6 +1,0 @@
-clean("bowl", "./LLM_KG_Human/initial_onto.ttl")
-put_down_rec("bowl", "countertop")
-put_down_obj("apple", "countertop")
-put_down_obj("mango", "countertop")
-put_down_obj("apple", "bowl")
-put_down_obj("mango", "bowl")

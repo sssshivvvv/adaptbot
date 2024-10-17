@@ -1,6 +1,0 @@
-[plate]
-robot picks up plate from cabinet ----> robot puts down plate to sink ----> plate successfully cleaned! ----> robot picks up plate from sink ----> robot puts down plate to countertop ----> robot puts down avocado to plate ----> robot puts down bread to plate ----> contents of plate are ['avocado', 'bread'] ----> contents of plate are stirred! ----> robot puts down salt to plate
-
-[cutting_board]
-robot puts down avocado to cutting_board ----> robot picks up sliced_avocado from cutting_board
-

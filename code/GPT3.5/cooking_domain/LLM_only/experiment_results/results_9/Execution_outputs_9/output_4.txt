@@ -1,7 +1,0 @@
-robot picks up potato from pan
-robot moved from stove to countertop
-robot puts down potato to countertop
-robot moved from countertop to stove
-robot picks up butter from pan
-robot moved from stove to countertop
-robot puts down butter to countertop

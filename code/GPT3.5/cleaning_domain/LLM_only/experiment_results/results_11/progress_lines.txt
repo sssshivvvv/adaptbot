@@ -1,2 +1,0 @@
-music_player switched on!
-waiting for 5 minutes

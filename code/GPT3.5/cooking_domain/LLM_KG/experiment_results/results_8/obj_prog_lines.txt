@@ -1,3 +1,0 @@
-[avocado]
-robot picks up avocado from fridge ----> robot puts down avocado to sink ----> avocado successfully cleaned! ----> robot picks up avocado from sink ----> robot puts down avocado to cutting_board ----> avocado sliced! ----> robot picks up sliced_avocado from cutting_board ----> robot puts down avocado to plate
-

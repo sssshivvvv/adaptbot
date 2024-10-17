@@ -1,3 +1,0 @@
-move("living_room", "./LLM_only/updated_onto.ttl")
-mop("living_room_floor", "./LLM_only/updated_onto.ttl")
-put_down_obj("mop_cloth", "living_room_floor")

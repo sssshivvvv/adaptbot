@@ -1,3 +1,0 @@
-There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
-
-RuntimeError: pick_up_obj(phone, ./LLM_only/initial_onto.ttl) #phone is not present in the environment!

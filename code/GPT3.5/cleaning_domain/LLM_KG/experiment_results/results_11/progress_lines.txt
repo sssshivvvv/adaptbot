@@ -1,4 +1,0 @@
-music_player is a big receptacle, cant pick it! skipping this action
-music_player switched on!
-waiting for 5 minutes
-music_player switched off!
