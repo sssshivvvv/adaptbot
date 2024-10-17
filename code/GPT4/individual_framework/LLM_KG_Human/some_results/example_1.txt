@@ -6,18 +6,18 @@ To prepare boiled potatoes, I will first fetch the items I need. I will bring th
 
 pick_up_obj("potato", "updated_onto.ttl")
 put_down_obj("potato", "countertop")
-pick_up_rec("pan", "updated_onto.ttl")
-put_down_rec("pan", "countertop")
-clean("pan", "updated_onto.ttl")
+pick_up_rec("pot", "updated_onto.ttl")
+put_down_rec("pot", "countertop")
+clean("pot", "updated_onto.ttl")
 
 2. Cooking process: 
 
 To boil the potato, I will put it into the pan and add water. Then I will switch on the stove to start boiling the potato.
 
 pick_up_obj("potato", "updated_onto.ttl")
-put_down_obj("potato", "pan")
+put_down_obj("potato", "pot")
 pick_up_obj("water", "updated_onto.ttl")
-put_down_obj("water", "pan")
+put_down_obj("water", "pot")
 switch_on_stove("updated_onto.ttl")
 boil("potato", "initial_onto.ttl")
 
@@ -25,5 +25,5 @@ boil("potato", "initial_onto.ttl")
 
 Once the potato is boiled, I will put it onto a plate. The boiled potato is ready to be served.
 
-pick_up_obj("potato", "pan")
+pick_up_obj("potato", "pot")
 put_down_obj("potato", "plate")

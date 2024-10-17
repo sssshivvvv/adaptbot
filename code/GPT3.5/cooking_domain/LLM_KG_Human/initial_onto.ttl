@@ -299,13 +299,14 @@ ex:glass rdf:type ex:mreceptacle ;
     ex:ContStirred false;
     ex:cantakerec false.
 
-ex:pan rdf:type ex:mreceptacle ;
-    ex:rec_name "pan" ;
+ex:pot rdf:type ex:mreceptacle ;
+    ex:rec_name "pot" ;
     ex:mrec_location ex:cabinet ;
     ex:IsRecCleaned true;
     ex:IsSensitive false;
+    ex:frying_utensil true;
     ex:used_for_slicing false;
-    ex:toggleable false;
+    ex:boiling_utensil true;
     ex:goto_utensil false;
     ex:deep_rec true;
     ex:ContStirred false;

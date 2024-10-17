@@ -18,10 +18,10 @@ put_down_tool("knife", "countertop") #putting down the knife on the countertop
 
 To prepare the egg sandwich, I will first cook the egg by frying it in a pan. Then, I will slice the bread using the knife and assemble the sandwich.
 
-pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
-put_down_rec("pan", "stove") #putting down the pan on the stove
+pick_up_rec("pot", "updated_onto.ttl") #picking up the pan
+put_down_rec("pot", "stove") #putting down the pan on the stove
 pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
-put_down_obj("egg", "pan") #putting the egg into the pan
+put_down_obj("egg", "pot") #putting the egg into the pan
 fry("egg", "updated_onto.ttl") #frying the egg in the pan
 pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
 put_down_obj("bread", "cutting_board") #putting down the bread on the cutting board

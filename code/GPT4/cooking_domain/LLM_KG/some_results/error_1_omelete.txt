@@ -4,8 +4,8 @@ COT & ACTION SEQUENCE:
 
 To prepare the omelette, I will first fetch the items I need. I will bring the pan, eggs, onion, tomato, salt, pepper, and spatula. If the pan is not cleaned, I will clean it first.
 
-pick_up_obj("pan", "updated_onto.ttl")  #picking up the pan
-put_down_obj("pan", "countertop")  #putting down the pan on the countertop
+pick_up_obj("pot", "updated_onto.ttl")  #picking up the pan
+put_down_obj("pot", "countertop")  #putting down the pan on the countertop
 pick_up_obj("eggs", "updated_onto.ttl")  #picking up the eggs
 put_down_obj("eggs", "countertop")  #putting down the eggs on the countertop
 pick_up_obj("onion", "updated_onto.ttl")  #picking up the onion 
@@ -16,9 +16,9 @@ pick_up_obj("salt", "updated_onto.ttl")  #picking up the salt
 put_down_obj("salt", "countertop")  #putting down the salt on the countertop
 pick_up_obj("pepper", "updated_onto.ttl")  #picking up the pepper 
 put_down_obj("pepper", "countertop")  #putting down the pepper on the countertop
-clean("pan", "updated_onto.ttl")  #cleaning the pan
-pick_up_rec("pan", "updated_onto.ttl")  #picking up the pan
-put_down_rec("pan", "countertop")  #putting down the pan on the countertop
+clean("pot", "updated_onto.ttl")  #cleaning the pan
+pick_up_rec("pot", "updated_onto.ttl")  #picking up the pan
+put_down_rec("pot", "countertop")  #putting down the pan on the countertop
 pick_up_tool("spatula", "updated_onto.ttl")  #picking up the spatula
 put_down_tool("spatula", "countertop")  #putting down the spatula on the countertop
 
@@ -27,15 +27,15 @@ put_down_tool("spatula", "countertop")  #putting down the spatula on the counter
 To prepare the omelette, I will crack the eggs into the pan, add chopped onion and tomato, season with salt and pepper, and cook the mixture.
 
 pick_up_obj("eggs", "updated_onto.ttl")  #picking up the eggs
-put_down_obj("eggs", "pan")  #putting down the eggs into the pan
+put_down_obj("eggs", "pot")  #putting down the eggs into the pan
 pick_up_obj("onion", "updated_onto.ttl")  #picking up the onion 
-put_down_obj("onion", "pan")  #putting down the chopped onion into the pan
+put_down_obj("onion", "pot")  #putting down the chopped onion into the pan
 pick_up_obj("tomato", "updated_onto.ttl")  #picking up the tomato 
-put_down_obj("tomato", "pan")  #putting down the chopped tomato into the pan
+put_down_obj("tomato", "pot")  #putting down the chopped tomato into the pan
 pick_up_obj("salt", "updated_onto.ttl")  #picking up the salt 
-put_down_obj("salt", "pan")  #putting down the salt into the pan
+put_down_obj("salt", "pot")  #putting down the salt into the pan
 pick_up_obj("pepper", "updated_onto.ttl")  #picking up the pepper 
-put_down_obj("pepper", "pan")  #putting down the pepper into the pan
+put_down_obj("pepper", "pot")  #putting down the pepper into the pan
 fry("egg", "updated_onto.ttl")  #cooking the omelette mixture
 
 3. Plating and serving:

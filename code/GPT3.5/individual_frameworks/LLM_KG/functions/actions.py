@@ -1840,6 +1840,23 @@ def boil(obj, onto_file):
         print(f"{obj} cant be boiled! skipping this action")
         return False
     
+    u_query = f"""
+    PREFIX ex: <http://example.org/>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+    SELECT ?rec_name
+    WHERE {{
+        ?rec ex:boiling_utensil true.
+        ?rec ex:rec_name ?rec_name.
+    }}
+    """
+
+    b_utensil = g.query(u_query)
+
+    for f in b_utensil:
+        utensil = str(f.rec_name)
 
     obj_query = """
     PREFIX ex: <http://example.org/>
@@ -1904,18 +1921,18 @@ def boil(obj, onto_file):
 
                 if i.status:
 
-                    pick_up_rec("pan", onto_file)
-                    put_down_rec("pan", "stove")
-                    put_down_obj(obj, "pan")
+                    pick_up_rec(utensil, onto_file)
+                    put_down_rec(utensil, "stove")
+                    put_down_obj(obj, utensil)
                     switch("stove", "updated_onto.ttl")
 
 
                 else:
                                     
-                    pick_up_rec("pan", onto_file)
-                    put_down_rec("pan", "stove")
-                    put_down_obj("water", "pan")
-                    put_down_obj(obj, "pan")
+                    pick_up_rec(utensil, onto_file)
+                    put_down_rec(utensil, "stove")
+                    put_down_obj("water", utensil)
+                    put_down_obj(obj, utensil)
                     switch("stove", "updated_onto.ttl")
 
 
@@ -1969,6 +1986,24 @@ def fry(obj, onto_file):
         print(f"{obj} cant be fried! skipping this action")
         return False
     
+    u_query = f"""
+    PREFIX ex: <http://example.org/>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+    SELECT ?rec_name
+    WHERE {{
+        ?rec ex:frying_utensil true.
+        ?rec ex:rec_name ?rec_name.
+    }}
+    """
+
+    fry_utensil = g.query(u_query)
+
+    for f in fry_utensil:
+        utensil = str(f.rec_name)
+    
     obj_query = """
     PREFIX ex: <http://example.org/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -2016,10 +2051,10 @@ def fry(obj, onto_file):
 
         else:
           
-            pick_up_rec("pan", onto_file)
-            put_down_rec("pan", "stove")
-            put_down_obj("oil", "pan")
-            put_down_obj(obj, "pan")
+            pick_up_rec(utensil, onto_file)
+            put_down_rec(utensil, "stove")
+            put_down_obj("oil", utensil)
+            put_down_obj(obj, utensil)
             switch("stove", "updated_onto.ttl")
 
             g = rdflib.Graph()

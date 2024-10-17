@@ -256,7 +256,7 @@ ex:butter a ex:object ;
     ex:IsSliceable true ;
     ex:NeedsToBeCleaned false ;
     ex:is_fabric false ;
-    ex:obj_location ex:pan ;
+    ex:obj_location ex:pot ;
     ex:obj_name "butter" ;
     ex:sliced false .
 
@@ -283,7 +283,7 @@ ex:carrot a ex:object ;
     ex:IsSliceable true ;
     ex:NeedsToBeCleaned true ;
     ex:is_fabric false ;
-    ex:obj_location ex:pan ;
+    ex:obj_location ex:pot ;
     ex:obj_name "carrot" ;
     ex:sliced true .
 
@@ -613,7 +613,7 @@ ex:milk a ex:object ;
     ex:IsLiquid true ;
     ex:NeedsToBeCleaned false ;
     ex:is_fabric false ;
-    ex:obj_location ex:pan ;
+    ex:obj_location ex:pot ;
     ex:obj_name "milk" .
 
 ex:mopping_cloth a ex:object ;
@@ -976,7 +976,7 @@ ex:rack a ex:imreceptacle ;
     ex:switched_on false ;
     ex:toggleable true .
 
-ex:pan a ex:mreceptacle ;
+ex:pot a ex:mreceptacle ;
     ex:ContStirred true ;
     ex:IsRecBig false ;
     ex:IsRecCleaned true ;
@@ -985,7 +985,7 @@ ex:pan a ex:mreceptacle ;
     ex:deep_rec true ;
     ex:goto_utensil false ;
     ex:mrec_location ex:stove ;
-    ex:rec_name "pan" ;
+    ex:rec_name "pot" ;
     ex:toggleable false ;
     ex:used_for_slicing false .
 

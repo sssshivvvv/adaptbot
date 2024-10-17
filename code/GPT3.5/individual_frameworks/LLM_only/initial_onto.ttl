@@ -185,8 +185,8 @@ ex:glass rdf:type ex:mreceptacle ;
     ex:IsSensitive true;
     ex:ContStirred false.
 
-ex:pan rdf:type ex:mreceptacle ;
-    ex:rec_name "pan" ;
+ex:pot rdf:type ex:mreceptacle ;
+    ex:rec_name "pot" ;
     ex:mrec_location ex:cabinet ;
     ex:IsRecCleaned true;
     ex:ContStirred false.

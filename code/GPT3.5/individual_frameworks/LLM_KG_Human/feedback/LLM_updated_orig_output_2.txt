@@ -34,7 +34,7 @@ To prepare chicken shawarma, I will marinate the chicken with onion, garlic, yog
 
 mix_contents("bowl", "updated_onto.ttl") #mixing the contents in the bowl (onion, garlic, yogurt, lemon juice, olive oil, salt, pepper, cumin, paprika)
 pick_up_obj("chicken", "updated_onto.ttl") #picking up the chicken
-put_down_obj("chicken", "pan") #putting down the chicken in the pan
+put_down_obj("chicken", "pot") #putting down the chicken in the pan
 marinate("chicken", "updated_onto.ttl") #marinating the chicken with the mixture
 cook("chicken", "updated_onto.ttl") #cooking the marinated chicken
 

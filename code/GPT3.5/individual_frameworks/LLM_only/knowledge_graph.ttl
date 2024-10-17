@@ -214,8 +214,8 @@ ex:glass rdf:type ex:mreceptacle ;
     ex:IsRecBig false;
     ex:cantakerec false.
 
-ex:pan rdf:type ex:mreceptacle ;
-    ex:rec_name "pan" ;
+ex:pot rdf:type ex:mreceptacle ;
+    ex:rec_name "pot" ;
     ex:IsSensitive false;
     ex:toggleable false;
     ex:goto_utensil false;

@@ -36,7 +36,7 @@ mix_contents("bowl", "updated_onto.ttl") #mixing the contents in the bowl (onion
 pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
 put_down_rec("bowl", "fridge") #putting the bowl with marinated chicken in the fridge to marinate for some time
 pick_up_obj("chicken", "updated_onto.ttl") #picking up the chicken
-put_down_obj("chicken", "pan") #putting down the chicken in the pan
+put_down_obj("chicken", "pot") #putting down the chicken in the pan
 fry("chicken", "updated_onto.ttl") #cooking the marinated chicken in the pan
 
 3. Plating and serving:
@@ -45,11 +45,11 @@ To plate and serve chicken shawarma, I will put the cooked chicken onto a plate 
 
 pick_up_obj("chicken", "updated_onto.ttl") #picking up the cooked chicken from the pan
 put_down_obj("chicken", "plate") #putting down the cooked chicken onto the plate
-pour_contents("pan", "sink") #pouring any remaining liquid from the pan into the sink
+pour_contents("pot", "sink") #pouring any remaining liquid from the pan into the sink
 wait(1) #waiting for 1 minute
 pick_up_obj("plate", "updated_onto.ttl") #picking up the plate with chicken shawarma
 put_down_obj("plate", "countertop") #putting down the plate on the countertop
-pour_contents("pan", "plate") #pouring any remaining sauce from the pan onto the chicken
+pour_contents("pot", "plate") #pouring any remaining sauce from the pan onto the chicken
 pick_up_obj("cumin_seed", "updated_onto.ttl") #picking up the cumin seeds
 put_down_obj("cumin_seed", "countertop") #putting down the cumin seeds on the countertop
 pick_up_obj("paprika", "updated_onto.ttl") #picking up the paprika

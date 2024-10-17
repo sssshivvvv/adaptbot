@@ -30,8 +30,8 @@ To prepare chicken shawarma, I will first fetch the necessary ingredients and to
    put_down_tool("knife", "countertop") # putting down the knife on the countertop
    pick_up_rec("cutting_board", "updated_onto.ttl") # picking up the cutting board
    put_down_rec("cutting_board", "countertop") # putting down the cutting board on the countertop
-   pick_up_rec("pan", "updated_onto.ttl") # picking up the pan
-   put_down_rec("pan", "stove") # putting down the pan on the stove
+   pick_up_rec("pot", "updated_onto.ttl") # picking up the pan
+   put_down_rec("pot", "stove") # putting down the pan on the stove
    pick_up_tool("spatula", "updated_onto.ttl") # picking up the spatula
    put_down_tool("spatula", "countertop") # putting down the spatula on the countertop
    ```
@@ -54,10 +54,10 @@ For cooking chicken shawarma, I will first need to slice the chicken, onion, and
    fry("chicken", "initial_onto.ttl") # frying the chicken in the pan
    fry("onion", "updated_onto.ttl") # adding and frying the onion in the pan
    fry("tomato", "updated_onto.ttl") # adding and frying the tomato in the pan
-   add("salt", "pan", "updated_onto.ttl") # adding salt to the pan
-   add("pepper", "pan", "updated_onto.ttl") # adding pepper to the pan
-   add("oil", "pan", "updated_onto.ttl") # adding oil to the pan
-   mix_contents("pan", "updated_onto.ttl") # mixing the contents of the pan
+   add("salt", "pot", "updated_onto.ttl") # adding salt to the pan
+   add("pepper", "pot", "updated_onto.ttl") # adding pepper to the pan
+   add("oil", "pot", "updated_onto.ttl") # adding oil to the pan
+   mix_contents("pot", "updated_onto.ttl") # mixing the contents of the pan
    ```
 
 **3. Plating and serving:**
@@ -69,8 +69,8 @@ Finally, I will put the cooked chicken mixture onto the pita bread (bread), wrap
    put_down_rec("plate", "countertop") # putting down the plate on the countertop
    pick_up_obj("bread", "updated_onto.ttl") # picking up the bread
    put_down_obj("bread", "plate") # putting the bread on the plate
-   pick_up_obj("pan", "updated_onto.ttl") # picking up the pan
-   pour_contents("pan", "bread") # pouring the contents of the pan onto the bread
+   pick_up_obj("pot", "updated_onto.ttl") # picking up the pan
+   pour_contents("pot", "bread") # pouring the contents of the pan onto the bread
    ```
 
 **ACTION SEQUENCE:**
@@ -97,8 +97,8 @@ pick_up_tool("knife", "updated_onto.ttl") # picking up the knife
 put_down_tool("knife", "countertop") # putting down the knife on the countertop
 pick_up_rec("cutting_board", "updated_onto.ttl") # picking up the cutting board
 put_down_rec("cutting_board", "countertop") # putting down the cutting board on the countertop
-pick_up_rec("pan", "updated_onto.ttl") # picking up the pan
-put_down_rec("pan", "stove") # putting down the pan on the stove
+pick_up_rec("pot", "updated_onto.ttl") # picking up the pan
+put_down_rec("pot", "stove") # putting down the pan on the stove
 pick_up_tool("spatula", "updated_onto.ttl") # picking up the spatula
 put_down_tool("spatula", "countertop") # putting down the spatula on the countertop
 
@@ -110,10 +110,10 @@ slice("tomato", "knife", "updated_onto.ttl") # slicing the tomato
 fry("chicken", "initial_onto.ttl") # frying the chicken in the pan
 fry("onion", "updated_onto.ttl") # adding and frying the onion in the pan
 fry("tomato", "updated_onto.ttl") # adding and frying the tomato in the pan
-add("salt", "pan", "updated_onto.ttl") # adding salt to the pan
-add("pepper", "pan", "updated_onto.ttl") # adding pepper to the pan
-add("oil", "pan", "updated_onto.ttl") # adding oil to the pan
-mix_contents("pan", "updated_onto.ttl") # mixing the contents of the pan
+add("salt", "pot", "updated_onto.ttl") # adding salt to the pan
+add("pepper", "pot", "updated_onto.ttl") # adding pepper to the pan
+add("oil", "pot", "updated_onto.ttl") # adding oil to the pan
+mix_contents("pot", "updated_onto.ttl") # mixing the contents of the pan
 
 
 3. plating and serving:
@@ -122,6 +122,6 @@ pick_up_rec("plate", "updated_onto.ttl") # picking up the plate
 put_down_rec("plate", "countertop") # putting down the plate on the countertop
 pick_up_obj("bread", "updated_onto.ttl") # picking up the bread
 put_down_obj("bread", "plate") # putting the bread on the plate
-pick_up_obj("pan", "updated_onto.ttl") # picking up the pan
-pour_contents("pan", "bread") # pouring the contents of the pan onto the bread
+pick_up_obj("pot", "updated_onto.ttl") # picking up the pan
+pour_contents("pot", "bread") # pouring the contents of the pan onto the bread
 ```

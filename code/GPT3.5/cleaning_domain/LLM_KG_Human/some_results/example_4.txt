@@ -4,26 +4,26 @@ COT & ACTION SEQUENCE:
 
 To prepare the egg omelette, I will first fetch the items I need. I will bring the pan, eggs, salt, pepper, and knife. If the pan is not cleaned, I will clean it first.
 
-pick_up_obj("pan", "updated_onto.ttl")
-put_down_obj("pan", "countertop")
+pick_up_obj("pot", "updated_onto.ttl")
+put_down_obj("pot", "countertop")
 pick_up_obj("eggs", "updated_onto.ttl")
 put_down_obj("eggs", "countertop")
 pick_up_obj("salt", "updated_onto.ttl")
 put_down_obj("salt", "countertop")
 pick_up_obj("pepper", "updated_onto.ttl")
 put_down_obj("pepper", "countertop")
-clean("pan", "updated_onto.ttl")
+clean("pot", "updated_onto.ttl")
 
 2. Cooking process: 
 
 To prepare the egg omelette, I will crack the eggs into the pan, add salt and pepper, and cook the mixture on the stove.
 
 pick_up_obj("eggs", "updated_onto.ttl")
-put_down_obj("eggs", "pan")
+put_down_obj("eggs", "pot")
 pick_up_obj("salt", "updated_onto.ttl")
-put_down_obj("salt", "pan")
+put_down_obj("salt", "pot")
 pick_up_obj("pepper", "updated_onto.ttl")
-put_down_obj("pepper", "pan")
+put_down_obj("pepper", "pot")
 switch_on_stove("updated_onto.ttl")
 
 3. Plating and serving:
@@ -32,7 +32,7 @@ Once the egg mixture is cooked, I will transfer the omelette to a plate and serv
 
 pick_up_rec("plate", "updated_onto.ttl")
 put_down_rec("plate", "countertop")
-put_down_rec("plate", "pan")
+put_down_rec("plate", "pot")
 switch_off_stove("updated_onto.ttl")
 
 

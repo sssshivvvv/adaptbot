@@ -229,7 +229,7 @@ ex:obj_name a rdf:Property ;
     rdfs:range xsd:string .
 
 ex:oil a ex:object ;
-    ex:obj_location ex:pan ;
+    ex:obj_location ex:pot ;
     ex:obj_name "oil" .
 
 ex:onion a ex:object ;
@@ -358,11 +358,11 @@ ex:yogurt a ex:object ;
     ex:obj_location ex:fridge ;
     ex:obj_name "yogurt" .
 
-ex:pan a ex:mreceptacle ;
+ex:pot a ex:mreceptacle ;
     ex:ContStirred false ;
     ex:IsRecCleaned true ;
     ex:mrec_location ex:stove ;
-    ex:rec_name "pan" .
+    ex:rec_name "pot" .
 
 ex:rack a ex:imreceptacle ;
     ex:IsMopped false ;

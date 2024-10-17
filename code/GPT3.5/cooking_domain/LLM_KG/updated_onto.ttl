@@ -684,19 +684,6 @@ ex:oven a ex:imreceptacle ;
     ex:switched_on false ;
     ex:toggleable true .
 
-ex:pan a ex:mreceptacle ;
-    ex:ContStirred false ;
-    ex:IsRecBig false ;
-    ex:IsRecCleaned true ;
-    ex:IsSensitive false ;
-    ex:cantakerec false ;
-    ex:deep_rec true ;
-    ex:goto_utensil false ;
-    ex:mrec_location ex:cabinet ;
-    ex:rec_name "pan" ;
-    ex:toggleable false ;
-    ex:used_for_slicing false .
-
 ex:parsley a ex:object ;
     ex:IsBig false ;
     ex:IsCleaned false ;
@@ -777,6 +764,20 @@ ex:plate a ex:mreceptacle ;
     ex:toggleable false ;
     ex:used_for_slicing false .
 
+ex:pot a ex:mreceptacle ;
+    ex:ContStirred false ;
+    ex:IsRecBig false ;
+    ex:IsRecCleaned true ;
+    ex:IsSensitive false ;
+    ex:boiling_utensil true ;
+    ex:cantakerec false ;
+    ex:deep_rec true ;
+    ex:frying_utensil true ;
+    ex:goto_utensil false ;
+    ex:mrec_location ex:stove ;
+    ex:rec_name "pot" ;
+    ex:used_for_slicing false .
+
 ex:potato a ex:object ;
     ex:Boilable true ;
     ex:Fryable true ;
@@ -825,10 +826,10 @@ ex:red_chilly a ex:object ;
     ex:sliced false .
 
 ex:robot a rdfs:agent ;
-    ex:agent_near ex:sink .
+    ex:agent_near ex:stove .
 
 ex:robot_arm a ex:mreceptacle ;
-    ex:mrec_location ex:sink ;
+    ex:mrec_location ex:stove ;
     ex:rec_name "robot_arm" .
 
 ex:room_name a rdf:Property ;
@@ -838,6 +839,16 @@ ex:room_name a rdf:Property ;
 ex:serving_place a rdf:Property ;
     rdfs:domain ex:imreceptacle ;
     rdfs:range xsd:boolean .
+
+ex:sink a ex:imreceptacle ;
+    ex:IsMopped false ;
+    ex:SuitableForEdibleStorage false ;
+    ex:cantakerec true ;
+    ex:cleaning_area true ;
+    ex:imrec_location ex:kitchen ;
+    ex:open_rec false ;
+    ex:rec_name "sink" ;
+    ex:toggleable false .
 
 ex:sliced a rdf:Property ;
     rdfs:domain ex:object ;
@@ -853,19 +864,9 @@ ex:spatula a ex:tool ;
 ex:spoon a ex:tool ;
     ex:IsEatingTool true ;
     ex:IsSlicingTool false ;
-    ex:IsToolCleaned true ;
-    ex:tool_location ex:sink ;
+    ex:IsToolCleaned false ;
+    ex:tool_location ex:cabinet ;
     ex:tool_name "spoon" .
-
-ex:stove a ex:imreceptacle ;
-    ex:IsMopped false ;
-    ex:SuitableForEdibleStorage false ;
-    ex:cantakerec true ;
-    ex:imrec_location ex:kitchen ;
-    ex:open_rec true ;
-    ex:rec_name "stove" ;
-    ex:switched_on false ;
-    ex:toggleable true .
 
 ex:switched_on a rdf:Property ;
     rdfs:domain ex:receptacle ;
@@ -1001,14 +1002,15 @@ ex:countertop a ex:imreceptacle ;
     ex:serving_place true ;
     ex:toggleable false .
 
-ex:sink a ex:imreceptacle ;
+ex:stove a ex:imreceptacle ;
     ex:IsMopped false ;
     ex:SuitableForEdibleStorage false ;
     ex:cantakerec true ;
     ex:imrec_location ex:kitchen ;
-    ex:open_rec false ;
-    ex:rec_name "sink" ;
-    ex:toggleable false .
+    ex:open_rec true ;
+    ex:rec_name "stove" ;
+    ex:switched_on false ;
+    ex:toggleable true .
 
 ex:kitchen a ex:room ;
     ex:room_name "kitchen" .
@@ -1031,4 +1033,3 @@ ex:fridge a ex:imreceptacle ;
     ex:rec_name "fridge" ;
     ex:toggleable false .
 
-ex:sink ex:cleaning_area true.

@@ -684,7 +684,7 @@ ex:oven a ex:imreceptacle ;
     ex:switched_on false ;
     ex:toggleable true .
 
-ex:pan a ex:mreceptacle ;
+ex:pot a ex:mreceptacle ;
     ex:ContStirred false ;
     ex:IsRecBig false ;
     ex:IsRecCleaned true ;
@@ -693,7 +693,7 @@ ex:pan a ex:mreceptacle ;
     ex:deep_rec true ;
     ex:goto_utensil false ;
     ex:mrec_location ex:countertop ;
-    ex:rec_name "pan" ;
+    ex:rec_name "pot" ;
     ex:toggleable false ;
     ex:used_for_slicing false .
 
