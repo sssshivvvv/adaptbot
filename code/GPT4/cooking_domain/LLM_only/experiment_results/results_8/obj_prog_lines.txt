@@ -1,0 +1,18 @@
+[bun]
+robot picks up bun from cabinet ----> robot puts down bun to countertop ----> robot picks up bun from countertop ----> robot puts down bun to plate
+
+[honey]
+robot picks up honey from fridge ----> robot puts down honey to countertop ----> robot picks up honey from countertop ----> robot puts down honey to bowl
+
+[vanilla_extract]
+robot picks up vanilla_extract from cabinet ----> robot puts down vanilla_extract to countertop ----> robot picks up vanilla_extract from countertop ----> robot puts down vanilla_extract to bowl
+
+[milk]
+robot picks up milk from countertop ----> robot puts down milk to bowl
+
+[brioche]
+robot picks up brioche from countertop ----> robot puts down brioche to bowl
+
+[avocado]
+robot picks up avocado from fridge ----> robot puts down avocado to countertop ----> avocado sliced! ----> robot picks up sliced_avocado from countertop ----> robot puts down avocado to plate
+

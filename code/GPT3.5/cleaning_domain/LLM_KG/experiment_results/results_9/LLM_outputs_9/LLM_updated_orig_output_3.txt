@@ -1,0 +1,9 @@
+                    COT: 
+To clean the table, I will first fetch the item I need, which is the mop_cloth. I will pick up the mop_cloth and then put it onto the table. Next, I will mop the table using the mop_cloth. Finally, I will put down the mop_cloth.
+
+ACTION SEQUENCE: 
+
+pick_up_obj("mop_cloth", "initial_onto.ttl")              # picking up the mop cloth
+put_down_obj("mop_cloth", "table")                         # putting down the mop cloth onto the table
+clean("table", "updated_onto.ttl")                          # cleaning the table using the mop cloth
+put_down_obj("mop_cloth", "table")                        # putting down the mop cloth        

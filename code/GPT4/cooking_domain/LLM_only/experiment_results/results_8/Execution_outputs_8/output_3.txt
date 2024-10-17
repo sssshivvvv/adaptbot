@@ -1,0 +1,17 @@
+robot moved from countertop to cabinet
+robot picks up plate from cabinet
+robot moved from cabinet to sink
+robot puts down plate to sink
+plate successfully cleaned!
+robot picks up plate from sink
+robot moved from sink to countertop
+robot puts down plate to countertop
+robot picks up knife from countertop
+avocado sliced!
+robot puts down knife to countertop
+robot picks up sliced_avocado from countertop
+robot puts down avocado to plate
+robot picks up bun from countertop
+robot puts down bun to plate
+contents of plate are ['avocado', 'bun']
+contents of plate are stirred!

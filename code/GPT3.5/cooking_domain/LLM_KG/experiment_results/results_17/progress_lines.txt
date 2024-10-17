@@ -1,0 +1,2 @@
+robot picks up onion from fridge
+robot puts down onion to countertop

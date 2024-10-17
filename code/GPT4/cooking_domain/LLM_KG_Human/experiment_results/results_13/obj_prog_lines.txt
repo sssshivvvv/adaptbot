@@ -1,0 +1,9 @@
+[bread]
+robot picks up bread from countertop ----> robot puts down bread to pan ----> robot picks up bread from pan ----> robot puts down bread to plate
+
+[egg]
+robot picks up egg from fridge ----> robot puts down egg to countertop ----> robot picks up egg from countertop ----> robot puts down egg to pan ----> robot picks up egg from pan ----> robot puts down egg to plate
+
+[butter]
+robot picks up butter from fridge ----> robot puts down butter to countertop ----> robot picks up butter from countertop ----> robot puts down butter to pan
+

@@ -1,0 +1,6 @@
+[clothes]
+robot picks up clothes from laundry_bag ----> robot puts down clothes to washing_machine
+
+[cleaning_solution]
+robot picks up cleaning_solution from rack ----> robot puts down cleaning_solution to washing_machine
+

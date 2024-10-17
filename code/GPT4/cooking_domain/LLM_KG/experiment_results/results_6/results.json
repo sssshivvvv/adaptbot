@@ -1,0 +1,16 @@
+{
+    "dish_name": "potato_fry",
+    "dish_ingd": [
+        "oil",
+        "potato",
+        "salt"
+    ],
+    "ingd_used": [
+        "potato"
+    ],
+    "percentage_ingd_used": 33.33333333333333,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 8330
+}

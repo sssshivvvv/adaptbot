@@ -1,0 +1,3 @@
+pick_up_obj("mop_cloth", "./LLM_KG_Human/initial_onto.ttl")
+put_down_obj("mop_cloth", "bedroom_floor")
+mop("bedroom_floor", "./LLM_KG_Human/updated_onto.ttl")

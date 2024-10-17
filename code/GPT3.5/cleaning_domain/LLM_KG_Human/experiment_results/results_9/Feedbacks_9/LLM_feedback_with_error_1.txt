@@ -1,0 +1,6 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE items GIVEN BY THE USER IN THE PROMPT.
+
+pick_up_obj("trash", ".llm_kg_humaninitial_onto.ttl") #item "trash" not found! Please use the items provided by the user
+put_down_obj("trash", "countertop") #item "trash" not found! Please use the items provided by the user
+empty_rec("dustbin", ".llm_kg_humanupdated_onto.ttl") #action "empty_rec" is not present in ther knowledge base!
+put_down_obj("trash", "dustbin") #item "trash" not found! Please use the items provided by the user

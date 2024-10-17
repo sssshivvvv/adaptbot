@@ -1,0 +1,17 @@
+{
+    "dish_name": "french_toast_sandwich",
+    "dish_ingd": [
+        "egg",
+        "milk",
+        "cheese",
+        "ham",
+        "bread",
+        "oil"
+    ],
+    "ingd_used": [],
+    "percentage_ingd_used": 0.0,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 11007
+}

@@ -1,0 +1,3 @@
+[mop_cloth]
+robot picks up mop_cloth from rack ----> robot puts down mop_cloth to living_room_floor
+

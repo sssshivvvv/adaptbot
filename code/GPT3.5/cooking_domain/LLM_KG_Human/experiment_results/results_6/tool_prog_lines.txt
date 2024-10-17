@@ -1,0 +1,6 @@
+[chefs_knife]
+robot picks up chefs_knife from cabinet ----> robot puts down chefs_knife to countertop
+
+[knife]
+robot picks up knife from countertop ----> robot puts down knife to countertop ----> robot picks up chefs_knife from cabinet ----> robot puts down chefs_knife to countertop
+

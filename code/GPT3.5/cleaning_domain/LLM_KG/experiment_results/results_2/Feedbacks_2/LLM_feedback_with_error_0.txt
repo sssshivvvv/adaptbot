@@ -1,0 +1,6 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
+
+put_down_obj("detergent", "washing_machine") #item "detergent" not found! Please use the ingredients provided by the user
+close("washing_machine", ".llm_kgupdated_onto.ttl") #action "close" is not present in ther knowledge base!
+start("washing_machine", ".llm_kgupdated_onto.ttl") #action "start" is not present in ther knowledge base!
+open("washing_machine", ".llm_kgupdated_onto.ttl") #action "open" is not present in ther knowledge base!

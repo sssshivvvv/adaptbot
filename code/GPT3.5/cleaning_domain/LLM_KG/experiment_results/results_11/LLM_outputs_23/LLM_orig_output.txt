@@ -1,0 +1,8 @@
+COT & ACTION SEQUENCE:
+
+To play the music, I will first fetch the music_player. If the music_player is not already switched on, I will switch it on. Then, I will wait for a few seconds to ensure that the music player is ready to play. Finally, I will select a song and play it.
+
+pick_up_rec("music_player", "updated_onto.ttl") #picking up the music player
+switch("music_player", "updated_onto.ttl") #switching on the music player
+wait(5) #waiting for 5 seconds
+switch("music_player", "updated_onto.ttl") #switching off the music player

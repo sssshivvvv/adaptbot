@@ -1,0 +1,24 @@
+pan already cleaned!
+robot picks up bread from fridge
+robot puts down bread to countertop
+robot picks up milk from fridge
+robot puts down milk to countertop
+robot picks up egg from fridge
+robot puts down egg to countertop
+robot picks up vanilla_extract from cabinet
+robot puts down vanilla_extract to countertop
+robot picks up bread from countertop
+robot puts down bread to pan
+robot picks up milk from countertop
+robot puts down milk to pan
+robot picks up sugar from countertop
+robot puts down sugar to pan
+robot picks up egg from countertop
+robot puts down egg to pan
+robot picks up vanilla_extract from countertop
+robot puts down vanilla_extract to pan
+contents of pan are ['bread', 'egg', 'milk', 'oil', 'salt', 'sugar', 'vanilla_extract']
+contents of pan are mixed!
+oven switched on!
+waiting for 20 minutes
+oven switched off!

@@ -1,0 +1,34 @@
+robot moved from cabinet to fridge
+robot picks up yogurt from fridge
+robot moved from fridge to countertop
+robot puts down yogurt to countertop
+robot moved from countertop to fridge
+robot picks up mango from fridge
+robot moved from fridge to countertop
+robot puts down mango to countertop
+robot picks up mango from countertop
+robot moved from countertop to sink
+robot puts down mango to sink
+mango successfully cleaned!
+robot picks up mango from sink
+robot moved from sink to countertop
+robot puts down mango to cutting_board
+robot moved from countertop to cabinet
+robot picks up knife from cabinet
+robot moved from cabinet to countertop
+mango sliced!
+robot puts down knife to countertop
+couldnt pick blender! skipping this action
+robot picks up sliced_mango from cutting_board
+robot puts down mango to blender
+robot picks up yogurt from countertop
+robot puts down yogurt to blender
+contents of blender are ['mango', 'yogurt']
+contents of blender are mixed!
+robot moved from countertop to cabinet
+robot picks up glass from cabinet
+robot moved from cabinet to countertop
+robot puts down glass to countertop
+couldnt pick blender! skipping this action
+contents of blender are ['mango', 'yogurt']
+contents of blender poured to glass 

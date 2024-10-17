@@ -1,0 +1,12 @@
+robot picks up glass from cabinet
+robot puts down glass to sink
+glass successfully cleaned!
+robot picks up glass from sink
+robot puts down glass to countertop
+robot picks up lime from fridge
+robot puts down lime to countertop
+robot picks up water from fridge
+robot puts down water to countertop
+glass already cleaned!
+glass already cleaned!
+glass already cleaned!

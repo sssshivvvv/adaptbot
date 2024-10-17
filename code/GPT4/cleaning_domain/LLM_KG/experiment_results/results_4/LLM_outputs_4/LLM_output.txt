@@ -1,0 +1,3 @@
+pick_up_obj("water", "./LLM_KG/initial_onto.ttl")
+put_down_obj("water", "plant")
+put_down_obj("water", "plant")

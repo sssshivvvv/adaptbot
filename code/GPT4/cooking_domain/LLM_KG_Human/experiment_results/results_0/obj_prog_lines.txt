@@ -1,0 +1,6 @@
+[salt]
+robot picks up salt from countertop ----> robot puts down salt to bowl ----> contents of bowl are ['egg', 'salt'] ----> contents of bowl are ['egg', 'salt'] ----> contents of pan are ['egg', 'salt'] ----> robot picks up salt from plate ----> robot puts down salt to countertop ----> robot picks up salt from countertop ----> robot puts down salt to bowl ----> contents of bowl are ['egg', 'salt'] ----> contents of pan are ['egg', 'salt']
+
+[egg]
+robot picks up egg from fridge ----> robot puts down egg to countertop ----> robot picks up egg from countertop ----> robot puts down egg to bowl ----> contents of bowl are ['egg', 'salt'] ----> contents of bowl are ['egg', 'salt'] ----> contents of pan are ['egg', 'salt'] ----> robot picks up egg from plate ----> robot puts down egg to countertop ----> robot picks up egg from countertop ----> robot puts down egg to bowl ----> contents of bowl are ['egg', 'salt'] ----> contents of pan are ['egg', 'salt']
+

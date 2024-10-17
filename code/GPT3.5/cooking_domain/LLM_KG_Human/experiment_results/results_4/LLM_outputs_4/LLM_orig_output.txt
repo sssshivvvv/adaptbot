@@ -1,0 +1,44 @@
+COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare the fruit cake, I will first fetch the items I need. I will bring the bowl, all-purpose flour, egg, sugar, baking powder, milk, apple, and banana. If the bowl is not cleaned, I will clean it first.
+
+clean("bowl", "updated_onto.ttl") #cleaning the bowl
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "countertop") #putting down the bowl on the countertop
+pick_up_obj("all_purpose_flour", "updated_onto.ttl") #picking up the all-purpose flour
+put_down_obj("all_purpose_flour", "countertop") #putting down the all-purpose flour on the countertop
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "countertop") #putting down the egg on the countertop
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_obj("sugar", "countertop") #putting down the sugar on the countertop
+pick_up_obj("baking_powder", "updated_onto.ttl") #picking up the baking powder
+put_down_obj("baking_powder", "countertop") #putting down the baking powder on the countertop
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "countertop") #putting down the milk on the countertop
+pick_up_obj("apple", "updated_onto.ttl") #picking up the apple
+put_down_obj("apple", "countertop") #putting down the apple on the countertop
+pick_up_obj("banana", "updated_onto.ttl") #picking up the banana
+put_down_obj("banana", "countertop") #putting down the banana on the countertop
+
+2. Cooking process: 
+
+To prepare the fruit cake, I need to mix the ingredients from the bowl and bake the batter in the oven.
+
+mix_contents("bowl", "updated_onto.ttl") #mixing the contents in the bowl
+pour_contents("bowl", "oven") #pouring the batter into the oven
+
+3. Plating and serving:
+
+The fruit cake is ready to be served! I will take the cake out of the oven and put it on a plate.
+
+pick_up_rec("oven", "updated_onto.ttl") #picking up the cake from the oven
+put_down_rec("oven", "countertop") #putting down the cake on the countertop
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "sink") #putting down the bowl in the sink, indicating cleaning is required
+clean("bowl", "updated_onto.ttl") #cleaning the bowl
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the clean bowl
+put_down_rec("bowl", "countertop") #putting down the clean bowl on the countertop
+
+The fruit cake is ready to be served!

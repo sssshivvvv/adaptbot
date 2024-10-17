@@ -1,0 +1,42 @@
+### Chain of Thought (COT) & Action Sequence:
+
+**1. Fetching the ingredients and tools required for the cooking task:**
+
+For preparing banana chips, I will first fetch the necessary items. I will need a banana, oil, salt, a knife, a cutting board, a pan, and a plate. If the plate or pan are not cleaned, I will clean them first.
+
+1. `pick_up_obj("banana", "updated_onto.ttl")` # picking up the banana
+2. `put_down_obj("banana", "countertop")` # putting down the banana on the countertop
+3. `pick_up_obj("oil", "updated_onto.ttl")` # picking up the oil
+4. `put_down_obj("oil", "countertop")` # putting down the oil on the countertop
+5. `pick_up_obj("salt", "updated_onto.ttl")` # picking up the salt
+6. `put_down_obj("salt", "countertop")` # putting down the salt on the countertop
+7. `pick_up_tool("knife", "updated_onto.ttl")` # picking up the knife
+8. `put_down_tool("knife", "countertop")` # putting down the knife on the countertop
+9. `pick_up_rec("cutting_board", "updated_onto.ttl")` # picking up the cutting board
+10. `put_down_rec("cutting_board", "countertop")` # putting down the cutting board on the countertop
+11. `clean("pan", "updated_onto.ttl")` # cleaning the pan
+12. `pick_up_rec("pan", "updated_onto.ttl")` # picking up the pan
+13. `put_down_rec("pan", "stove")` # putting down the pan on the stove
+14. `clean("plate", "updated_onto.ttl")` # cleaning the plate
+15. `pick_up_rec("plate", "updated_onto.ttl")` # picking up the plate
+16. `put_down_rec("plate", "countertop")` # putting down the plate on the countertop
+
+**2. Cooking process:**
+
+To prepare banana chips, I will slice the banana, then I will fry the banana slices in the pan with oil and add salt.
+
+17. `slice("banana", "knife", "cutting_board")` # slicing the banana with the knife on the cutting board
+18. `pick_up_obj("oil", "updated_onto.ttl")` # picking up the oil
+19. `put_down_obj("oil", "pan")` # putting down the oil into the pan
+20. `fry("banana", "updated_onto.ttl")` # frying the banana slices in the pan with oil
+21. `pick_up_obj("salt", "updated_onto.ttl")` # picking up the salt
+22. `put_down_obj("salt", "pan")` # adding salt to the pan
+
+**3. Plating and serving:**
+
+I will put the fried banana slices onto the plate. The banana chips are ready!
+
+23. `pick_up_rec("pan", "updated_onto.ttl")` # picking up the pan
+24. `pour_contents("pan", "plate")` # pouring the fried banana slices onto the plate
+
+That's the chain of thought and the action sequence to prepare banana chips using all the ingredients provided by the user.

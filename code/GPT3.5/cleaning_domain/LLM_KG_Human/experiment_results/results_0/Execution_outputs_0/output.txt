@@ -1,0 +1,7 @@
+robot moved from dining_table to rack
+robot picks up mop_cloth from rack
+robot moved from rack to bedroom_floor
+robot puts down mop_cloth to bedroom_floor
+robot picks up mop_cloth from bedroom_floor
+robot puts down mop_cloth to bedroom_floor
+agent mopped the bedroom_floor successfully!

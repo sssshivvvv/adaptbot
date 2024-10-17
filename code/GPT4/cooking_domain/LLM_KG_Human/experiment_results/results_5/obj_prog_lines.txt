@@ -1,0 +1,9 @@
+[lime]
+robot picks up lime from fridge ----> robot puts down lime to countertop ----> robot picks up lime from countertop ----> robot puts down lime to sink ----> lime successfully cleaned! ----> robot picks up lime from sink ----> robot puts down lime to cutting_board ----> lime sliced! ----> robot picks up sliced_lime from cutting_board ----> robot puts down lime to glass ----> contents of glass are ['lime', 'tea', 'water']
+
+[tea]
+robot picks up tea from cabinet ----> robot puts down tea to countertop ----> robot picks up tea from countertop ----> robot puts down tea to glass ----> contents of glass are ['lime', 'tea', 'water']
+
+[water]
+robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> water is boiled! ----> contents of pan are ['water'] ----> contents of glass are ['lime', 'tea', 'water']
+

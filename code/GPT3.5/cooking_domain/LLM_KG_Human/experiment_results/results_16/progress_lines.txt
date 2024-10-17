@@ -1,0 +1,55 @@
+robot picks up all_purpose_flour from cabinet
+robot puts down all_purpose_flour to countertop
+robot picks up onion from fridge
+robot puts down onion to countertop
+robot picks up potato from fridge
+robot puts down potato to countertop
+knife already cleaned!
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up potato from countertop
+robot picks up pan from cabinet
+robot puts down pan to table
+robot puts down potato to pan
+robot picks up pan from table
+robot puts down pan to stove
+robot picks up water from fridge
+robot puts down water to pan
+stove switched on!
+potato is boiled!
+robot picks up potato from pan
+robot puts down potato to cutting_board
+robot picks up onion from countertop
+robot puts down onion to cutting_board
+robot picks up onion from cutting_board
+robot puts down onion to sink
+onion successfully cleaned!
+robot picks up onion from sink
+robot puts down onion to cutting_board
+robot picks up knife from countertop
+onion sliced!
+robot puts down knife to countertop
+contents of cutting_board are ['onion', 'potato']
+contents of cutting_board are mixed!
+robot picks up oil from countertop
+robot puts down oil to pan
+robot picks up potato from cutting_board
+robot puts down potato to pan
+robot picks up sliced_onion from cutting_board
+robot puts down onion to pan
+robot picks up all_purpose_flour from countertop
+robot puts down all_purpose_flour to cutting_board
+robot picks up oil from pan
+robot puts down oil to cutting_board
+robot picks up salt from countertop
+robot puts down salt to cutting_board
+contents of cutting_board already stirred!
+robot picks up all_purpose_flour from cutting_board
+robot puts down all_purpose_flour to countertop
+robot picks up oil from cutting_board
+robot puts down oil to pan
+robot picks up pan from stove
+robot puts down pan to sink
+pan already cleaned!
+
+

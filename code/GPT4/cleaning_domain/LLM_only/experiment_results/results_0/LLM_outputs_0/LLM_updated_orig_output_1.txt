@@ -1,0 +1,10 @@
+Understood. I will make sure to use all items provided and adhere strictly to the guidelines.
+
+COT & ACTION SEQUENCE:
+
+To clean the bedroom floor, I need a mop cloth. I will pick up the mop cloth first. Then, I will move to the bedroom, and use the mop cloth to clean the floor there. After cleaning, I will put the mop cloth back to its place.
+
+1. pick_up_tool("mop_cloth", "initial_onto.ttl") # picking up the mop cloth
+2. move("bedroom", "updated_onto.ttl") # moving to the bedroom
+3. mop("bedroom_floor", "updated_onto.ttl") # mopping the bedroom floor
+4. put_down_tool("mop_cloth", "sink") # putting down the mop cloth in the sink

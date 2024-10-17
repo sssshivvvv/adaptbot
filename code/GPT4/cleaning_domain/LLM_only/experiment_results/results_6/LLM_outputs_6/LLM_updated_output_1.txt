@@ -1,0 +1,6 @@
+move("washroom", "./LLM_only/updated_onto.ttl")
+move("kitchen", "./LLM_only/updated_onto.ttl")
+move("living_room", "./LLM_only/updated_onto.ttl")
+mop("window", "./LLM_only/updated_onto.ttl")
+put_down_tool("mop_cloth", "washroom")
+put_down_obj("cleaning_solution", "kitchen")

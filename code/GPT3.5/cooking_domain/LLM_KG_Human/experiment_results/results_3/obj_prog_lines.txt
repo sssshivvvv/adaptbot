@@ -1,0 +1,18 @@
+[egg]
+robot picks up egg from fridge ----> robot puts down egg to countertop ----> robot picks up egg from countertop ----> robot puts down egg to bowl ----> contents of bowl are ['egg', 'milk', 'sugar']
+
+[milk]
+robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to bowl ----> contents of bowl are ['egg', 'milk', 'sugar']
+
+[sugar]
+robot picks up sugar from countertop ----> robot puts down sugar to bowl ----> contents of bowl are ['egg', 'milk', 'sugar']
+
+[bread]
+robot picks up bread from fridge ----> robot puts down bread to countertop ----> robot picks up bread from countertop ----> robot puts down bread to pan ----> bread Fried! ----> robot picks up bread from pan ----> robot puts down bread to plate
+
+[butter]
+robot picks up butter from fridge ----> robot puts down butter to countertop ----> robot picks up butter from countertop ----> robot puts down butter to pan
+
+[oil]
+robot picks up oil from countertop ----> robot puts down oil to pan
+

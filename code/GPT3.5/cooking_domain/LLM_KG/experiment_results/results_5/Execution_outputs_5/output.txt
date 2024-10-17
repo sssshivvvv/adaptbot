@@ -1,0 +1,67 @@
+robot moved from cabinet to fridge
+robot picks up water from fridge
+robot moved from fridge to countertop
+robot puts down water to countertop
+robot moved from countertop to fridge
+robot picks up lime from fridge
+robot moved from fridge to countertop
+robot puts down lime to countertop
+robot moved from countertop to cabinet
+robot picks up tea from cabinet
+robot moved from cabinet to countertop
+robot puts down tea to countertop
+robot moved from countertop to cabinet
+robot picks up glass from cabinet
+robot moved from cabinet to sink
+robot puts down glass to sink
+glass successfully cleaned!
+robot picks up glass from sink
+robot moved from sink to countertop
+robot puts down glass to countertop
+robot moved from countertop to cabinet
+robot picks up pan from cabinet
+robot moved from cabinet to stove
+robot puts down pan to stove
+robot moved from stove to countertop
+robot picks up water from countertop
+robot moved from countertop to stove
+robot puts down water to pan
+stove switched on!
+water is boiled!
+robot moved from stove to countertop
+robot picks up tea from countertop
+robot moved from countertop to stove
+robot puts down tea to pan
+robot moved from stove to countertop
+robot picks up lime from countertop
+robot moved from countertop to sink
+robot puts down lime to sink
+lime successfully cleaned!
+robot picks up lime from sink
+robot moved from sink to countertop
+robot puts down lime to cutting_board
+robot moved from countertop to cabinet
+robot picks up knife from cabinet
+robot moved from cabinet to countertop
+lime sliced!
+robot puts down knife to countertop
+robot picks up sliced_lime from cutting_board
+robot moved from countertop to stove
+robot puts down lime to pan
+robot moved from stove to countertop
+robot picks up glass from countertop
+robot moved from countertop to sink
+robot puts down glass to sink
+robot moved from sink to stove
+robot picks up pan from stove
+robot moved from stove to sink
+robot puts down pan to sink
+robot picks up glass from sink
+robot moved from sink to countertop
+robot puts down glass to countertop
+robot moved from countertop to sink
+robot picks up pan from sink
+robot moved from sink to countertop
+robot puts down pan to countertop
+contents of pan are ['lime', 'tea', 'water']
+contents of pan poured to glass 

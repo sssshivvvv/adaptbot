@@ -1,0 +1,31 @@
+                           COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare avocado toast, I will first fetch the items I need. I will bring the bread, avocado, and salt. If the knife is not clean, I will clean it first.
+
+clean("knife", "updated_onto.ttl") #cleaning the knife
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+put_down_tool("knife", "countertop") #putting down the knife on the countertop
+pick_up_obj("avocado", "updated_onto.ttl") #picking up the avocado
+put_down_obj("avocado", "countertop") #putting down the avocado on the countertop
+pick_up_obj("salt", "updated_onto.ttl") #picking up the salt
+put_down_obj("salt", "countertop") #putting down the salt on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_obj("bread", "countertop") #putting down the bread on the countertop
+
+2. Cooking process:
+
+To prepare avocado toast, I will first slice the avocado with the knife.
+
+pick_up_obj("avocado", "updated_onto.ttl") #picking up the avocado
+slice("avocado", "knife", "updated_onto.ttl") #slicing the avocado with the knife
+
+3. Plating and serving:
+
+I will put the sliced avocado on the bread and sprinkle some salt on top. The avocado toast is ready to serve!
+
+pick_up_obj("avocado", "updated_onto.ttl") #picking up the sliced avocado
+put_down_obj("avocado", "bread") #putting the sliced avocado on the bread
+pick_up_obj("salt", "updated_onto.ttl") #picking up the salt
+put_down_obj("salt", "bread") #sprinkling salt on top of the avocado on the bread

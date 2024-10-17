@@ -1,0 +1,26 @@
+robot picks up potato from fridge
+robot puts down potato to countertop
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up spatula from cabinet
+robot puts down spatula to countertop
+pan already cleaned!
+robot picks up pan from cabinet
+robot puts down pan to countertop
+robot picks up knife from countertop
+potato sliced!
+robot puts down knife to countertop
+robot picks up sliced_potato from countertop
+robot puts down potato to pan
+stove switched on!
+robot picks up pan from countertop
+robot puts down pan to stove
+robot picks up sliced_potato from pan
+robot puts down potato to countertop
+pan already cleaned!
+potato already sliced!
+robot picks up sliced_potato from countertop
+robot puts down potato to pan
+stove switched off!
+robot picks up pan from stove
+robot puts down pan to stove

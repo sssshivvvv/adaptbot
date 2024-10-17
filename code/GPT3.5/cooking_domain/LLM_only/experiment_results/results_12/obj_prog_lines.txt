@@ -1,0 +1,6 @@
+[mango]
+robot picks up mango from fridge ----> robot puts down mango to countertop
+
+[yogurt]
+robot picks up yogurt from fridge ----> robot puts down yogurt to countertop
+

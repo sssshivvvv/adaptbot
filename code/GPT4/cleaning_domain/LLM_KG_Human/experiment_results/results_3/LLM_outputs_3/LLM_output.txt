@@ -1,0 +1,5 @@
+pick_up_rec("plate", "./LLM_KG_Human/initial_onto.ttl")
+put_down_rec("plate", "sink")
+put_down_rec("bowl", "sink")
+clean("plate", "./LLM_KG_Human/updated_onto.ttl")
+clean("bowl", "./LLM_KG_Human/updated_onto.ttl")

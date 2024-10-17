@@ -1,0 +1,3 @@
+[bowl]
+bowl already cleaned! ----> robot picks up all_purpose_flour from bowl ----> robot picks up baking_powder from bowl ----> robot picks up milk from bowl ----> robot picks up apple from bowl ----> robot picks up banana from bowl ----> contents of bowl already stirred! ----> robot picks up bowl from countertop ----> robot puts down bowl to oven ----> bowl already cleaned! ----> robot picks up bowl from oven ----> robot puts down bowl to countertop ----> robot picks up bowl from countertop ----> robot puts down bowl to sink ----> bowl already cleaned! ----> robot picks up bowl from sink ----> robot puts down bowl to countertop
+

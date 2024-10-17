@@ -1,0 +1,2 @@
+robot picks up pan from cabinet
+robot puts down pan to stove

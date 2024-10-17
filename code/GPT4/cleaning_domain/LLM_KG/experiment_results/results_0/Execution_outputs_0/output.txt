@@ -1,0 +1,2 @@
+robot picks up robot_arm from dining_table
+robot moved from dining_table to bedroom_floor

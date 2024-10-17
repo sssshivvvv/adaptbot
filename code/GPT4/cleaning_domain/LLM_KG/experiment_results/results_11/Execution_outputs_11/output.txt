@@ -1,0 +1,5 @@
+robot moved from dining_table to bedroom_floor
+robot moved from bedroom_floor to living_room_floor
+couldnt pick music_player! skipping this action
+robot moved from living_room_floor to side_table
+music_player switched on!

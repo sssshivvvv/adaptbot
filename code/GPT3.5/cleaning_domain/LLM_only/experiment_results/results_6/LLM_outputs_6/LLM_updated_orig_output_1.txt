@@ -1,0 +1,8 @@
+            COT & ACTION SEQUENCE:
+
+To clean the window, I will fetch the items I need, which is the mop cloth. I will pick up the mop cloth from the rack and move to the window. Then, I will use the mop cloth to clean the window by wiping it. Once the window is clean, I will put down the mop cloth on the rack.
+
+pick_up_tool("mop_cloth", "initial_onto.ttl") # picking up the mop cloth from the rack
+move("mop_cloth", "window") # moving to the window
+clean("window", "updated_onto.ttl") # cleaning the window with the mop cloth
+put_down_tool("mop_cloth", "rack") # putting down the mop cloth on the rack

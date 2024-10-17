@@ -1,0 +1,15 @@
+COT & ACTION SEQUENCE:
+
+To mop the countertop, we need to ensure the use of the mop_cloth as specified. Therefore, the sequence will involve fetching the necessary mop_cloth and using any available appropriate cleaning item, which in this case is cleaning_solution, to perform the mopping of the countertop.
+
+1. I will fetch the cleaning_solution from its location.
+2. I will fetch the mop_cloth.
+3. I will use the mop_cloth along with the cleaning_solution to mop the countertop.
+
+```plaintext
+pick_up_obj("cleaning_solution", "initial_onto.ttl") #picking up the cleaning solution
+put_down_obj("cleaning_solution", "countertop") #putting down the cleaning solution on the countertop
+pick_up_obj("mop_cloth", "updated_onto.ttl") #picking up the mop cloth
+put_down_obj("mop_cloth", "countertop") #putting down the mop cloth on the countertop
+mop("countertop", "updated_onto.ttl") #mopping the countertop with cleaning solution and mop cloth
+```

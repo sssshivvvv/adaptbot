@@ -1,0 +1,9 @@
+[pan]
+robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down butter to pan
+
+[plate]
+robot picks up plate from cabinet ----> robot puts down plate to countertop ----> robot puts down knife to plate
+
+[bowl]
+robot picks up bowl from cabinet ----> robot puts down bowl to countertop ----> robot puts down egg to bowl ----> robot puts down milk to bowl ----> robot puts down sugar to bowl ----> contents of bowl are ['egg', 'milk', 'sugar'] ----> contents of bowl are stirred! ----> robot puts down knife to bowl ----> robot picks up knife from bowl
+

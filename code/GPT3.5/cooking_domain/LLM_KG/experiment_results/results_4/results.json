@@ -1,0 +1,20 @@
+{
+    "dish_name": "fruit_cake",
+    "dish_ingd": [
+        "all_purpose_flour",
+        "egg",
+        "sugar",
+        "baking_powder",
+        "milk",
+        "apple",
+        "banana"
+    ],
+    "ingd_used": [
+        "all_purpose_flour"
+    ],
+    "percentage_ingd_used": 14.285714285714285,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 8335
+}

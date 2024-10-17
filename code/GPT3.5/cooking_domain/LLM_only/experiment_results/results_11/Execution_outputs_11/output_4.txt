@@ -1,0 +1,10 @@
+pan already cleaned!
+robot picks up knife from countertop
+onion sliced!
+robot puts down knife to countertop
+robot picks up knife from countertop
+tomato sliced!
+robot puts down knife to countertop
+robot picks up knife from countertop
+chicken sliced!
+robot puts down knife to countertop

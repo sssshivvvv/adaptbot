@@ -1,0 +1,47 @@
+**COT & ACTION SEQUENCE:**
+
+### 1. Fetching the ingredients and tools required for the cooking task
+
+To prepare the egg sandwich, I will first fetch the items I need. I will bring the bread, egg, butter, and the tools required such as a pan, a spatula, and a plate for plating. If the plate is not cleaned, I will clean it first.
+
+1. `pick_up_obj("bread", "updated_onto.ttl")` # picking up the bread
+2. `put_down_obj("bread", "countertop")` # putting down the bread on the countertop
+3. `pick_up_obj("egg", "updated_onto.ttl")` # picking up the egg
+4. `put_down_obj("egg", "countertop")` # putting down the egg on the countertop
+5. `pick_up_obj("butter", "updated_onto.ttl")` # picking up the butter
+6. `put_down_obj("butter", "countertop")` # putting down the butter on the countertop
+7. `pick_up_rec("pan", "updated_onto.ttl")` # picking up the pan
+8. `put_down_rec("pan", "stove")` # putting down the pan on the stove
+9. `pick_up_tool("spatula", "updated_onto.ttl")` # picking up the spatula
+10. `put_down_tool("spatula", "countertop")` # putting down the spatula on the countertop
+11. `clean("plate", "updated_onto.ttl")` # cleaning the plate
+12. `pick_up_rec("plate", "updated_onto.ttl")` # picking up the plate
+13. `put_down_rec("plate", "countertop")` # putting down the plate on the countertop
+
+### 2. Cooking process
+
+To prepare the egg sandwich, I will cook the egg in the pan, lightly toast the bread using the butter, and then assemble the sandwich.
+
+14. `pick_up_obj("butter", "updated_onto.ttl")` # picking up the butter
+15. `put_down_obj("butter", "pan")` # placing the butter in the pan
+16. `switch("stove", "updated_onto.ttl")` # turning on the stove
+17. `wait(t)` # allowing the butter to melt in the pan
+18. `pick_up_obj("egg", "updated_onto.ttl")` # picking up the egg
+19. `put_down_obj("egg", "pan")` # placing the egg in the pan
+20. `wait(t)` # cooking the egg in the pan
+21. `pick_up_obj("bread", "updated_onto.ttl")` # picking up the bread
+22. `put_down_obj("bread", "pan")` # placing the bread in the pan to lightly toast
+23. `wait(t)` # toasting the bread
+
+### 3. Plating and serving
+
+Once the egg is cooked and the bread is lightly toasted, I will assemble the egg sandwich on the plate and serve it.
+
+24. `pick_up_obj("bread", "updated_onto.ttl")` # picking up the toasted bread from the pan
+25. `put_down_obj("bread", "plate")` # placing the bread on the plate
+26. `pick_up_obj("egg", "updated_onto.ttl")` # picking up the cooked egg from the pan
+27. `put_down_obj("egg", "bread on plate")` # placing the egg on the bread on the plate
+28. `pick_up_obj("bread", "updated_onto.ttl")` # picking up the second slice of bread
+29. `put_down_obj("bread", "egg on bread on plate")` # placing the second slice of bread on top of the egg to complete the sandwich
+
+The egg sandwich is ready!

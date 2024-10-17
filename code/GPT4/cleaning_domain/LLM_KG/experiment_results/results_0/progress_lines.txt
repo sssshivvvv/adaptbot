@@ -1,0 +1,1 @@
+robot picks up robot_arm from dining_table

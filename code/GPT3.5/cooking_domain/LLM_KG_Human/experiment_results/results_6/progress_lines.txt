@@ -1,0 +1,24 @@
+pan already cleaned!
+robot picks up potato from fridge
+robot puts down potato to countertop
+robot picks up potato from countertop
+robot puts down potato to sink
+potato successfully cleaned!
+robot picks up potato from sink
+robot puts down potato to cutting_board
+robot picks up knife from countertop
+potato sliced!
+robot puts down knife to countertop
+robot picks up chefs_knife from cabinet
+robot puts down chefs_knife to countertop
+robot picks up oil from countertop
+robot puts down oil to pan
+robot picks up potato_chips from cabinet
+robot puts down potato_chips to pan
+potato_chips is not Fryable! skipping this action
+robot picks up salt from countertop
+robot puts down salt to pan
+robot picks up plate from cabinet
+robot puts down plate to countertop
+robot picks up potato_chips from pan
+robot puts down potato_chips to plate

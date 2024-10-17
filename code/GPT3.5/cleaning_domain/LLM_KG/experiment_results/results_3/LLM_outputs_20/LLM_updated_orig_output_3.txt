@@ -1,0 +1,24 @@
+COT & ACTION SEQUENCE:
+
+To wash the dishes, I will first fetch the items I need. I will bring the plate and the bowl. If the plate is not washed, I will clean it first. If the bowl is not washed, I will clean it first. I will then put the plate and the bowl into the sink. I will turn on the water and pour water into the sink. I will then pick up the plate and the bowl one by one, and scrub them using a sponge. After scrubbing, I will rinse them under the running water. Once they are clean, I will put them on the rack to dry. The dishes are now washed!
+
+pick_up_obj("plate", "updated_onto.ttl") #picking up the plate
+put_down_obj("plate", "countertop") #putting down the plate on the countertop
+clean("plate","updated_onto.ttl") #cleaning the plate
+pick_up_obj("bowl","updated_onto.ttl") #picking up the bowl
+put_down_obj("bowl", "countertop") #putting down the bowl on the countertop
+clean("bowl","updated_onto.ttl") #cleaning the bowl
+pick_up_rec("plate", "updated_onto.ttl") #picking up the plate
+put_down_rec("plate", "sink") #putting down the plate into the sink
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "sink") #putting down the bowl into the sink
+switch("sink", "updated_onto.ttl") #turning on the water for the sink
+pour_contents("sink", "sink") #pouring water into the sink
+pick_up_obj("plate","updated_onto.ttl") #picking up the plate
+clean("plate","updated_onto.ttl") #scrubbing the plate with a sponge
+pour_contents("plate", "sink") #rinsing the plate under running water
+pick_up_obj("bowl","updated_onto.ttl") #picking up the bowl
+clean("bowl","updated_onto.ttl") #scrubbing the bowl with a sponge
+pour_contents("bowl", "sink") #rinsing the bowl under running water
+put_down_rec("plate","rack") #putting down the clean plate on the rack to dry
+put_down_rec("bowl","rack") #putting down the clean bowl on the rack to dry

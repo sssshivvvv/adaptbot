@@ -1,0 +1,3 @@
+[clothes]
+robot picks up clothes from laundry_bag ----> robot puts down clothes to bedroom_floor
+

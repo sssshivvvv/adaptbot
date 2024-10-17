@@ -1,0 +1,9 @@
+robot picks up milk from pan
+robot puts down milk to countertop
+robot picks up choco_powder from pan
+robot puts down choco_powder to countertop
+glass already cleaned!
+robot picks up milk from countertop
+robot puts down milk to pan
+robot picks up choco_powder from countertop
+robot puts down choco_powder to pan

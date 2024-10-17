@@ -1,0 +1,7 @@
+robot picks up yogurt from fridge
+robot puts down yogurt to countertop
+robot picks up mango from fridge
+robot puts down mango to countertop
+robot picks up knife from cabinet
+mango sliced!
+robot puts down knife to countertop

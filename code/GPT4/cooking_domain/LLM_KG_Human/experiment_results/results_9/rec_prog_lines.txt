@@ -1,0 +1,6 @@
+[bowl]
+robot picks up bowl from cabinet ----> robot puts down bowl to countertop ----> robot puts down potato to bowl ----> robot puts down butter to bowl ----> robot puts down salt to bowl ----> contents of bowl are ['butter', 'potato', 'salt'] ----> contents of bowl are stirred!
+
+[pan]
+robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down water to pan ----> robot puts down potato to pan ----> robot picks up potato from pan
+

@@ -1,0 +1,19 @@
+robot picks up sliced_potato from pan
+robot moved from stove to countertop
+robot puts down potato to countertop
+pan already cleaned!
+potato already sliced!
+robot picks up sliced_potato from countertop
+robot moved from countertop to stove
+robot puts down potato to pan
+stove switched off!
+robot picks up pan from stove
+robot puts down pan to stove
+Traceback (most recent call last):
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/streamlined_for_experiments/for_knowledge_expansion_2/./LLM_only/final_run.py", line 11, in <module>
+    fry("potato", "./LLM_only/updated_onto.ttl")
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/streamlined_for_experiments/for_knowledge_expansion_2/LLM_only/functions/actions.py", line 2036, in fry
+    put_down_obj("oil", "pan")
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/streamlined_for_experiments/for_knowledge_expansion_2/LLM_only/functions/actions.py", line 442, in put_down_obj
+    raise RuntimeError(f"put_down_obj({obj}, {loc}) #{obj} not present in the environment!")
+RuntimeError: put_down_obj(oil, pan) #oil not present in the environment!

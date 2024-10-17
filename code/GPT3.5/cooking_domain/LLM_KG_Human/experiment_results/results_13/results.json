@@ -1,0 +1,21 @@
+{
+    "dish_name": "egg_sandwich",
+    "dish_ingd": [
+        "bread",
+        "egg",
+        "butter"
+    ],
+    "ingd_used": [
+        "oil",
+        "egg",
+        "bread",
+        "butter"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 8190
+}

@@ -1,0 +1,38 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare lime tea, I will first fetch the items I need. I will bring the pan, water, lime, tea, and a glass. The pan and the glass should be cleaned initially if they are not.
+
+pick_up_rec("pan", "initial_onto.ttl") # picking up the pan
+clean("pan", "updated_onto.ttl") # cleaning the pan
+put_down_rec("pan", "stove") # putting down the pan on the stove
+pick_up_obj("water", "updated_onto.ttl") # picking up the water
+put_down_obj("water", "countertop") # putting down the water on the countertop
+pick_up_obj("lime", "updated_onto.ttl") # picking up the lime
+put_down_obj("lime", "countertop") # putting down the lime on the countertop
+pick_up_obj("tea", "updated_onto.ttl") # picking up the tea
+put_down_obj("tea", "countertop") # putting down the tea on the countertop
+clean("glass", "updated_onto.ttl") # cleaning the glass
+pick_up_rec("glass", "updated_onto.ttl") # picking up the glass
+put_down_rec("glass", "countertop") # putting down the glass on the countertop
+
+2. Cooking process:
+
+To prepare lime tea, I need to boil the water first and then add lime and tea.
+
+pick_up_obj("water", "updated_onto.ttl") # picking up the water
+put_down_obj("water", "pan") # putting down the water into the pan
+boil("water", "updated_onto.ttl") # boiling the water
+
+3. Plating and serving:
+
+After boiling the water, I will pour the boiled water into the glass, add the tea into the glass, and finally slice the lime into the glass. I will stir the contents to complete the lime tea preparation.
+
+pick_up_rec("pan", "updated_onto.ttl") # picking up the pan with boiled water
+pour_contents("pan", "glass") # pouring boiled water from the pan into the glass
+pick_up_obj("tea", "updated_onto.ttl") # picking up the tea
+put_down_obj("tea", "glass") # putting the tea into the glass with boiled water
+slice("lime", "knife", "updated_onto.ttl") # slicing the lime using the knife
+put_down_obj("lime", "glass") # putting the sliced lime into the glass
+stir_contents("glass", "updated_onto.ttl") # stirring the contents of the glass

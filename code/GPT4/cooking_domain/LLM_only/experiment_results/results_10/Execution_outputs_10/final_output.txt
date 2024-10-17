@@ -1,0 +1,66 @@
+robot moved from cabinet to fridge
+robot picks up apple from fridge
+robot moved from fridge to countertop
+robot puts down apple to countertop
+robot moved from countertop to fridge
+robot picks up mango from fridge
+robot moved from fridge to countertop
+robot puts down mango to countertop
+robot moved from countertop to cabinet
+robot picks up bowl from cabinet
+robot moved from cabinet to sink
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot moved from sink to countertop
+robot puts down bowl to countertop
+robot moved from countertop to cabinet
+robot picks up knife from cabinet
+robot moved from cabinet to countertop
+robot puts down knife to countertop
+robot picks up knife from countertop
+apple sliced!
+robot puts down knife to countertop
+robot picks up knife from countertop
+mango sliced!
+robot puts down knife to countertop
+robot picks up sliced_apple from countertop
+robot puts down apple to bowl
+robot picks up sliced_mango from countertop
+robot puts down mango to bowl
+contents of bowl are ['apple', 'mango']
+contents of bowl are mixed!
+robot moved from countertop to cabinet
+robot picks up pan from cabinet
+robot moved from cabinet to countertop
+robot puts down pan to countertop
+robot moved from countertop to cabinet
+robot picks up bowl from cabinet
+robot moved from cabinet to countertop
+robot puts down bowl to countertop
+robot moved from countertop to cabinet
+robot picks up spoon from cabinet
+robot moved from cabinet to countertop
+robot puts down spoon to countertop
+robot picks up pan from countertop
+robot moved from countertop to stove
+robot puts down pan to stove
+robot moved from stove to fridge
+robot picks up water from fridge
+robot moved from fridge to stove
+robot puts down water to pan
+robot moved from stove to countertop
+robot picks up potato from countertop
+robot moved from countertop to stove
+robot puts down potato to pan
+stove switched on!
+potato is boiled!
+robot picks up potato from pan
+robot moved from stove to countertop
+robot puts down potato to bowl
+robot picks up butter from countertop
+robot puts down butter to bowl
+robot picks up potato from bowl
+robot puts down potato to countertop
+robot picks up butter from bowl
+robot puts down butter to countertop

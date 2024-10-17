@@ -1,0 +1,20 @@
+robot picks up glass from cabinet
+robot puts down glass to sink
+glass successfully cleaned!
+robot picks up glass from sink
+robot puts down glass to countertop
+robot picks up yogurt from fridge
+robot puts down yogurt to countertop
+robot picks up mango from fridge
+robot puts down mango to countertop
+robot picks up mango from countertop
+robot puts down mango to blender
+robot picks up yogurt from countertop
+robot puts down yogurt to blender
+robot picks up sugar from countertop
+robot puts down sugar to blender
+contents of blender are ['mango', 'sugar', 'yogurt']
+contents of blender are mixed!
+couldnt pick blender! skipping this action
+contents of blender are ['mango', 'sugar', 'yogurt']
+contents of blender poured to glass 

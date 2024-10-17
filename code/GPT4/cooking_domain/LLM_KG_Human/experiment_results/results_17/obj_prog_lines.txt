@@ -1,0 +1,9 @@
+[salt]
+robot picks up salt from countertop ----> robot puts down salt to pan ----> contents of pan are ['onion', 'salt', 'water']
+
+[onion]
+robot picks up onion from fridge ----> robot puts down onion to countertop ----> robot picks up onion from countertop ----> robot puts down onion to sink ----> onion successfully cleaned! ----> robot picks up onion from sink ----> robot puts down onion to cutting_board ----> onion sliced! ----> robot picks up sliced_onion from cutting_board ----> robot puts down onion to pan ----> onion is not boilable! skipping this action ----> contents of pan are ['onion', 'salt', 'water']
+
+[water]
+robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> contents of pan are ['onion', 'salt', 'water']
+

@@ -1,0 +1,7 @@
+robot moved from dining_table to fridge
+robot picks up water from fridge
+robot moved from fridge to dining_table
+robot puts down water to plant
+robot picks up water from dining_table
+robot puts down water to plant
+washing_machine switched on!

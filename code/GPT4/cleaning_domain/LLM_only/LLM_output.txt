@@ -1,0 +1,4 @@
+move("bedroom", "./LLM_only/initial_onto.ttl")
+move("living_room", "./LLM_only/updated_onto.ttl")
+put_down_rec("music_player", "living_room")
+switch("music_player", "./LLM_only/updated_onto.ttl")

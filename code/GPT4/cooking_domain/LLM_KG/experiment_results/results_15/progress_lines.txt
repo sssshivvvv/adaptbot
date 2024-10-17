@@ -1,0 +1,28 @@
+robot picks up apple from fridge
+robot puts down apple to countertop
+robot picks up milk from fridge
+robot puts down milk to countertop
+robot picks up knife from cabinet
+robot puts down knife to countertop
+couldnt pick blender! skipping this action
+robot picks up apple from countertop
+robot puts down apple to sink
+apple successfully cleaned!
+robot picks up apple from sink
+robot puts down apple to cutting_board
+robot picks up knife from countertop
+apple sliced!
+robot puts down knife to countertop
+robot picks up sliced_apple from cutting_board
+robot puts down apple to countertop
+robot picks up milk from countertop
+robot puts down milk to blender
+robot picks up sliced_apple from countertop
+robot puts down apple to blender
+contents of blender are ['apple', 'milk']
+contents of blender are mixed!
+robot picks up glass from cabinet
+robot puts down glass to countertop
+couldnt pick blender! skipping this action
+contents of blender are ['apple', 'milk']
+contents of blender poured to glass 

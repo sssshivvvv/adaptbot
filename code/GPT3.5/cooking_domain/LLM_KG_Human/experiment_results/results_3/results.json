@@ -1,0 +1,25 @@
+{
+    "dish_name": "french_toast",
+    "dish_ingd": [
+        "egg",
+        "milk",
+        "sugar",
+        "bread",
+        "butter"
+    ],
+    "ingd_used": [
+        "egg",
+        "milk",
+        "sugar",
+        "bread",
+        "butter",
+        "oil"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 1,
+    "#additions_made": 1,
+    "#corrections_made": 0,
+    "#token_used": 8450
+}

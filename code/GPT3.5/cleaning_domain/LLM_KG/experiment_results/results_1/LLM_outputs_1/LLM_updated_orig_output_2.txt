@@ -1,0 +1,11 @@
+    COT:
+
+To dust the TV, I will first fetch the item I need, which is the mop cloth. If the mop cloth is dirty, I will clean it first. Then, I will pick up the mop cloth and use it to clean the TV. Once the TV is dust-free, I will put down the mop cloth.
+
+ACTION SEQUENCE:
+
+pick_up_obj("mop_cloth", "initial_onto.ttl") #picking up the mop cloth
+clean("mop_cloth", "updated_onto.ttl") #cleaning the mop cloth
+pick_up_obj("mop_cloth", "updated_onto.ttl") #picking up the mop cloth
+clean("tv", "updated_onto.ttl") #cleaning the TV using the mop cloth
+put_down_obj("mop_cloth", "countertop") #putting down the mop cloth

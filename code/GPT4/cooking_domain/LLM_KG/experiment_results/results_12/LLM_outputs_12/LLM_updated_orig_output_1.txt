@@ -1,0 +1,31 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare a mango lassi, I will first fetch the items I need. I will bring the blender, yogurt, and mango. If any of the items need cleaning, I will clean them first.
+
+pick_up_obj("yogurt", "updated_onto.ttl") #picking up the yogurt
+put_down_obj("yogurt", "countertop") #putting down the yogurt on the countertop
+pick_up_obj("mango", "updated_onto.ttl") #picking up the mango
+put_down_obj("mango", "countertop") #putting down the mango on the countertop
+
+2. Cooking process:
+
+To prepare mango lassi, I need to slice the mango first, then blend it with yogurt.
+
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+slice("mango", "knife", "updated_onto.ttl") #slicing the mango
+put_down_tool("knife", "countertop") #putting down the knife
+pick_up_rec("blender", "updated_onto.ttl") #picking up the blender
+put_down_rec("blender", "countertop") #putting down the blender on the countertop
+put_down_obj("mango", "blender") #putting sliced mango into the blender
+put_down_obj("yogurt", "blender") #putting yogurt into the blender
+mix_contents("blender", "updated_onto.ttl") #blending the ingredients
+
+3. Plating and serving:
+
+I will pour the mango lassi from the blender into a glass.
+
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+pour_contents("blender", "glass") #pouring the mango lassi into the glass

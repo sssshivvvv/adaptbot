@@ -1,0 +1,3 @@
+[spoon]
+robot picks up spoon from cabinet ----> robot puts down spoon to countertop
+

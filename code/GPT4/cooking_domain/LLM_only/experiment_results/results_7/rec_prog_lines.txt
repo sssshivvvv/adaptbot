@@ -1,0 +1,9 @@
+[bowl]
+robot picks up bowl from cabinet ----> robot puts down bowl to sink ----> bowl successfully cleaned! ----> robot picks up bowl from sink ----> robot puts down bowl to countertop ----> robot puts down brioche to bowl ----> robot puts down milk to bowl ----> robot puts down honey to bowl ----> robot puts down vanilla_extract to bowl ----> contents of bowl are ['brioche', 'honey', 'milk', 'vanilla_extract'] ----> contents of bowl are stirred! ----> contents of bowl are ['brioche', 'honey', 'milk', 'vanilla_extract'] ----> contents of bowl poured to cake_pan
+
+[cake_pan]
+robot picks up cake_pan from cabinet ----> robot puts down cake_pan to countertop ----> contents of bowl poured to cake_pan ----> robot picks up cake_pan from countertop ----> robot puts down cake_pan to oven
+
+[pan]
+robot picks up cake_pan from cabinet ----> robot puts down cake_pan to countertop ----> contents of bowl poured to cake_pan ----> robot picks up cake_pan from countertop ----> robot puts down cake_pan to oven
+

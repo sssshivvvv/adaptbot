@@ -1,0 +1,3 @@
+move("bedroom", "./LLM_only/updated_onto.ttl")
+mop("bedroom_floor", "./LLM_only/updated_onto.ttl")
+put_down_tool("mop_cloth", "sink")

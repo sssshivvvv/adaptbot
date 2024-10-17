@@ -1,0 +1,5 @@
+robot picks up mop_cloth from rack
+robot puts down mop_cloth to table
+robot picks up mop_cloth from table
+robot puts down mop_cloth to table
+agent mopped the table successfully!

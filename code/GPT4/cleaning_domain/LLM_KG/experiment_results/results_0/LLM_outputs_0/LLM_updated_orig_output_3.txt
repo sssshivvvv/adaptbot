@@ -1,0 +1,10 @@
+Understood. Since "mop_cloth" is not provided as an item in the environment, I will use the relevant tools and actions available.
+
+COT & ACTION SEQUENCE:
+
+To clean the bedroom floor, I will use the resources in the environment. I will first ensure I have the robot arm as a tool. I will move to the bedroom and use the robot arm to mop the floor. This will ensure that the bedroom floor is cleaned.
+
+1. pick_up_tool("robot_arm", "initial_onto.ttl") # picking up the robot arm
+2. move("bedroom", "updated_onto.ttl") # moving to the bedroom
+3. mop("bedroom_floor", "updated_onto.ttl") # mopping the bedroom floor
+4. put_down_tool("robot_arm", "bedroom") # putting down the robot arm in the bedroom

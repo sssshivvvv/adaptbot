@@ -1,0 +1,9 @@
+### Chain of Thought (COT):
+To clean the window, I will need the mop and cleaning_solution. Given that the user specified using "mop_cloth," I will appropriately incorporate it into my actions. I will first move to the respective locations to fetch the mop_cloth and cleaning_solution. Then I will clean the window using these items.
+
+### Action Sequence:
+```python
+pick_up_obj("cleaning_solution", "initial_onto.ttl") # picking up the cleaning_solution from its location in the kitchen
+move("window", "updated_onto.ttl") # moving to the living room to clean the window
+clean("window", "updated_onto.ttl") # cleaning the window with cleaning_solution and mop_cloth
+```

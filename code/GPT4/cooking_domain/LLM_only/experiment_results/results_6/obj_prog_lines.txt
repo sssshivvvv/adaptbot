@@ -1,0 +1,3 @@
+[potato]
+robot picks up potato from fridge ----> robot puts down potato to countertop ----> potato sliced! ----> robot picks up sliced_potato from countertop ----> robot puts down potato to pan ----> robot picks up sliced_potato from pan ----> robot puts down potato to countertop ----> potato already sliced! ----> robot picks up sliced_potato from countertop ----> robot puts down potato to pan
+

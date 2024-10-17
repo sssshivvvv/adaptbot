@@ -1,0 +1,86 @@
+robot picks up all_purpose_flour from cabinet
+robot moved from cabinet to countertop
+robot puts down all_purpose_flour to countertop
+robot moved from countertop to fridge
+robot picks up egg from fridge
+robot moved from fridge to countertop
+robot puts down egg to countertop
+robot moved from countertop to cabinet
+robot picks up baking_powder from cabinet
+robot moved from cabinet to countertop
+robot puts down baking_powder to countertop
+robot moved from countertop to fridge
+robot picks up milk from fridge
+robot moved from fridge to countertop
+robot puts down milk to countertop
+robot moved from countertop to fridge
+robot picks up apple from fridge
+robot moved from fridge to countertop
+robot puts down apple to countertop
+robot moved from countertop to fridge
+robot picks up banana from fridge
+robot moved from fridge to countertop
+robot puts down banana to countertop
+robot moved from countertop to cabinet
+robot picks up knife from cabinet
+robot moved from cabinet to countertop
+robot puts down knife to countertop
+robot moved from countertop to cabinet
+robot picks up bowl from cabinet
+robot moved from cabinet to sink
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot moved from sink to countertop
+robot puts down bowl to countertop
+cake_pan already cleaned!
+robot moved from countertop to cabinet
+robot picks up cake_pan from cabinet
+robot moved from cabinet to countertop
+robot puts down cake_pan to countertop
+robot picks up apple from countertop
+robot moved from countertop to sink
+robot puts down apple to sink
+apple successfully cleaned!
+robot picks up apple from sink
+robot moved from sink to countertop
+robot puts down apple to cutting_board
+robot picks up knife from countertop
+apple sliced!
+robot puts down knife to countertop
+robot picks up banana from countertop
+robot moved from countertop to sink
+robot puts down banana to sink
+banana successfully cleaned!
+robot picks up banana from sink
+robot moved from sink to countertop
+robot puts down banana to cutting_board
+robot picks up knife from countertop
+banana sliced!
+robot puts down knife to countertop
+robot picks up all_purpose_flour from countertop
+robot puts down all_purpose_flour to bowl
+robot picks up egg from countertop
+robot puts down egg to bowl
+robot picks up sugar from countertop
+robot puts down sugar to bowl
+robot picks up baking_powder from countertop
+robot puts down baking_powder to bowl
+robot picks up milk from countertop
+robot puts down milk to bowl
+robot picks up sliced_apple from cutting_board
+robot puts down apple to bowl
+robot picks up sliced_banana from cutting_board
+robot puts down banana to bowl
+contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'egg', 'milk', 'sugar']
+contents of bowl are mixed!
+contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'egg', 'milk', 'sugar']
+contents of bowl poured to cake_pan 
+robot moved from countertop to oven
+oven switched on!
+waiting for 35 minutes
+oven switched off!
+robot moved from oven to cabinet
+robot picks up plate from cabinet
+robot moved from cabinet to countertop
+robot puts down plate to countertop

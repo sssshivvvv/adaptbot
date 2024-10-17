@@ -1,0 +1,6 @@
+pick_up_obj("trash", "./LLM_KG_Human/initial_onto.ttl")
+put_down_obj("trash", "countertop")
+put_down_rec("dustbin", "countertop")
+empty_rec("dustbin", "./LLM_KG_Human/updated_onto.ttl")
+put_down_obj("trash", "dustbin")
+move("dustbin", "./LLM_KG_Human/updated_onto.ttl")

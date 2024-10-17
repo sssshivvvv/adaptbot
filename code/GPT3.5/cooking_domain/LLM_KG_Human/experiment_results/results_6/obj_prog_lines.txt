@@ -1,0 +1,12 @@
+[oil]
+robot picks up oil from countertop ----> robot puts down oil to pan
+
+[salt]
+robot picks up salt from countertop ----> robot puts down salt to pan
+
+[potato_chips]
+robot picks up potato_chips from cabinet ----> robot puts down potato_chips to pan ----> potato_chips is not Fryable! skipping this action ----> robot picks up potato_chips from pan ----> robot puts down potato_chips to plate
+
+[potato]
+robot picks up potato from fridge ----> robot puts down potato to countertop ----> robot picks up potato from countertop ----> robot puts down potato to sink ----> potato successfully cleaned! ----> robot picks up potato from sink ----> robot puts down potato to cutting_board ----> potato sliced! ----> robot picks up potato_chips from cabinet ----> robot puts down potato_chips to pan ----> potato_chips is not Fryable! skipping this action ----> robot picks up potato_chips from pan ----> robot puts down potato_chips to plate
+

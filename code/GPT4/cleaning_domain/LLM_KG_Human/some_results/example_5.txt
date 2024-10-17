@@ -1,0 +1,23 @@
+COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+pick_up_obj("choco_powder", "updated_onto.ttl") #picking up the chocolate powder
+put_down_obj("choco_powder", "countertop") #putting down the chocolate powder on the countertop
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "countertop") #putting down the milk on the countertop
+clean("glass", "updated_onto.ttl") #cleaning the glass
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+
+2. Cooking process: 
+
+boil("milk", "initial_onto.ttl") #boiling the milk for the hot chocolate
+
+3. plating and serving:
+
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "glass") #putting the boiled milk into the glass
+pick_up_obj("choco_powder", "updated_onto.ttl") #picking up the chocolate powder
+put_down_obj("choco_powder", "glass") #putting the chocolate powder into the glass filled with milk
+stir_contents("glass", "updated_onto.ttl") #stirring the contents of the glass

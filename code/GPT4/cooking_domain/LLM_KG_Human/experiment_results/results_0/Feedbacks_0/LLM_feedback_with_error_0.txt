@@ -1,0 +1,10 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
+
+wait("t") #item "t" not found! Please use the ingredients provided by the user
+crack_obj("egg", ".llm_kg_humanupdated_onto.ttl") #action "crack_obj" is not present in ther knowledge base!
+sprinkle("salt", ".llm_kg_humanupdated_onto.ttl") #action "sprinkle" is not present in ther knowledge base!
+wait("t") #item "t" not found! Please use the ingredients provided by the user
+wait("t") #item "t" not found! Please use the ingredients provided by the user
+crack_obj("egg", ".llm_kg_humanupdated_onto.ttl") #action "crack_obj" is not present in ther knowledge base!
+sprinkle("salt", ".llm_kg_humanupdated_onto.ttl") #action "sprinkle" is not present in ther knowledge base!
+wait("t") #item "t" not found! Please use the ingredients provided by the user

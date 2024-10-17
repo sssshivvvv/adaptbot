@@ -1,0 +1,7 @@
+COT & ACTION SEQUENCE:
+
+To charge the phone, I will first locate the phone and the charging pod. I will move the phone to the charging pod. Then, I will ensure the charging pod is switched on so that the phone can start charging.
+
+pick_up_obj("phone", "initial_onto.ttl") # picking up the phone
+put_down_obj("phone", "charging_pod") # placing the phone on the charging pod
+switch("charging_pod", "updated_onto.ttl") # switching on the charging pod to start charging the phone

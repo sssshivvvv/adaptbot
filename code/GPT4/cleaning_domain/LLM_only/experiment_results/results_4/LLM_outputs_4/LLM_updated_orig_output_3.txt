@@ -1,0 +1,8 @@
+COT & ACTION SEQUENCE:
+
+Given the task of dusting the TV and the required item 'mop_cloth', I will proceed as follows. First, I will move to the living room, which is the most likely location of the TV. Next, I will pick up the mop_cloth. Since the action to dust the TV is not explicitly defined, I will use the 'clean' action as a generic cleaning action. Finally, I will place the mop_cloth back.
+
+move("living_room", "initial_onto.ttl") # Moving to the living room
+pick_up_obj("mop_cloth", "updated_onto.ttl") # Picking up the mop_cloth
+clean("TV", "updated_onto.ttl") # Cleaning the TV with the mop_cloth
+put_down_obj("mop_cloth", "living_room_floor") # Placing the mop_cloth back on the living room floor

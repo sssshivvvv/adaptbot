@@ -1,0 +1,24 @@
+{
+    "dish_name": "clean the window",
+    "dish_ingd": [
+        "mop_cloth"
+    ],
+    "ingd_used": [
+        "cleaning_solution",
+        "plate",
+        "mop_cloth",
+        "side_table",
+        "fridge",
+        "rack",
+        "dining_table",
+        "washing_machine",
+        "window"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 1150
+}

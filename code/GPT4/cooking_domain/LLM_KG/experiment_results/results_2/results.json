@@ -1,0 +1,18 @@
+{
+    "dish_name": "coffee",
+    "dish_ingd": [
+        "water",
+        "coffee",
+        "milk"
+    ],
+    "ingd_used": [
+        "coffee",
+        "water",
+        "milk"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#token_used": 1416
+}

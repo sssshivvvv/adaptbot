@@ -1,0 +1,4 @@
+pick_up_rec("robot_arm", "./LLM_KG/updated_onto.ttl")
+move("bedroom_floor", "./LLM_KG/updated_onto.ttl")
+mop("bedroom_floor", "./LLM_KG/updated_onto.ttl")
+put_down_rec("robot_arm", "countertop")

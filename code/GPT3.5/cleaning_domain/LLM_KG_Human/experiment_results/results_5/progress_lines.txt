@@ -1,0 +1,6 @@
+robot picks up trash from kitchen_floor
+robot puts down trash to countertop
+couldnt pick dustbin! skipping this action
+couldnt pick dustbin! skipping this action
+robot picks up trash from countertop
+robot puts down trash to dustbin

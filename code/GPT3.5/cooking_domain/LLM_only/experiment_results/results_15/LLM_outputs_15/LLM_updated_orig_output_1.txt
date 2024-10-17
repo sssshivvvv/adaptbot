@@ -1,0 +1,37 @@
+            COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare the apple smoothie, I will first fetch the items I need. I will bring the blender, milk, apple, sugar, and glass. If the glass is not cleaned, I will clean it first.
+
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "countertop") #putting down the milk on the countertop
+pick_up_obj("apple", "updated_onto.ttl") #picking up the apple
+put_down_obj("apple", "countertop") #putting down the apple on the countertop
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+pick_up_tool("blender", "updated_onto.ttl") #picking up the blender
+put_down_tool("blender", "countertop") #putting down the blender on the countertop
+
+2. Cooking process: 
+
+To prepare apple smoothie, I will slice the apple, then I will mix the sliced apple, milk, and sugar in the blender.
+
+slice("apple", "knife", "updated_onto.ttl") #slicing the apple
+pick_up_obj("sliced_apple", "updated_onto.ttl") #picking up the sliced apple
+put_down_obj("sliced_apple", "blender") #putting down the sliced apple into the blender
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "blender") #putting down the milk into the blender
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_obj("sugar", "blender") #putting down the sugar into the blender
+mix_contents("blender", "updated_onto.ttl") #mixing the contents in the blender
+
+3. plating and serving:
+
+I will pour the blended mixture into the glass. The apple smoothie is ready to be served!
+
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+pour_contents("blender", "glass") #pouring the blended mixture into the glass
+
+The apple smoothie is ready to be served in the glass.        

@@ -1,0 +1,7 @@
+robot picks up pan from cabinet
+robot moved from cabinet to countertop
+robot puts down pan to countertop
+robot moved from countertop to cabinet
+robot picks up spatula from cabinet
+robot moved from cabinet to countertop
+robot puts down spatula to pan

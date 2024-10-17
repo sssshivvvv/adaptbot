@@ -1,0 +1,9 @@
+[oil]
+robot picks up oil from countertop ----> robot puts down oil to pan
+
+[banana]
+robot picks up banana from fridge ----> robot puts down banana to cutting_board ----> robot picks up banana from cutting_board ----> robot puts down banana to sink ----> banana successfully cleaned! ----> robot picks up banana from sink ----> robot puts down banana to cutting_board ----> banana sliced! ----> robot picks up sliced_banana from cutting_board ----> robot puts down banana to pan ----> banana Fried! ----> robot picks up sliced_banana from pan ----> robot puts down banana to plate
+
+[salt]
+robot picks up salt from countertop ----> robot puts down salt to pan
+

@@ -1,0 +1,14 @@
+COT & ACTION SEQUENCE:
+
+To take out the trash, I will fetch the items I need. First, I will fetch the trash and the dustbin. If the dustbin is full, I will empty it into a larger receptacle such as a garbage bag. Then, I will put the trash into the dustbin. Finally, I will take the dustbin to the designated area for trash disposal.
+
+pick_up_obj("trash", "updated_onto.ttl")  # Picking up the trash
+put_down_obj("trash", "countertop")  # Putting down the trash on the countertop
+pick_up_rec("dustbin", "updated_onto.ttl")  # Picking up the dustbin
+put_down_rec("dustbin", "countertop")  # Putting down the dustbin on the countertop
+if is_full("dustbin", "updated_onto.ttl"):  # Checking if the dustbin is full
+    pick_up_rec("dustbin", "updated_onto.ttl")  # Picking up the dustbin
+    put_down_rec("dustbin", "garbage_bag")  # Emptying the dustbin into the garbage bag
+pick_up_obj("trash", "updated_onto.ttl")  # Picking up the trash
+put_down_obj("trash", "dustbin")  # Putting the trash into the dustbin
+move("dustbin", "trash_disposal_area")  # Taking the dustbin to the designated area for trash disposal

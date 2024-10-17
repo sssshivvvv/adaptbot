@@ -1,0 +1,6 @@
+[plate]
+robot picks up plate from cabinet ----> robot puts down plate to countertop ----> robot puts down avocado to plate
+
+[cutting_board]
+robot puts down avocado to cutting_board ----> robot picks up sliced_avocado from cutting_board
+

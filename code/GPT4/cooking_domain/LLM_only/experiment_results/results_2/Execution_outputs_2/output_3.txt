@@ -1,0 +1,23 @@
+robot picks up milk from pan
+robot puts down milk to countertop
+robot picks up water from pan
+robot puts down water to countertop
+glass already cleaned!
+robot picks up water from countertop
+robot puts down water to pan
+robot picks up pan from countertop
+robot moved from countertop to stove
+robot puts down pan to stove
+stove switched on!
+water is boiled!
+robot picks up pan from stove
+robot moved from stove to countertop
+robot puts down pan to countertop
+contents of pan are ['water']
+contents of pan poured to glass 
+robot picks up milk from countertop
+robot puts down milk to glass
+robot picks up coffee from countertop
+robot puts down coffee to glass
+contents of glass are ['coffee', 'milk', 'water']
+contents of glass are stirred!

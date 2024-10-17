@@ -1,0 +1,4 @@
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT4/other_domains/for_knowledge_expansion_2/./LLM_only/final_run.py", line 3
+    `clean("table", "./LLM_only/updated_onto.ttl")
+    ^
+SyntaxError: invalid syntax

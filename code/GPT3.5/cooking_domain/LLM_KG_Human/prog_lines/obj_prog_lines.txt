@@ -1,0 +1,15 @@
+[celery]
+robot picks up celery from fridge ----> robot puts down celery to countertop
+
+[chicken]
+robot picks up chicken from fridge ----> robot puts down chicken to countertop
+
+[bun]
+robot picks up bun from cabinet ----> robot puts down bun to countertop
+
+[mayonnaise]
+robot picks up mayonnaise from fridge ----> robot puts down mayonnaise to countertop
+
+[tarragon]
+robot picks up tarragon from cabinet ----> robot puts down tarragon to countertop
+

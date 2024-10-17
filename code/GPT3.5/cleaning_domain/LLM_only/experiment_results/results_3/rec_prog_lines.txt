@@ -1,0 +1,6 @@
+[plate]
+robot picks up plate from rack ----> robot puts down plate to countertop ----> robot picks up plate from countertop ----> robot puts down plate to sink ----> plate successfully cleaned! ----> robot picks up plate from sink ----> robot puts down plate to countertop ----> plate already cleaned! ----> robot picks up plate from countertop ----> robot puts down plate to sink ----> robot picks up plate from sink ----> robot puts down plate to countertop ----> plate already cleaned! ----> robot picks up plate from countertop ----> robot puts down plate to sink
+
+[bowl]
+robot picks up bowl from rack ----> robot puts down bowl to countertop ----> robot picks up bowl from countertop ----> robot puts down bowl to sink ----> bowl successfully cleaned! ----> robot picks up bowl from sink ----> robot puts down bowl to countertop ----> bowl already cleaned! ----> robot picks up bowl from countertop ----> robot puts down bowl to sink ----> robot picks up bowl from sink ----> robot puts down bowl to countertop ----> bowl already cleaned! ----> robot picks up bowl from countertop ----> robot puts down bowl to sink
+

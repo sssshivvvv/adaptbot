@@ -1,0 +1,38 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare an egg sandwich, I will first fetch the items I need. I will bring the egg, bread, knife, and plate. If the plate is not cleaned, I will clean it first.
+
+clean("plate", "updated_onto.ttl") #cleaning the plate
+pick_up_rec("plate", "updated_onto.ttl") #picking up the plate
+put_down_rec("plate", "countertop") #putting down the plate on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_obj("bread", "countertop") #putting down the bread on the countertop
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "countertop") #putting down the egg on the countertop
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+put_down_tool("knife", "countertop") #putting down the knife on the countertop
+
+2. Cooking process:
+
+To prepare the egg sandwich, I will first cook the egg by frying it in a pan. Then, I will slice the bread using the knife and assemble the sandwich.
+
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "stove") #putting down the pan on the stove
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "pan") #putting the egg into the pan
+fry("egg", "updated_onto.ttl") #frying the egg in the pan
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_obj("bread", "cutting_board") #putting down the bread on the cutting board
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+slice("bread", "knife", "updated_onto.ttl") #slicing the bread using the knife
+
+3. Plating and serving:
+
+Now, I will take the cooked egg and sliced bread to assemble the egg sandwich on the plate. The egg sandwich is ready to be served!
+
+pick_up_obj("egg", "updated_onto.ttl") #picking up the cooked egg
+put_down_obj("egg", "plate") #putting the cooked egg onto the plate
+pick_up_obj("bread", "updated_onto.ttl") #picking up the sliced bread
+put_down_obj("bread", "plate") #putting the sliced bread onto the plate

@@ -1,0 +1,17 @@
+{
+    "dish_name": "apple_smoothie",
+    "dish_ingd": [
+        "milk",
+        "apple",
+        "sugar"
+    ],
+    "ingd_used": [
+        "apple",
+        "milk"
+    ],
+    "percentage_ingd_used": 66.66666666666666,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#token_used": 8018
+}

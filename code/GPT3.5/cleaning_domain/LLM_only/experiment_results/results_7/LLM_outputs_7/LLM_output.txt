@@ -1,0 +1,4 @@
+pick_up_obj("mop_cloth", "./LLM_only/initial_onto.ttl")
+put_down_obj("mop_cloth", "countertop")
+clean("countertop", "./LLM_only/updated_onto.ttl")
+mop("countertop", "./LLM_only/updated_onto.ttl")

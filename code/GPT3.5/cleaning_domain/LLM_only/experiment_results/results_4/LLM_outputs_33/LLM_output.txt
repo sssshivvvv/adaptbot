@@ -1,0 +1,5 @@
+pick_up_obj("water", "./LLM_only/initial_onto.ttl")
+put_down_obj("water", "countertop")
+put_down_rec("plant", "pot_or_vase")
+put_down_tool("watering_can", "countertop")
+pour_contents("watering_can", "pot_or_vase")

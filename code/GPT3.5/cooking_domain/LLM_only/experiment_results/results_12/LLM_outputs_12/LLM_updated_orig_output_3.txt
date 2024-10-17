@@ -1,0 +1,36 @@
+                                    COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare mango lassi, I will first fetch the items I need. I will bring the glass, yogurt, mango, and sugar. If the glass is not cleaned, I will clean it first.
+
+clean("glass", "updated_onto.ttl") #cleaning the glass
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+pick_up_obj("yogurt", "updated_onto.ttl") #picking up the yogurt
+put_down_obj("yogurt", "countertop") #putting down the yogurt on the countertop
+pick_up_obj("mango", "updated_onto.ttl") #picking up the mango
+put_down_obj("mango", "countertop") #putting down the mango on the countertop
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_obj("sugar", "countertop") #putting down the sugar on the countertop
+
+2. Cooking process:
+
+To prepare mango lassi, I will first put the mango, yogurt, and sugar into the blender. Then, I will blend the contents until smooth.
+
+pick_up_obj("mango", "updated_onto.ttl") #picking up the mango
+put_down_rec("mango", "blender") #putting down the mango into the blender
+pick_up_obj("yogurt", "updated_onto.ttl") #picking up the yogurt
+put_down_rec("yogurt", "blender") #putting down the yogurt into the blender
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_rec("sugar", "blender") #putting down the sugar into the blender
+mix_contents("blender", "updated_onto.ttl") #blending the contents in the blender
+
+3. Plating and serving:
+
+To serve the mango lassi, I will pour the contents from the blender into the glass. The mango lassi is now ready to be enjoyed!
+
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+pour_contents("blender", "glass") #pouring the contents from the blender into the glass
+                

@@ -1,0 +1,9 @@
+charging_pod is a big receptacle, cant pick it! skipping this action
+couldnt pick charging_pod! skipping this action
+robot moved from countertop to dining_table
+robot picks up phone from dining_table
+robot moved from dining_table to countertop
+robot puts down phone to countertop
+robot picks up phone from countertop
+robot moved from countertop to side_table
+robot puts down phone to charging_pod

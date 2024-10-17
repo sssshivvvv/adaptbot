@@ -1,0 +1,45 @@
+robot picks up apple from fridge
+robot puts down apple to countertop
+robot picks up mango from fridge
+robot puts down mango to countertop
+robot picks up bowl from cabinet
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot puts down bowl to countertop
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up knife from countertop
+apple sliced!
+robot puts down knife to countertop
+robot picks up knife from countertop
+mango sliced!
+robot puts down knife to countertop
+robot picks up sliced_apple from countertop
+robot puts down apple to bowl
+robot picks up sliced_mango from countertop
+robot puts down mango to bowl
+contents of bowl are ['apple', 'mango']
+contents of bowl are mixed!
+robot picks up pan from cabinet
+robot puts down pan to countertop
+robot picks up bowl from cabinet
+robot puts down bowl to countertop
+robot picks up spoon from cabinet
+robot puts down spoon to countertop
+robot picks up pan from countertop
+robot puts down pan to stove
+robot picks up water from fridge
+robot puts down water to pan
+robot picks up potato from countertop
+robot puts down potato to pan
+stove switched on!
+potato is boiled!
+robot picks up potato from pan
+robot puts down potato to bowl
+robot picks up butter from countertop
+robot puts down butter to bowl
+robot picks up potato from bowl
+robot puts down potato to countertop
+robot picks up butter from bowl
+robot puts down butter to countertop

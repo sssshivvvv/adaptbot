@@ -1,0 +1,6 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
+
+put_down_obj("oil", "countertop") #item "oil" not found! Please use the ingredients provided by the user
+put_down_obj("salt", "countertop") #item "salt" not found! Please use the ingredients provided by the user
+`sprinkle("salt", ".llm_kgupdated_onto.ttl") #action "`sprinkle" is not present in ther knowledge base!
+`sprinkle("salt", ".llm_kgupdated_onto.ttl") #item "salt" not found! Please use the ingredients provided by the user

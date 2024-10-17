@@ -1,0 +1,3 @@
+pick_up_obj("phone", "./LLM_only/initial_onto.ttl")
+put_down_obj("phone", "charging_pod")
+switch("charging_pod", "./LLM_only/updated_onto.ttl")

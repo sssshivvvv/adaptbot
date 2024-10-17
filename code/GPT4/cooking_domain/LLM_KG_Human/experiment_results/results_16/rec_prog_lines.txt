@@ -1,0 +1,12 @@
+[bowl]
+robot picks up bowl from cabinet ----> robot puts down bowl to countertop ----> robot puts down all_purpose_flour to bowl ----> robot puts down salt to bowl ----> contents of bowl are ['all_purpose_flour', 'salt'] ----> contents of bowl are mixed! ----> robot puts down onion to bowl ----> robot puts down potato to bowl ----> contents of bowl already stirred! ----> robot picks up all_purpose_flour from bowl ----> robot picks up sliced_onion from bowl ----> robot picks up salt from bowl ----> robot picks up potato from bowl ----> robot puts down all_purpose_flour to bowl ----> robot puts down salt to bowl ----> contents of bowl already stirred! ----> robot puts down onion to bowl ----> robot puts down potato to bowl ----> contents of bowl already stirred!
+
+[plate]
+robot picks up plate from cabinet ----> robot puts down plate to countertop ----> contents of pan poured to plate ----> robot picks up oil from plate ----> contents of pan poured to plate
+
+[cutting_board]
+robot puts down onion to cutting_board ----> robot picks up sliced_onion from cutting_board
+
+[pan]
+robot picks up pan from cabinet ----> robot puts down pan to countertop ----> robot picks up pan from countertop ----> robot puts down pan to stove ----> robot puts down water to pan ----> robot puts down potato to pan ----> robot picks up potato from pan ----> robot puts down oil to pan ----> pan cant be fried! skipping this action ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['oil', 'water'] ----> contents of pan poured to plate ----> robot puts down oil to pan ----> pan cant be fried! skipping this action ----> contents of pan are ['oil'] ----> contents of pan poured to plate
+

@@ -1,0 +1,8 @@
+pan already cleaned!
+robot moved from countertop to stove
+robot picks up pan from stove
+robot moved from stove to countertop
+robot puts down pan to countertop
+pan already cleaned!
+pan already cleaned!
+pan already cleaned!

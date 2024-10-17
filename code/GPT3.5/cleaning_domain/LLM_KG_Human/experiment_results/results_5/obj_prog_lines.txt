@@ -1,0 +1,3 @@
+[trash]
+robot picks up trash from kitchen_floor ----> robot puts down trash to countertop ----> robot picks up trash from countertop ----> robot puts down trash to dustbin
+

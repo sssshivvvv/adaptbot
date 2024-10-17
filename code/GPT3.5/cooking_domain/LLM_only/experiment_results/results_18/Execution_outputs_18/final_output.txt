@@ -1,0 +1,18 @@
+robot picks up bowl from cabinet
+robot moved from cabinet to sink
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot moved from sink to countertop
+robot puts down bowl to countertop
+robot moved from countertop to fridge
+robot picks up carrot from fridge
+robot moved from fridge to countertop
+robot puts down carrot to countertop
+robot moved from countertop to fridge
+robot picks up butter from fridge
+robot moved from fridge to countertop
+robot puts down butter to countertop
+bowl already cleaned!
+bowl already cleaned!
+bowl already cleaned!

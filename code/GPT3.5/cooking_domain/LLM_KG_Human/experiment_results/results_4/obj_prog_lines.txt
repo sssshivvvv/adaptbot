@@ -1,0 +1,18 @@
+[banana]
+robot picks up banana from bowl ----> robot puts down banana to countertop
+
+[milk]
+robot picks up milk from bowl ----> robot puts down milk to countertop
+
+[flour]
+robot picks up all_purpose_flour from bowl ----> robot puts down all_purpose_flour to countertop
+
+[all_purpose_flour]
+robot picks up all_purpose_flour from bowl ----> robot puts down all_purpose_flour to countertop
+
+[apple]
+robot picks up apple from bowl ----> robot puts down apple to countertop
+
+[baking_powder]
+robot picks up baking_powder from bowl ----> robot puts down baking_powder to countertop
+

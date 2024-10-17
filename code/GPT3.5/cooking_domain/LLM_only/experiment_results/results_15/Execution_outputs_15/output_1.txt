@@ -1,0 +1,8 @@
+robot moved from cabinet to fridge
+robot picks up milk from fridge
+robot moved from fridge to countertop
+robot puts down milk to countertop
+robot moved from countertop to fridge
+robot picks up apple from fridge
+robot moved from fridge to countertop
+robot puts down apple to countertop

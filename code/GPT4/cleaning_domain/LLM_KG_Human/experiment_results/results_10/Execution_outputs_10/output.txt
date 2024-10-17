@@ -1,0 +1,4 @@
+charging_pod is a big receptacle, cant pick it! skipping this action
+couldnt pick charging_pod! skipping this action
+robot moved from toy_box to side_table
+charging_pod switched on!

@@ -1,0 +1,51 @@
+robot moved from cabinet to fridge
+robot picks up onion from fridge
+robot moved from fridge to countertop
+robot puts down onion to countertop
+robot moved from countertop to fridge
+robot picks up water from fridge
+robot moved from fridge to countertop
+robot puts down water to countertop
+robot moved from countertop to cabinet
+robot picks up knife from cabinet
+robot moved from cabinet to countertop
+robot puts down knife to countertop
+robot moved from countertop to cabinet
+robot picks up pan from cabinet
+robot moved from cabinet to stove
+robot puts down pan to stove
+robot moved from stove to cabinet
+robot picks up bowl from cabinet
+robot moved from cabinet to sink
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot moved from sink to countertop
+robot puts down bowl to countertop
+robot picks up onion from countertop
+robot moved from countertop to sink
+robot puts down onion to sink
+onion successfully cleaned!
+robot picks up onion from sink
+robot moved from sink to countertop
+robot puts down onion to cutting_board
+robot picks up knife from countertop
+onion sliced!
+robot puts down knife to countertop
+robot picks up sliced_onion from cutting_board
+robot moved from countertop to stove
+robot puts down onion to pan
+robot moved from stove to countertop
+robot picks up water from countertop
+robot moved from countertop to stove
+robot puts down water to pan
+onion is not boilable! skipping this action
+robot moved from stove to countertop
+robot picks up salt from countertop
+robot moved from countertop to stove
+robot puts down salt to pan
+robot picks up pan from stove
+robot moved from stove to countertop
+robot puts down pan to countertop
+contents of pan are ['onion', 'salt', 'water']
+contents of pan poured to bowl 

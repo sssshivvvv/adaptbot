@@ -1,0 +1,51 @@
+robot picks up pan from stove
+robot puts down pan to stove
+robot picks up egg from fridge
+robot puts down egg to countertop
+robot picks up spoon from cabinet
+robot puts down spoon to countertop
+robot picks up bowl from cabinet
+robot puts down bowl to countertop
+stove switched on!
+waiting for 3 minutes
+robot picks up egg from countertop
+robot puts down egg to bowl
+robot picks up salt from countertop
+robot puts down salt to bowl
+contents of bowl are ['egg', 'salt']
+contents of bowl are stirred!
+robot picks up bowl from countertop
+robot puts down bowl to stove
+contents of bowl are ['egg', 'salt']
+contents of bowl poured to pan 
+waiting for 5 minutes
+robot picks up plate from cabinet
+robot puts down plate to countertop
+robot picks up pan from stove
+robot puts down pan to countertop
+contents of pan are ['egg', 'salt']
+contents of pan poured to plate 
+robot picks up pan from countertop
+robot puts down pan to stove
+robot picks up egg from plate
+robot puts down egg to countertop
+robot picks up salt from plate
+robot puts down salt to countertop
+robot picks up bowl from stove
+robot puts down bowl to countertop
+stove switched off!
+waiting for 3 minutes
+robot picks up egg from countertop
+robot puts down egg to bowl
+robot picks up salt from countertop
+robot puts down salt to bowl
+contents of bowl already stirred!
+robot picks up bowl from countertop
+robot puts down bowl to stove
+contents of bowl are ['egg', 'salt']
+contents of bowl poured to pan 
+waiting for 5 minutes
+robot picks up pan from stove
+robot puts down pan to countertop
+contents of pan are ['egg', 'salt']
+contents of pan poured to plate 

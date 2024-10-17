@@ -1,0 +1,43 @@
+                        COT & ACTION SEQUENCE (Revised):
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare lime tea, I will first fetch the items I need. I will bring the pan, water, lime, tea, and glass. If the glass is not cleaned, I will clean it first.
+
+pick_up_obj("water", "updated_onto.ttl") #picking up the water
+put_down_obj("water", "countertop") #putting down the water on the countertop
+pick_up_obj("lime", "updated_onto.ttl") #picking up the lime
+put_down_obj("lime", "countertop") #putting down the lime on the countertop
+pick_up_obj("tea", "updated_onto.ttl") #picking up the tea
+put_down_obj("tea", "countertop") #putting down the tea on the countertop
+clean("glass", "updated_onto.ttl") #cleaning the glass
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop
+
+2. Cooking process: 
+
+To prepare lime tea, I will boil water and then add tea leaves to it. I will then squeeze lime juice into the tea.
+
+boil("water", "initial_onto.ttl") #boiling the water for lime tea
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "stove") #putting down the pan on the stove
+pour_contents("water", "pan") #pouring the boiled water into the pan
+pick_up_obj("tea", "updated_onto.ttl") #picking up the tea
+put_down_obj("tea", "pan") #putting the tea leaves into the pan with boiled water
+pick_up_obj("lime", "updated_onto.ttl") #picking up the lime
+slice("lime", "knife", "updated_onto.ttl") #slicing the lime using a knife
+pick_up_obj("sliced_lime", "updated_onto.ttl") #picking up the sliced lime
+put_down_obj("sliced_lime", "plate") #putting the sliced lime on a plate
+
+3. Plating and serving:
+
+I will strain the tea into the glass, add the sliced lime, and it will be ready to serve.
+
+pick_up_rec("glass", "updated_onto.ttl") #picking up the glass
+put_down_rec("glass", "sink") #putting down the glass in the sink
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "sink") #putting down the pan in the sink
+pour_contents("pan", "glass") #pouring the tea into the glass
+pick_up_obj("sliced_lime", "updated_onto.ttl") #picking up the sliced lime
+put_down_obj("sliced_lime", "glass") #putting the sliced lime into the glass
+put_down_rec("glass", "countertop") #putting down the glass on the countertop                        

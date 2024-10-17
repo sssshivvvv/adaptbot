@@ -1,0 +1,4 @@
+pick_up_obj("clothes", "./LLM_only/initial_onto.ttl")
+put_down_obj("clothes", "washing_machine")
+put_down_obj("detergent", "washing_machine")
+switch("washing_machine", "./LLM_only/updated_onto.ttl")

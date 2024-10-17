@@ -1,0 +1,103 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare the French Toast Sandwich, I will first fetch the items I need. I will bring the pan, egg, milk, cheese, ham, bread, and oil.
+
+pick_up_obj("pan", "updated_onto.ttl") #picking up the pan
+put_down_obj("pan", "stove") #putting down the pan on the stove
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "countertop") #putting down the egg on the countertop
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "countertop") #putting down the milk on the countertop
+pick_up_obj("cheese", "updated_onto.ttl") #picking up the cheese
+put_down_obj("cheese", "countertop") #putting down the cheese on the countertop
+pick_up_obj("ham", "updated_onto.ttl") #picking up the ham
+put_down_obj("ham", "countertop") #putting down the ham on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_obj("bread", "countertop") #putting down the bread on the countertop
+pick_up_obj("oil", "updated_onto.ttl") #picking up the oil
+put_down_obj("oil", "countertop") #putting down the oil on the countertop
+
+
+2. Cooking process: 
+
+To prepare the French Toast Sandwich, I will follow these steps:
+- Beat the egg with milk to make a batter.
+- Heat the pan with oil.
+- Dip the bread slices in the batter and place them in the pan to toast.
+- Flip the bread slices to toast both sides.
+- Place the ham and cheese on one slice of bread.
+- Place the other slice of bread on top to form a sandwich.
+- Heat the sandwich in the pan until the cheese melts.
+
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "stove") #putting down the pan on the stove
+clean("pan", "updated_onto.ttl") #cleaning the pan
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "pan") #putting the egg into the pan
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "pan") #putting the milk into the pan
+mix_contents("pan", "updated_onto.ttl") #mixing the contents of the pan
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_tool("knife", "countertop") #putting down the knife on the countertop
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+slice("bread", "knife", "updated_onto.ttl") #slicing the bread using the knife
+put_down_tool("knife", "cutting_board") #putting down the knife on the cutting board
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "stove") #putting down the pan on the stove
+pick_up_tool("spatula", "updated_onto.ttl") #picking up the spatula
+put_down_rec("pan", "updated_onto.ttl") #putting down the pan
+pour_contents("pan", "pan") #pouring the batter onto the pan
+wait(2) #waiting for the bread to toast
+pick_up_tool("spatula", "updated_onto.ttl") #picking up the spatula
+flip_contents("pan", "updated_onto.ttl") #flipping the bread slices in the pan
+wait(2) #waiting for the bread to toast on the other side
+pick_up_obj("ham", "updated_onto.ttl") #picking up the ham
+put_down_rec("ham", "updated_onto.ttl") #putting down the ham on the countertop
+pick_up_obj("cheese", "updated_onto.ttl") #picking up the cheese
+put_down_rec("cheese", "updated_onto.ttl") #putting down the cheese on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_tool("knife", "countertop") #putting down the knife on the countertop
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+slice("bread", "knife", "updated_onto.ttl") #slicing the bread using the knife
+put_down_tool("knife", "cutting_board") #putting down the knife on the cutting board
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "stove") #putting down the pan on the stove
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_rec("bread", "updated_onto.ttl") #putting down the bread on the countertop
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "stove") #putting down the pan on the stove
+pick_up_tool("spatula", "updated_onto.ttl") #picking up the spatula
+flip_contents("pan", "updated_onto.ttl") #flipping the bread slices in the pan
+pick_up_obj("ham", "updated_onto.ttl") #picking up the ham
+put_down_rec("ham", "pan") #putting the ham into the pan
+pick_up_obj("cheese", "updated_onto.ttl") #picking up the cheese
+put_down_rec("cheese", "pan") #putting the cheese into the pan
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_rec("bread", "pan") #putting the bread into the pan
+wait(2) #waiting for the cheese to melt
+
+3. Plating and Serving:
+
+To finalize the French Toast Sandwich, I will serve it on a plate.
+
+pick_up_rec("plate", "updated_onto.ttl") #picking up the plate
+put_down_rec("plate", "countertop") #putting down the plate on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_rec("bread", "updated_onto.ttl") #putting down the bread on the countertop
+pick_up_obj("cheese", "updated_onto.ttl") #picking up the cheese
+put_down_rec("cheese", "updated_onto.ttl") #putting down the cheese on the countertop
+pick_up_obj("ham", "updated_onto.ttl") #picking up the ham
+put_down_rec("ham", "updated_onto.ttl") #putting down the ham on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_rec("bread", "updated_onto.ttl") #putting down the bread on the countertop
+put_down_rec("bread", "plate") #putting the bread onto the plate
+pick_up_rec("bread", "updated_onto.ttl") #picking up the bread
+put_down_rec("bread", "plate") #putting the bread onto the plate
+pick_up_rec("cheese", "updated_onto.ttl") #picking up the cheese
+put_down_rec("cheese", "plate") #putting the cheese onto the plate
+pick_up_rec("ham", "updated_onto.ttl") #picking up the ham
+put_down_rec("ham", "plate") #putting the ham onto the plate
+
+The French Toast Sandwich is now ready to be served!

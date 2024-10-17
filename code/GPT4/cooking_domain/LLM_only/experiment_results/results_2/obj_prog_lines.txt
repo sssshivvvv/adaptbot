@@ -1,0 +1,9 @@
+[coffee]
+robot picks up coffee from cabinet ----> robot puts down coffee to countertop ----> robot picks up coffee from countertop ----> robot puts down coffee to glass
+
+[water]
+robot picks up water from fridge ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> robot picks up water from pan ----> robot puts down water to countertop ----> robot picks up water from countertop ----> robot puts down water to pan ----> water is boiled!
+
+[milk]
+robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to pan ----> robot picks up milk from pan ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to glass
+

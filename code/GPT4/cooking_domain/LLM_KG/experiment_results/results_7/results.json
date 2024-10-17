@@ -1,0 +1,19 @@
+{
+    "dish_name": "bread_pudding",
+    "dish_ingd": [
+        "bread",
+        "milk",
+        "sugar",
+        "egg",
+        "vanilla_extract"
+    ],
+    "ingd_used": [
+        "brioche",
+        "milk"
+    ],
+    "percentage_ingd_used": 20.0,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 10058
+}

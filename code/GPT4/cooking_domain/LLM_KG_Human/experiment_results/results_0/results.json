@@ -1,0 +1,19 @@
+{
+    "dish_name": "egg_omlette",
+    "dish_ingd": [
+        "oil",
+        "egg",
+        "salt"
+    ],
+    "ingd_used": [
+        "salt",
+        "egg"
+    ],
+    "percentage_ingd_used": 66.66666666666666,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 2,
+    "#additions_made": 2,
+    "#corrections_made": 0,
+    "#token_used": 9202
+}

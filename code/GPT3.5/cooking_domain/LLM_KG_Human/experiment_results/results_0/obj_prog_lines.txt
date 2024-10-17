@@ -1,0 +1,9 @@
+[salt]
+robot picks up salt from countertop ----> robot puts down salt to pan ----> contents of pan are ['egg', 'oil', 'salt']
+
+[egg]
+robot picks up egg from fridge ----> robot puts down egg to pan ----> egg Fried! ----> contents of pan are ['egg', 'oil', 'salt']
+
+[oil]
+robot picks up oil from countertop ----> robot puts down oil to pan ----> contents of pan are ['egg', 'oil', 'salt']
+

@@ -1,0 +1,4 @@
+robot moved from dining_table to laundry_bag
+robot picks up clothes from laundry_bag
+robot moved from laundry_bag to bedroom_floor
+robot puts down clothes to bedroom_floor

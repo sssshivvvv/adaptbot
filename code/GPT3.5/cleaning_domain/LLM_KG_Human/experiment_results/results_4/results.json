@@ -1,0 +1,25 @@
+{
+    "dish_name": "water the plants",
+    "dish_ingd": [
+        "water",
+        "plant"
+    ],
+    "ingd_used": [
+        "side_table",
+        "water",
+        "bowl",
+        "fridge",
+        "plant",
+        "rack",
+        "dining_table",
+        "plate",
+        "countertop"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 0,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 1150
+}

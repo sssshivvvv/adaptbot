@@ -1,0 +1,16 @@
+robot picks up potato from fridge
+robot puts down potato to countertop
+robot picks up butter from fridge
+robot puts down butter to countertop
+robot picks up pan from cabinet
+robot puts down pan to stove
+robot picks up water from fridge
+robot puts down water to pan
+robot picks up potato from countertop
+robot puts down potato to pan
+stove switched on!
+potato is boiled!
+robot picks up spoon from cabinet
+robot puts down spoon to pan
+robot picks up butter from countertop
+robot puts down butter to pan

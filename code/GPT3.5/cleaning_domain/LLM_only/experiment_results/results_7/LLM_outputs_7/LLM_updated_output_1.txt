@@ -1,0 +1,2 @@
+clean("countertop", "./LLM_only/updated_onto.ttl")
+stir_contents("countertop", "./LLM_only/updated_onto.ttl")

@@ -1,0 +1,27 @@
+{
+    "dish_name": "pick up and put all the toys to the toy box",
+    "dish_ingd": [
+        "toy_1",
+        "toy_2",
+        "toy_3",
+        "toy_4",
+        "toy_box"
+    ],
+    "ingd_used": [
+        "dining_table",
+        "countertop",
+        "toy_4",
+        "toy_1",
+        "living_room_floor",
+        "toy_2",
+        "toy_box",
+        "toy_3"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 1176
+}

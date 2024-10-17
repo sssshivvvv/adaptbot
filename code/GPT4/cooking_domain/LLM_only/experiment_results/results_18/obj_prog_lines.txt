@@ -1,0 +1,9 @@
+[milk]
+robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to pan
+
+[butter]
+robot picks up butter from fridge ----> robot puts down butter to countertop ----> robot picks up butter from countertop ----> robot puts down butter to pan ----> robot picks up butter from pan ----> robot puts down butter to countertop ----> robot picks up butter from countertop ----> robot puts down butter to pan
+
+[carrot]
+robot picks up carrot from fridge ----> robot puts down carrot to countertop ----> carrot sliced! ----> robot picks up sliced_carrot from countertop ----> robot puts down carrot to pan ----> robot picks up sliced_carrot from pan ----> robot puts down carrot to countertop ----> carrot already sliced! ----> robot picks up sliced_carrot from countertop ----> robot puts down carrot to pan
+

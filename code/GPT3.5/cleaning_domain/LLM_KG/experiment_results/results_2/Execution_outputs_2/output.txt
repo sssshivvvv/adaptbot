@@ -1,0 +1,11 @@
+Cant pick washing_machine! skipping this action
+couldnt pick washing_machine! skipping this action
+robot moved from rack to laundry_bag
+robot picks up clothes from laundry_bag
+robot moved from laundry_bag to washing_machine
+robot puts down clothes to washing_machine
+couldnt pick washing_machine! skipping this action
+waiting for 30 minutes
+robot picks up clothes from washing_machine
+robot moved from washing_machine to bedroom_floor
+robot puts down clothes to bedroom_floor

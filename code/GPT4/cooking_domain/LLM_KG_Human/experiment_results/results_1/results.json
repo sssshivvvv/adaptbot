@@ -1,0 +1,19 @@
+{
+    "dish_name": "lime_water",
+    "dish_ingd": [
+        "water",
+        "lime",
+        "sugar"
+    ],
+    "ingd_used": [
+        "water",
+        "lime"
+    ],
+    "percentage_ingd_used": 66.66666666666666,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 7533
+}

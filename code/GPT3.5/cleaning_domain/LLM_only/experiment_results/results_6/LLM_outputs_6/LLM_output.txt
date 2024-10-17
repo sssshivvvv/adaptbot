@@ -1,0 +1,4 @@
+pick_up_tool("mop_cloth", "./LLM_only/initial_onto.ttl")
+move("mop_cloth", "./LLM_only/updated_onto.ttl")
+clean("window", "./LLM_only/updated_onto.ttl")
+put_down_tool("mop_cloth", "window")

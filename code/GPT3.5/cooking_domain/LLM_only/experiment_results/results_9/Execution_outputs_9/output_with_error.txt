@@ -1,0 +1,13 @@
+robot picks up potato from pan
+robot moved from stove to countertop
+robot puts down potato to countertop
+robot moved from countertop to stove
+robot picks up butter from pan
+robot moved from stove to countertop
+robot puts down butter to countertop
+Traceback (most recent call last):
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/streamlined_for_experiments/for_knowledge_expansion/./LLM_only/final_run.py", line 5, in <module>
+    put_down_obj("salt", "countertop")
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/streamlined_for_experiments/for_knowledge_expansion/LLM_only/functions/actions.py", line 442, in put_down_obj
+    raise RuntimeError(f"put_down_obj({obj}, {loc}) #{obj} not present in the environment!")
+RuntimeError: put_down_obj(salt, countertop) #salt not present in the environment!

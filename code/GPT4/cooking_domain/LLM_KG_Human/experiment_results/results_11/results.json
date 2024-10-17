@@ -1,0 +1,24 @@
+{
+    "dish_name": "butter_chicken",
+    "dish_ingd": [
+        "chicken",
+        "butter",
+        "tomato",
+        "onion",
+        "salt"
+    ],
+    "ingd_used": [
+        "chicken",
+        "tomato",
+        "butter",
+        "salt",
+        "onion"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 5963
+}

@@ -1,0 +1,26 @@
+COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare the fruit salad, I will first fetch the items I need. I will bring the bowl, apple, and mango. If the bowl is not cleaned, I will clean it first.
+
+clean("bowl", "updated_onto.ttl") #cleaning the bowl
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "countertop") #putting down the bowl on the countertop
+pick_up_obj("apple", "updated_onto.ttl") #picking up the apple
+put_down_obj("apple", "countertop") #putting down the apple on the countertop
+pick_up_obj("mango", "updated_onto.ttl") #picking up the mango
+put_down_obj("mango", "countertop") #putting down the mango on the countertop
+
+2. Cooking process: 
+
+Since fruit salad does not require any cooking, I will proceed to the next step.
+
+3. Plating and serving:
+
+I will put the diced apple and mango into the bowl. The fruit salad is ready!
+
+pick_up_obj("apple", "updated_onto.ttl") #picking up the apple
+put_down_obj("apple", "bowl") #putting the diced apple into the bowl
+pick_up_obj("mango", "updated_onto.ttl") #picking up the mango
+put_down_obj("mango", "bowl") #putting the diced mango into the bowl

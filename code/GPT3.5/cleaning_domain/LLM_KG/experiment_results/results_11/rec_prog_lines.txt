@@ -1,0 +1,3 @@
+[music_player]
+music_player is a big receptacle, cant pick it! skipping this action ----> music_player switched on! ----> music_player switched off!
+

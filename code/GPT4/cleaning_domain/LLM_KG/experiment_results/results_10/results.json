@@ -1,0 +1,17 @@
+{
+    "dish_name": "charge the phone",
+    "dish_ingd": [
+        "phone",
+        "charging_pod"
+    ],
+    "ingd_used": [
+        "charging_pod",
+        "toy_box",
+        "side_table"
+    ],
+    "percentage_ingd_used": 50.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#token_used": 2536
+}

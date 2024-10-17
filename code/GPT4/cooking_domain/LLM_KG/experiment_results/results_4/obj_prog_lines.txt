@@ -1,0 +1,18 @@
+[milk]
+robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to bowl ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk'] ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk']
+
+[banana]
+robot picks up banana from fridge ----> robot puts down banana to countertop ----> robot picks up banana from countertop ----> robot puts down banana to sink ----> banana successfully cleaned! ----> robot picks up banana from sink ----> robot puts down banana to cutting_board ----> banana sliced! ----> robot picks up sliced_banana from cutting_board ----> robot puts down banana to bowl ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk'] ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk']
+
+[all_purpose_flour]
+robot picks up all_purpose_flour from cabinet ----> robot puts down all_purpose_flour to countertop ----> robot picks up all_purpose_flour from countertop ----> robot puts down all_purpose_flour to bowl ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk'] ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk']
+
+[apple]
+robot picks up apple from fridge ----> robot puts down apple to countertop ----> robot picks up apple from countertop ----> robot puts down apple to sink ----> apple successfully cleaned! ----> robot picks up apple from sink ----> robot puts down apple to cutting_board ----> apple sliced! ----> robot picks up sliced_apple from cutting_board ----> robot puts down apple to bowl ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk'] ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk']
+
+[flour]
+robot picks up all_purpose_flour from cabinet ----> robot puts down all_purpose_flour to countertop ----> robot picks up all_purpose_flour from countertop ----> robot puts down all_purpose_flour to bowl ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk'] ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk']
+
+[baking_powder]
+robot picks up baking_powder from cabinet ----> robot puts down baking_powder to countertop ----> robot picks up baking_powder from countertop ----> robot puts down baking_powder to bowl ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk'] ----> contents of bowl are ['all_purpose_flour', 'apple', 'baking_powder', 'banana', 'milk']
+

@@ -1,0 +1,9 @@
+[spoon]
+robot picks up spoon from cabinet ----> robot puts down spoon to countertop
+
+[chefs_knife]
+robot picks up chefs_knife from cabinet ----> robot puts down chefs_knife to countertop
+
+[knife]
+robot picks up knife from cabinet ----> robot puts down knife to countertop ----> robot picks up chefs_knife from cabinet ----> robot puts down chefs_knife to countertop ----> robot picks up knife from countertop ----> robot puts down knife to bowl ----> robot picks up knife from bowl ----> robot puts down knife to countertop ----> knife cant be fried! skipping this action ----> robot picks up knife from countertop ----> robot puts down knife to plate
+

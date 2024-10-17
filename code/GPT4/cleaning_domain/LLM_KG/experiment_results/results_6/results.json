@@ -1,0 +1,16 @@
+{
+    "dish_name": "clean the window",
+    "dish_ingd": [
+        "mop_cloth"
+    ],
+    "ingd_used": [
+        "cleaning_solution",
+        "window",
+        "living_room_floor"
+    ],
+    "percentage_ingd_used": 0.0,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 5463
+}

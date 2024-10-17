@@ -1,0 +1,9 @@
+[mango]
+robot picks up mango from fridge ----> robot puts down mango to countertop ----> robot picks up mango from countertop ----> robot puts down mango to blender ----> contents of blender are ['mango', 'sugar', 'yogurt'] ----> contents of blender are ['mango', 'sugar', 'yogurt']
+
+[sugar]
+robot picks up sugar from countertop ----> robot puts down sugar to blender ----> contents of blender are ['mango', 'sugar', 'yogurt'] ----> contents of blender are ['mango', 'sugar', 'yogurt']
+
+[yogurt]
+robot picks up yogurt from fridge ----> robot puts down yogurt to countertop ----> robot picks up yogurt from countertop ----> robot puts down yogurt to blender ----> contents of blender are ['mango', 'sugar', 'yogurt'] ----> contents of blender are ['mango', 'sugar', 'yogurt']
+

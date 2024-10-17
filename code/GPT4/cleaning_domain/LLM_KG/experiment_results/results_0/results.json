@@ -1,0 +1,16 @@
+{
+    "dish_name": "clean the bedroom_floor",
+    "dish_ingd": [
+        "mop_cloth"
+    ],
+    "ingd_used": [
+        "bedroom_floor",
+        "robot_arm",
+        "dining_table"
+    ],
+    "percentage_ingd_used": 0.0,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 5359
+}

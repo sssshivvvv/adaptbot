@@ -1,0 +1,3 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
+
+RuntimeError: put_down_obj(salt, countertop) #salt not present in the environment!

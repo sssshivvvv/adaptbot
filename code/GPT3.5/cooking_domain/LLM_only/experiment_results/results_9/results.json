@@ -1,0 +1,18 @@
+{
+    "dish_name": "mashed_potato",
+    "dish_ingd": [
+        "potato",
+        "butter",
+        "salt"
+    ],
+    "ingd_used": [
+        "water",
+        "butter",
+        "potato"
+    ],
+    "percentage_ingd_used": 66.66666666666666,
+    "#feedback_used": 3,
+    "#execution_errors": 4,
+    "#human_involvement": 0,
+    "#token_used": 7322
+}

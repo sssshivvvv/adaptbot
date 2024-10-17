@@ -1,0 +1,6 @@
+[bowl]
+robot picks up bowl from rack ----> robot puts down bowl to side_table ----> robot puts down water to bowl
+
+[plate]
+robot picks up plate from rack ----> robot puts down plate to dining_table ----> robot puts down plant to plate
+

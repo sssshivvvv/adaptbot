@@ -1,0 +1,4 @@
+robot moved from countertop to cabinet
+robot picks up glass from cabinet
+robot moved from cabinet to countertop
+robot puts down glass to countertop

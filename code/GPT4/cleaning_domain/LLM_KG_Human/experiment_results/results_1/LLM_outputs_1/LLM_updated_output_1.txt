@@ -1,0 +1,4 @@
+move("living_room_floor", "./LLM_KG_Human/initial_onto.ttl")
+put_down_rec("music_player", "living_room_floor")
+clean("music_player", "./LLM_KG_Human/updated_onto.ttl")
+put_down_obj("mop_cloth", "living_room_floor")

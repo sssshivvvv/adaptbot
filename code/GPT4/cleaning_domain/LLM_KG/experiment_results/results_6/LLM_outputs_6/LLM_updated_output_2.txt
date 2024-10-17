@@ -1,0 +1,4 @@
+pick_up_obj("cleaning_solution", "./LLM_KG/updated_onto.ttl")
+put_down_obj("cleaning_solution", "living_room_floor")
+put_down_obj("mop_cloth", "living_room_floor")
+clean("window", "./LLM_KG/updated_onto.ttl")

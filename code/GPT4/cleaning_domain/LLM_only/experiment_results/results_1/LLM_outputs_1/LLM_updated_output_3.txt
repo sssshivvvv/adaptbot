@@ -1,0 +1,3 @@
+move("living_room", "./LLM_only/updated_onto.ttl")
+clean("tv", "./LLM_only/updated_onto.ttl")
+put_down_obj("mop_cloth", "living_room_floor")

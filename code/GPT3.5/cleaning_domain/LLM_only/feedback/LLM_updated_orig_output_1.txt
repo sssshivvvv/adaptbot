@@ -1,0 +1,11 @@
+            COT & ACTION SEQUENCE:
+
+To water the plants, I will first fetch the items I need. I will bring the water and the plant. If the plant is not placed in a receptacle, I will put it in a pot or a vase. I will pick up the watering can and fill it with water. Then, I will pour the water from the watering can onto the soil around the plant. The plants are watered!
+
+pick_up_obj("water", "updated_onto.ttl") #picking up the water
+put_down_obj("water", "countertop") #putting down the water on the countertop
+pick_up_obj("plant", "updated_onto.ttl") #picking up the plant
+put_down_obj("plant", "pot_or_vase") #putting down the plant into a pot or a vase
+pick_up_tool("watering_can", "updated_onto.ttl") #picking up the watering can
+put_down_tool("watering_can", "countertop") #putting down the watering can on the countertop
+pour_contents("watering_can", "pot_or_vase") #pouring the water from the watering can onto the plant

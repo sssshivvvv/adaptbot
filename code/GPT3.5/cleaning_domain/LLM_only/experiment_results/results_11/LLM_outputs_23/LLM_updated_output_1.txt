@@ -1,0 +1,2 @@
+switch("music_player", "./LLM_only/updated_onto.ttl")
+wait(5)

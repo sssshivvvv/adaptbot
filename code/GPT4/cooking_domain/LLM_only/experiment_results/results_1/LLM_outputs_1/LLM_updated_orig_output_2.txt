@@ -1,0 +1,72 @@
+### Chain of Thought and Action Sequence to Prepare Egg Omelette
+
+**1. Fetching the ingredients and tools required for the cooking task:**
+
+To prepare the egg omelette, I will first fetch the items I need. I will bring the pan, eggs, salt, and oil. I will also get the spoon for stirring. If the pan is not cleaned, I will clean it first.
+
+- pick_up_rec("pan", "initial_onto.ttl")  # picking up the pan
+- put_down_rec("pan", "stove")  # putting down the pan on the stove
+- pick_up_obj("oil", "updated_onto.ttl")  # picking up the oil
+- put_down_obj("oil", "countertop")  # putting down the oil on the countertop
+- pick_up_obj("egg", "updated_onto.ttl")  # picking up the egg
+- put_down_obj("egg", "countertop")  # putting down the egg on the countertop
+- pick_up_obj("salt", "updated_onto.ttl")  # picking up the salt
+- put_down_obj("salt", "countertop")  # putting down the salt on the countertop
+- pick_up_tool("spoon", "updated_onto.ttl")  # picking up the spoon
+- put_down_tool("spoon", "countertop")  # putting down the spoon on the countertop
+
+**2. Cooking process:**
+
+To prepare the egg omelette, the oil should be added to the pan and heated. Eggs should be cracked, beaten with salt, and then cooked in the pan.
+
+- pick_up_obj("oil", "updated_onto.ttl")  # picking up the oil
+- pour_contents("oil", "pan")  # adding oil to the pan
+- pick_up_obj("egg", "updated_onto.ttl")  # picking up the egg
+- crack_obj("egg", "pan")  # cracking the egg and putting it into the pan
+- pick_up_obj("salt", "updated_onto.ttl")  # picking up the salt
+- sprinkle("salt", "pan")  # adding salt to the pan
+- stir_contents("pan", "updated_onto.ttl")  # stirring the egg in the pan
+- switch("stove", "updated_onto.ttl")  # turning on the stove
+- wait("t")  # waiting for the egg to cook
+
+**3. Plating and serving:**
+
+I will put the cooked egg omelette onto the plate and serve it.
+
+- pick_up_rec("plate", "updated_onto.ttl")  # picking up the plate
+- put_down_rec("plate", "countertop")  # putting down the plate on the countertop
+- pick_up_rec("pan", "updated_onto.ttl")  # picking up the pan
+- pour_contents("pan", "plate")  # transferring the omelette from the pan to the plate
+
+---
+
+#### Final Action Sequence:
+
+1. Fetching the ingredients and tools required for the cooking task:
+- pick_up_rec("pan", "initial_onto.ttl")
+- put_down_rec("pan", "stove")
+- pick_up_obj("oil", "updated_onto.ttl")
+- put_down_obj("oil", "countertop")
+- pick_up_obj("egg", "updated_onto.ttl")
+- put_down_obj("egg", "countertop")
+- pick_up_obj("salt", "updated_onto.ttl")
+- put_down_obj("salt", "countertop")
+- pick_up_tool("spoon", "updated_onto.ttl")
+- put_down_tool("spoon", "countertop")
+
+2. Cooking process:
+- pick_up_obj("oil", "updated_onto.ttl")
+- pour_contents("oil", "pan")
+- pick_up_obj("egg", "updated_onto.ttl")
+- crack_obj("egg", "pan")
+- pick_up_obj("salt", "updated_onto.ttl")
+- sprinkle("salt", "pan")
+- stir_contents("pan", "updated_onto.ttl")
+- switch("stove", "updated_onto.ttl")
+- wait("t")
+
+3. Plating and serving:
+- pick_up_rec("plate", "updated_onto.ttl")
+- put_down_rec("plate", "countertop")
+- pick_up_rec("pan", "updated_onto.ttl")
+- pour_contents("pan", "plate")

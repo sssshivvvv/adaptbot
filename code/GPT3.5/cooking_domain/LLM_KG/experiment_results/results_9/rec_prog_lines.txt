@@ -1,0 +1,3 @@
+[pan]
+robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down water to pan ----> robot puts down potato to pan ----> robot puts down spoon to pan ----> robot puts down butter to pan
+

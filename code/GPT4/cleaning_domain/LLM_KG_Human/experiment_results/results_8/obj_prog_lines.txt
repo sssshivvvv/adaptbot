@@ -1,0 +1,6 @@
+[mop_cloth]
+robot picks up mop_cloth from rack ----> robot puts down mop_cloth to table
+
+[cleaning_solution]
+robot picks up cleaning_solution from rack ----> robot puts down cleaning_solution to table
+

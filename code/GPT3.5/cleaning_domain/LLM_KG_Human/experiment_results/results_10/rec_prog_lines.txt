@@ -1,0 +1,3 @@
+[charging_pod]
+charging_pod is a big receptacle, cant pick it! skipping this action ----> couldnt pick charging_pod! skipping this action ----> robot puts down phone to charging_pod
+

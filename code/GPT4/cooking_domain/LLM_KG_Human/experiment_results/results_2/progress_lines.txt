@@ -1,0 +1,24 @@
+robot picks up milk from fridge
+robot puts down milk to countertop
+robot picks up water from fridge
+robot puts down water to countertop
+robot picks up coffee from cabinet
+robot puts down coffee to countertop
+robot picks up glass from cabinet
+robot puts down glass to sink
+glass successfully cleaned!
+robot picks up glass from sink
+robot puts down glass to countertop
+robot picks up pan from cabinet
+robot puts down pan to countertop
+robot picks up milk from countertop
+robot puts down milk to pan
+robot picks up water from countertop
+robot puts down water to pan
+pan cant be boiled! skipping this action
+contents of pan are ['milk', 'water']
+contents of pan poured to glass 
+robot picks up coffee from countertop
+robot puts down coffee to glass
+contents of glass are ['coffee', 'milk', 'water']
+contents of glass are stirred!

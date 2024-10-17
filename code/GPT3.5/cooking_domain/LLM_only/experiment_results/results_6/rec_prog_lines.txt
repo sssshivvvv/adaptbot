@@ -1,0 +1,3 @@
+[pan]
+pan already cleaned! ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> pan already cleaned! ----> pan already cleaned! ----> pan already cleaned!
+

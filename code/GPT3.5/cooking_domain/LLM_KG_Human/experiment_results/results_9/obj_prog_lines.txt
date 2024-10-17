@@ -1,0 +1,12 @@
+[water]
+robot picks up water from fridge ----> robot puts down water to pan ----> contents of pan are ['butter', 'potato', 'salt', 'water']
+
+[butter]
+robot picks up butter from fridge ----> robot puts down butter to countertop ----> robot picks up butter from countertop ----> robot puts down butter to pan ----> contents of pan are ['butter', 'potato', 'salt', 'water']
+
+[salt]
+robot picks up salt from countertop ----> robot puts down salt to pan ----> contents of pan are ['butter', 'potato', 'salt', 'water']
+
+[potato]
+robot picks up potato from fridge ----> robot puts down potato to countertop ----> robot picks up potato from countertop ----> robot puts down potato to pan ----> potato is boiled! ----> contents of pan are ['butter', 'potato', 'salt', 'water']
+

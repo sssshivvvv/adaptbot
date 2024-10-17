@@ -1,0 +1,19 @@
+{
+    "dish_name": "wash the clothes",
+    "dish_ingd": [
+        "washing_machine",
+        "clothes",
+        "detergent"
+    ],
+    "ingd_used": [
+        "laundry_bag",
+        "dining_table",
+        "clothes",
+        "bedroom_floor"
+    ],
+    "percentage_ingd_used": 33.33333333333333,
+    "#feedback_used": 3,
+    "#execution_errors": 4,
+    "#human_involvement": 0,
+    "#token_used": 6118
+}

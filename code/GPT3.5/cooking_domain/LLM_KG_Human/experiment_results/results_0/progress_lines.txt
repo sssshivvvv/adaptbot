@@ -1,0 +1,23 @@
+pan already cleaned!
+robot picks up pan from cabinet
+robot puts down pan to countertop
+robot picks up spatula from cabinet
+robot puts down spatula to countertop
+robot picks up pan from countertop
+robot puts down pan to stove
+robot picks up oil from countertop
+robot puts down oil to pan
+robot picks up egg from fridge
+robot puts down egg to pan
+robot picks up salt from countertop
+robot puts down salt to pan
+robot picks up pan from stove
+robot puts down pan to stove
+stove switched on!
+egg Fried!
+robot picks up pan from stove
+robot puts down pan to countertop
+robot picks up plate from cabinet
+robot puts down plate to countertop
+contents of pan are ['egg', 'oil', 'salt']
+contents of pan poured to plate 

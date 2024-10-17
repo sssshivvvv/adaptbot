@@ -1,0 +1,18 @@
+{
+    "dish_name": "carrot_pudding",
+    "dish_ingd": [
+        "carrot",
+        "butter",
+        "sugar",
+        "milk"
+    ],
+    "ingd_used": [
+        "carrot",
+        "butter"
+    ],
+    "percentage_ingd_used": 50.0,
+    "#feedback_used": 3,
+    "#execution_errors": 4,
+    "#human_involvement": 0,
+    "#token_used": 8256
+}

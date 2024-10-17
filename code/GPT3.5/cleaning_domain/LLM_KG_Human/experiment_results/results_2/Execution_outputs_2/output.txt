@@ -1,0 +1,16 @@
+robot moved from dining_table to laundry_bag
+robot picks up clothes from laundry_bag
+robot moved from laundry_bag to bedroom_floor
+robot puts down clothes to bedroom_floor
+robot moved from bedroom_floor to rack
+robot picks up detergent from rack
+robot moved from rack to bedroom_floor
+robot puts down detergent to bedroom_floor
+couldnt pick washing_machine! skipping this action
+robot picks up clothes from bedroom_floor
+robot moved from bedroom_floor to washing_machine
+robot puts down clothes to washing_machine
+waiting for 5 minutes
+robot picks up clothes from washing_machine
+robot moved from washing_machine to bedroom_floor
+robot puts down clothes to bedroom_floor

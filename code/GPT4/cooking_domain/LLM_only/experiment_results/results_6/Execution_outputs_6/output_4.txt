@@ -1,0 +1,11 @@
+robot picks up sliced_potato from pan
+robot moved from stove to countertop
+robot puts down potato to countertop
+pan already cleaned!
+potato already sliced!
+robot picks up sliced_potato from countertop
+robot moved from countertop to stove
+robot puts down potato to pan
+stove switched off!
+robot picks up pan from stove
+robot puts down pan to stove

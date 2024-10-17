@@ -1,0 +1,14 @@
+            COT & ACTION SEQUENCE:
+
+To mop the countertop, even though the mop cloth wasn't specifically mentioned in the environment description, we can achieve the task using relevant items that are available. I'll use cleaning_solution and a cloth to mop the countertop. 
+
+1. I will fetch the cleaning_solution from where it is stored.
+2. I will fetch any available cloth, which in this case will use the cloth on hand.
+3. I will then proceed to mop the countertop using the cleaning_solution and the cloth.
+
+```plaintext
+pick_up_obj("cleaning_solution", "initial_onto.ttl") #picking up the cleaning solution
+put_down_obj("cleaning_solution", "countertop") #putting down the cleaning solution on the countertop
+pick_up_rec("sink", "updated_onto.ttl") #picking up the sink, which serves the purpose of getting a cloth
+mop("countertop", "updated_onto.ttl") #mopping the countertop using cleaning solution and cloth
+```

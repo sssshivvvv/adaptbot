@@ -1,0 +1,19 @@
+Certainly! Let's revise the chain of thought (COT) and the action sequence to ensure that we strictly use the items provided by the user.
+
+### Chain of Thought (COT):
+
+To clean the table, the essential item required is the mop cloth. I will fetch the mop cloth first. Once I have the mop cloth, I will proceed to clean the table with it. Since only 'mop_cloth' is specified, I will not include any other items.
+
+### Actions:
+
+1. **Fetch the mop cloth**.
+2. **Use the mop cloth to clean the table**.
+
+---
+
+### Action Sequence:
+
+1. `pick_up_obj("mop_cloth", "initial_onto.ttl")` # Picking up the mop cloth
+2. `clean("table", "updated_onto.ttl")` # Using the mop cloth to clean the table
+
+This ensures that we are strictly using the item provided by the user in the prompt for cleaning the table.

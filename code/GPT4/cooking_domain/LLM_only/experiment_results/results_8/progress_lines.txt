@@ -1,0 +1,43 @@
+robot picks up bun from cabinet
+robot puts down bun to countertop
+robot picks up avocado from fridge
+robot puts down avocado to countertop
+robot picks up plate from cabinet
+robot puts down plate to sink
+plate successfully cleaned!
+robot picks up plate from sink
+robot puts down plate to countertop
+robot picks up knife from countertop
+avocado sliced!
+robot puts down knife to countertop
+robot picks up sliced_avocado from countertop
+robot puts down avocado to plate
+robot picks up bun from countertop
+robot puts down bun to plate
+contents of plate are ['avocado', 'bun']
+contents of plate are stirred!
+robot picks up honey from fridge
+robot puts down honey to countertop
+robot picks up vanilla_extract from cabinet
+robot puts down vanilla_extract to countertop
+robot picks up bowl from cabinet
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot puts down bowl to countertop
+robot picks up brioche from countertop
+robot puts down brioche to bowl
+robot picks up milk from countertop
+robot puts down milk to bowl
+robot picks up honey from countertop
+robot puts down honey to bowl
+robot picks up vanilla_extract from countertop
+robot puts down vanilla_extract to bowl
+contents of bowl are ['brioche', 'honey', 'milk', 'vanilla_extract']
+contents of bowl are stirred!
+robot picks up cake_pan from cabinet
+robot puts down cake_pan to countertop
+contents of bowl are ['brioche', 'honey', 'milk', 'vanilla_extract']
+contents of bowl poured to cake_pan 
+robot picks up cake_pan from countertop
+robot puts down cake_pan to oven

@@ -1,0 +1,10 @@
+robot picks up plate from sink
+robot puts down plate to countertop
+plate already cleaned!
+robot picks up bowl from sink
+robot puts down bowl to countertop
+bowl already cleaned!
+robot picks up plate from countertop
+robot puts down plate to sink
+robot picks up bowl from countertop
+robot puts down bowl to sink

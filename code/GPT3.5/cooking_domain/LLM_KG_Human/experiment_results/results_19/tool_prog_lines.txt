@@ -1,0 +1,3 @@
+[knife]
+robot picks up knife from countertop ----> robot puts down knife to countertop
+

@@ -1,0 +1,6 @@
+[all_purpose_flour]
+robot picks up all_purpose_flour from cabinet ----> robot puts down all_purpose_flour to countertop
+
+[flour]
+robot picks up all_purpose_flour from cabinet ----> robot puts down all_purpose_flour to countertop
+

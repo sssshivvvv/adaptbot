@@ -1,0 +1,6 @@
+move("washing_machine", "./LLM_KG_Human/initial_onto.ttl")
+move("fridge", "./LLM_KG_Human/updated_onto.ttl")
+move("window", "./LLM_KG_Human/updated_onto.ttl")
+mop("window", "./LLM_KG_Human/updated_onto.ttl")
+put_down_obj("mop_cloth", "plate")
+put_down_obj("cleaning_solution", "plate")

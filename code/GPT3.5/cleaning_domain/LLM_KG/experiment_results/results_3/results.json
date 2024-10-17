@@ -1,0 +1,18 @@
+{
+    "dish_name": "wash the dishes",
+    "dish_ingd": [
+        "plate",
+        "bowl"
+    ],
+    "ingd_used": [
+        "plate",
+        "sink",
+        "countertop",
+        "bowl"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 1,
+    "#human_involvement": 0,
+    "#token_used": 6490
+}

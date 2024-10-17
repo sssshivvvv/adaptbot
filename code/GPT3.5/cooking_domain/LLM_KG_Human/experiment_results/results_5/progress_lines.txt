@@ -1,0 +1,39 @@
+robot picks up water from fridge
+robot puts down water to countertop
+robot picks up lime from fridge
+robot puts down lime to countertop
+robot picks up tea from cabinet
+robot puts down tea to countertop
+robot picks up glass from cabinet
+robot puts down glass to sink
+glass successfully cleaned!
+robot picks up glass from sink
+robot puts down glass to countertop
+robot picks up pan from cabinet
+robot puts down pan to stove
+robot picks up water from countertop
+robot puts down water to pan
+stove switched on!
+water is boiled!
+robot picks up tea from countertop
+robot puts down tea to pan
+robot picks up lime from countertop
+robot puts down lime to sink
+lime successfully cleaned!
+robot picks up lime from sink
+robot puts down lime to cutting_board
+robot picks up knife from cabinet
+lime sliced!
+robot puts down knife to countertop
+robot picks up sliced_lime from cutting_board
+robot puts down lime to pan
+robot picks up glass from countertop
+robot puts down glass to sink
+robot picks up pan from stove
+robot puts down pan to sink
+robot picks up glass from sink
+robot puts down glass to countertop
+robot picks up pan from sink
+robot puts down pan to countertop
+contents of pan are ['lime', 'tea', 'water']
+contents of pan poured to glass 

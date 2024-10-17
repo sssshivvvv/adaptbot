@@ -1,0 +1,55 @@
+robot picks up water from fridge
+robot puts down water to countertop
+robot picks up lime from fridge
+robot puts down lime to countertop
+robot picks up tea from cabinet
+robot puts down tea to countertop
+robot picks up glass from cabinet
+robot puts down glass to sink
+glass successfully cleaned!
+robot picks up glass from sink
+robot puts down glass to countertop
+robot picks up pan from cabinet
+robot puts down pan to stove
+robot picks up water from countertop
+robot puts down water to pan
+stove switched on!
+water is boiled!
+robot picks up tea from countertop
+robot puts down tea to pan
+robot picks up knife from cabinet
+lime sliced!
+robot puts down knife to countertop
+robot picks up water from pan
+robot puts down water to countertop
+robot picks up tea from pan
+robot puts down tea to countertop
+glass already cleaned!
+water already boiled!
+robot picks up water from countertop
+robot puts down water to pan
+robot picks up tea from countertop
+robot puts down tea to pan
+lime already sliced!
+robot picks up water from pan
+robot puts down water to countertop
+robot picks up tea from pan
+robot puts down tea to countertop
+glass already cleaned!
+water already boiled!
+robot picks up water from countertop
+robot puts down water to pan
+robot picks up tea from countertop
+robot puts down tea to pan
+lime already sliced!
+robot picks up water from pan
+robot puts down water to countertop
+robot picks up tea from pan
+robot puts down tea to countertop
+glass already cleaned!
+water already boiled!
+robot picks up water from countertop
+robot puts down water to pan
+robot picks up tea from countertop
+robot puts down tea to pan
+lime already sliced!

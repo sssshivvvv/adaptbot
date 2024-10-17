@@ -1,0 +1,13 @@
+pan already cleaned!
+robot picks up pan from cabinet
+robot puts down pan to countertop
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up chicken from fridge
+robot puts down chicken to countertop
+robot picks up butter from fridge
+robot puts down butter to countertop
+robot picks up tomato from fridge
+robot puts down tomato to countertop
+robot picks up onion from fridge
+robot puts down onion to countertop

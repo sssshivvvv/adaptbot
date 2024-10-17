@@ -1,0 +1,3 @@
+[pan]
+pan already cleaned! ----> robot puts down bread to pan ----> robot puts down milk to pan ----> robot puts down sugar to pan ----> robot puts down egg to pan ----> robot puts down vanilla_extract to pan ----> contents of pan are ['bread', 'egg', 'milk', 'oil', 'salt', 'sugar', 'vanilla_extract'] ----> contents of pan are mixed!
+

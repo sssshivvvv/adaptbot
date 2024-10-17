@@ -1,0 +1,6 @@
+[apple]
+robot picks up apple from fridge ----> robot puts down apple to countertop ----> apple sliced! ----> robot picks up sliced_apple from countertop ----> robot puts down apple to blender ----> robot picks up sliced_apple from blender ----> robot puts down apple to countertop ----> apple already sliced! ----> robot picks up sliced_apple from countertop ----> robot puts down apple to blender
+
+[milk]
+robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to blender ----> robot picks up milk from blender ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to blender
+

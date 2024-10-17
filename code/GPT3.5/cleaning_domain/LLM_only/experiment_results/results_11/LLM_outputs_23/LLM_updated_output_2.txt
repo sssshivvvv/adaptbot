@@ -1,0 +1,2 @@
+put_down_rec("charging_pod", "table")
+put_down_obj("phone", "charging_pod")

@@ -1,0 +1,6 @@
+pick_up_obj("trash", "./LLM_only/initial_onto.ttl")
+put_down_obj("trash", "countertop")
+put_down_rec("dustbin", "countertop")
+put_down_rec("dustbin", "garbage_bag")
+put_down_obj("trash", "dustbin")
+move("dustbin", "./LLM_only/updated_onto.ttl")

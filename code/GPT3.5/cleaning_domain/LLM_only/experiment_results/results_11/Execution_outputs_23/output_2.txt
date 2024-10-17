@@ -1,0 +1,3 @@
+robot moved from countertop to side_table
+music_player switched on!
+waiting for 5 minutes

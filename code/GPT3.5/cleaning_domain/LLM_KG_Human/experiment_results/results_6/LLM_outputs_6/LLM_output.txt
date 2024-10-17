@@ -1,0 +1,4 @@
+pick_up_obj("mop_cloth", "./LLM_KG_Human/initial_onto.ttl")
+move("mop_cloth", "./LLM_KG_Human/updated_onto.ttl")
+clean("window", "./LLM_KG_Human/updated_onto.ttl")
+put_down_obj("mop_cloth", "window")

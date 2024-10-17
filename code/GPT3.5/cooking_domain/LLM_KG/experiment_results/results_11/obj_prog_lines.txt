@@ -1,0 +1,12 @@
+[onion]
+robot picks up onion from fridge ----> robot puts down onion to countertop
+
+[chicken]
+robot picks up chicken from fridge ----> robot puts down chicken to countertop
+
+[tomato]
+robot picks up tomato from fridge ----> robot puts down tomato to countertop
+
+[butter]
+robot picks up butter from fridge ----> robot puts down butter to countertop
+

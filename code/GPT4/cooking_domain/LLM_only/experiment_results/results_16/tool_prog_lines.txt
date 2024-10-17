@@ -1,0 +1,6 @@
+[knife]
+robot picks up knife from cabinet ----> robot puts down knife to countertop
+
+[spoon]
+robot picks up spoon from cabinet ----> robot puts down spoon to countertop
+

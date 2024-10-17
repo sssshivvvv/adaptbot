@@ -1,0 +1,17 @@
+import rdflib
+from functions.actions import *
+pick_up_obj("banana", "./LLM_KG_Human/initial_onto.ttl")
+put_down_obj("banana", "countertop")
+put_down_obj("oil", "countertop")
+put_down_obj("salt", "countertop")
+put_down_tool("knife", "countertop")
+put_down_rec("cutting_board", "countertop")
+clean("pan", "./LLM_KG_Human/updated_onto.ttl")
+put_down_rec("pan", "countertop")
+clean("plate", "./LLM_KG_Human/updated_onto.ttl")
+put_down_rec("plate", "countertop")
+slice("banana", "knife", "./LLM_KG_Human/updated_onto.ttl")
+pour_contents("oil", "pan")
+fry("banana", "./LLM_KG_Human/updated_onto.ttl")
+pour_contents("pan", "plate")
+put_down_obj("salt", "plate")

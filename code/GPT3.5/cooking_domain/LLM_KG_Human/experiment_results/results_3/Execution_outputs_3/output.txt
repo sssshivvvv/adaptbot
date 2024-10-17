@@ -1,0 +1,56 @@
+robot picks up pan from cabinet
+robot moved from cabinet to countertop
+robot puts down pan to countertop
+robot moved from countertop to fridge
+robot picks up egg from fridge
+robot moved from fridge to countertop
+robot puts down egg to countertop
+robot moved from countertop to fridge
+robot picks up milk from fridge
+robot moved from fridge to countertop
+robot puts down milk to countertop
+robot moved from countertop to fridge
+robot picks up bread from fridge
+robot moved from fridge to countertop
+robot puts down bread to countertop
+robot moved from countertop to fridge
+robot picks up butter from fridge
+robot moved from fridge to countertop
+robot puts down butter to countertop
+robot picks up egg from countertop
+robot moved from countertop to cabinet
+robot picks up bowl from cabinet
+robot moved from cabinet to countertop
+robot puts down bowl to countertop
+robot puts down egg to bowl
+robot picks up milk from countertop
+robot puts down milk to bowl
+robot picks up sugar from countertop
+robot puts down sugar to bowl
+contents of bowl are ['egg', 'milk', 'sugar']
+contents of bowl are mixed!
+robot moved from countertop to cabinet
+robot picks up spoon from cabinet
+robot moved from cabinet to countertop
+robot puts down spoon to countertop
+robot picks up butter from countertop
+robot puts down butter to pan
+robot picks up pan from countertop
+robot moved from countertop to stove
+robot puts down pan to stove
+robot moved from stove to countertop
+robot picks up oil from countertop
+robot moved from countertop to stove
+robot puts down oil to pan
+robot moved from stove to countertop
+robot picks up bread from countertop
+robot moved from countertop to stove
+robot puts down bread to pan
+stove switched on!
+bread Fried!
+robot picks up bread from pan
+robot moved from stove to cabinet
+robot picks up plate from cabinet
+robot moved from cabinet to countertop
+robot puts down plate to countertop
+robot puts down bread to plate

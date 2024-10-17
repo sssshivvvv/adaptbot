@@ -1,0 +1,3 @@
+put_down_tool("mop_cloth", "table")
+mop("table", "./LLM_only/updated_onto.ttl")
+put_down_tool("mop_cloth", "table")

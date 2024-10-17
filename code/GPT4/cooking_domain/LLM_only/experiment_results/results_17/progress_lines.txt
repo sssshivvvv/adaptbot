@@ -1,0 +1,30 @@
+robot picks up onion from fridge
+robot puts down onion to countertop
+robot picks up water from fridge
+robot puts down water to countertop
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up pan from cabinet
+robot puts down pan to stove
+robot picks up bowl from cabinet
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot puts down bowl to countertop
+robot picks up knife from countertop
+onion sliced!
+robot puts down knife to countertop
+robot picks up sliced_onion from countertop
+robot puts down onion to pan
+robot picks up water from countertop
+robot puts down water to pan
+robot picks up sliced_onion from pan
+robot puts down onion to countertop
+robot picks up water from pan
+robot puts down water to countertop
+bowl already cleaned!
+onion already sliced!
+robot picks up sliced_onion from countertop
+robot puts down onion to pan
+robot picks up water from countertop
+robot puts down water to pan

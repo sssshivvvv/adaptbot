@@ -1,16 +1,83 @@
-# Nerfies
+# **Baselines**
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+![image.png](./code/images/LLM_only.png)
 
-If you find Nerfies useful for your work please cite:
+![image.png](./code/images/LLM_KG.png)
+
+# **Proposed Model**
+
+![image.pnga](./code/images/LLM_KG_HUMAN.png)
+
+## **Pseudo_code**
+<!-- ![image.png](./shivam/pseudo_code.png) -->
+<img src="./code/images/pseudo_code.png" alt="Image description" width="400">
+
+
+## ***Experimental Results***
+![image.png](./code/images/RESULTS.png)
+
+
+## ***How to run the frameworks***
+
+### **Individual Frameworks:**
+
+To run individual frameworks, follow these steps:
+
+1. **Navigate to the directory:**
+
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}
+cd code/GPT3.5/individual_frameworks/LLM_KG_Human
+
+``` 
+2. **Run the script** using the following format:
+
+```
+python3 stitching_everything_exp.py <input-prompt> <no-of-feedback> <state-file>
+
 ```
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+3. **Example command:**
+
+```bash
+python3 stitching_everything_exp.py "Give me cot and action sequence to prepare an omlette" 3 "intial_onto.ttl"
+
+```
+4. Adjust the `input-prompt`, `no-of-feedback`, and `state-file` parameters as needed for the specific case.
+
+### **Streamlined Frameworks:**
+
+To run the streamlined frameworks, follow these steps:
+
+1. **Navigate to the directory:**
+
+```bash
+cd code/GPT3.5/cooking_domain
+
+``` 
+2. **Run the script** using the following format:
+
+```bash
+python3 stitching_everything.py <no-of-feedback> <state-file>
+
+```
+3. **Note:** All tasks are listed in the `kitchen.json` file located in the `code/GPT3.5/cooking_domain directory`.
+
+4. **Example command:**
+
+```bash
+python3 stitching_everything.py 3 "initial_onto.ttl"
+
+```
+
+
+### **Installing Dependencies:**
+
+You can install the dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+

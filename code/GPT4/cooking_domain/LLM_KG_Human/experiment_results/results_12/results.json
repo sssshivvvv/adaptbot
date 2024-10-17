@@ -1,0 +1,20 @@
+{
+    "dish_name": "mango_lassi",
+    "dish_ingd": [
+        "yogurt",
+        "mango",
+        "sugar"
+    ],
+    "ingd_used": [
+        "sugar",
+        "yogurt",
+        "mango"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 3,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#additions_made": 0,
+    "#corrections_made": 0,
+    "#token_used": 1422
+}

@@ -1,0 +1,6 @@
+robot picks up milk from fridge
+robot puts down milk to countertop
+robot picks up apple from fridge
+robot puts down apple to countertop
+robot picks up glass from cabinet
+robot puts down glass to countertop

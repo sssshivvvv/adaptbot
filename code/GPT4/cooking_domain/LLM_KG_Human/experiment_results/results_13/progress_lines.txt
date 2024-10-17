@@ -1,0 +1,26 @@
+robot picks up egg from fridge
+robot puts down egg to countertop
+robot picks up butter from fridge
+robot puts down butter to countertop
+robot picks up pan from cabinet
+robot puts down pan to stove
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up spatula from cabinet
+robot puts down spatula to countertop
+robot picks up plate from cabinet
+robot puts down plate to sink
+plate successfully cleaned!
+robot picks up plate from sink
+robot puts down plate to countertop
+robot picks up butter from countertop
+robot puts down butter to pan
+stove switched on!
+robot picks up egg from countertop
+robot puts down egg to pan
+robot picks up bread from countertop
+robot puts down bread to pan
+robot picks up bread from pan
+robot puts down bread to plate
+robot picks up egg from pan
+robot puts down egg to plate

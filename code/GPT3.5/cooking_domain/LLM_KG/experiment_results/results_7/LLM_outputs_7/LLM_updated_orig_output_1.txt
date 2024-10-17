@@ -1,0 +1,47 @@
+            COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare the bread pudding, I will first fetch the items I need. I will bring the pan, bread, milk, sugar, egg, and vanilla_extract. If pan is not cleaned, I will clean it first.
+
+clean("pan", "updated_onto.ttl") #cleaning the pan
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan
+put_down_rec("pan", "countertop") #putting down the pan on the countertop
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_obj("bread", "countertop") #putting down the bread on the countertop
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "countertop") #putting down the milk on the countertop
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_obj("sugar", "countertop") #putting down the sugar on the countertop
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "countertop") #putting down the egg on the countertop
+pick_up_obj("vanilla_extract", "updated_onto.ttl") #picking up the vanilla_extract
+put_down_obj("vanilla_extract", "countertop") #putting down the vanilla_extract on the countertop
+
+2. Cooking process: 
+
+To prepare the bread pudding, I will need to mix the bread, milk, sugar, egg, and vanilla_extract mixture and bake it in the oven.
+
+pick_up_obj("bread", "updated_onto.ttl") #picking up the bread
+put_down_obj("bread", "pan") #putting the bread into the pan
+pick_up_obj("milk", "updated_onto.ttl") #picking up the milk
+put_down_obj("milk", "pan") #putting the milk into the pan
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_obj("sugar", "pan") #putting the sugar into the pan
+pick_up_obj("egg", "updated_onto.ttl") #picking up the egg
+put_down_obj("egg", "pan") #putting the egg into the pan
+pick_up_obj("vanilla_extract", "updated_onto.ttl") #picking up the vanilla_extract
+put_down_obj("vanilla_extract", "pan") #putting the vanilla_extract into the pan
+mix_contents("pan", "updated_onto.ttl") #mixing the contents of the pan
+switch("oven", "updated_onto.ttl") #switching on the oven
+wait(20) #waiting for 20 minutes for the bread pudding to bake
+
+3. plating and serving:
+
+I will take out the baked bread pudding from the oven and serve it.
+
+switch("oven", "updated_onto.ttl") #switching off the oven
+pick_up_rec("pan", "updated_onto.ttl") #picking up the pan with baked bread pudding
+put_down_rec("pan", "countertop") #putting down the pan with baked bread pudding on the countertop
+
+The bread pudding is ready to be served!

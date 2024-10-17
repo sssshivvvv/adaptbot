@@ -1,0 +1,9 @@
+bowl already cleaned!
+onion already sliced!
+robot picks up sliced_onion from countertop
+robot moved from countertop to stove
+robot puts down onion to pan
+robot moved from stove to countertop
+robot picks up water from countertop
+robot moved from countertop to stove
+robot puts down water to pan

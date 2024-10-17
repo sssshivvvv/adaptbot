@@ -1,0 +1,9 @@
+I apologize for the mistake. Here is the corrected cot and task sequence using the mop_cloth to clean the bedroom floor:
+
+COT & ACTION SEQUENCE:
+
+To clean the bedroom floor, I will need a mop cloth. I will pick up the mop cloth from the laundry bag and put it onto the bedroom floor. Then, I will mop the floor using the mop cloth. The bedroom floor is now cleaned!
+
+pick_up_obj("mop_cloth", "laundry_bag") #picking up the mop cloth from the laundry bag
+put_down_obj("mop_cloth", "bedroom_floor") #putting down the mop cloth onto the bedroom floor
+mop("bedroom_floor", "updated_onto.ttl") #mopping the bedroom floor        

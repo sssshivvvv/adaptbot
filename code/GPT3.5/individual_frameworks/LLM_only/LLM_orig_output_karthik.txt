@@ -1,0 +1,85 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare chocolate cookies, I will first fetch the items I need. I will bring the bowl, flour, baking powder, salt, sugar, oil, eggs, vanilla, chocolate, spoon, and cutting board. If the bowl or spoon are not clean, I will clean them first.
+
+pick\_up\_obj("flour", "updated\_onto.ttl") #picking up the flour
+put\_down\_obj("flour", "countertop") #putting down the flour on the countertop
+pick\_up\_obj("baking powder", "updated\_onto.ttl") #picking up the baking powder
+put\_down\_obj("baking powder", "countertop") #putting down the baking powder on the countertop
+pick\_up\_obj("salt", "updated\_onto.ttl") #picking up the salt
+put\_down\_obj("salt", "countertop") #putting down the salt on the countertop
+pick\_up\_obj("sugar", "updated\_onto.ttl") #picking up the sugar
+put\_down\_obj("sugar", "countertop") #putting down the sugar on the countertop
+pick\_up\_obj("oil", "updated\_onto.ttl") #picking up the oil
+put\_down\_obj("oil", "countertop") #putting down the oil on the countertop
+pick\_up\_obj("eggs", "updated\_onto.ttl") #picking up the eggs
+put\_down\_obj("eggs", "countertop") #putting down the eggs on the countertop
+pick\_up\_obj("vanilla", "updated\_onto.ttl") #picking up the vanilla
+put\_down\_obj("vanilla", "countertop") #putting down the vanilla on the countertop
+clean("bowl", "updated\_onto.ttl") #cleaning the bowl
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+put\_down\_rec("bowl", "countertop") #putting down the bowl on the countertop
+clean("spoon", "updated\_onto.ttl") #cleaning the spoon
+pick\_up\_obj("spoon", "updated\_onto.ttl") #picking up the spoon
+put\_down\_obj("spoon", "countertop") #putting down the spoon on the countertop
+pick\_up\_obj("chocolate", "updated\_onto.ttl") #picking up the chocolate
+put\_down\_obj("chocolate", "countertop") #putting down the chocolate on the countertop
+pick\_up\_obj("cutting board", "updated\_onto.ttl") #picking up the cutting board
+put\_down\_obj("cutting board", "countertop") #putting down the cutting board on the countertop
+
+2. Cooking process:
+
+Mix the flour, baking powder, salt, sugar, oil, eggs, and vanilla in the bowl thoroughly. Melt the chocolate on the stove, then mix it with the contents of the bowl.
+
+pick\_up\_obj("flour", "updated\_onto.ttl") #picking up the flour
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("flour", "countertop") #putting down the flour
+pick\_up\_obj("baking powder", "updated\_onto.ttl") #picking up the baking powder
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("baking powder", "countertop") #putting down the baking powder
+pick\_up\_obj("salt", "updated\_onto.ttl") #picking up the salt
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("salt", "countertop") #putting down the salt
+pick\_up\_obj("sugar", "updated\_onto.ttl") #picking up the sugar
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("sugar", "countertop") #putting down the sugar
+pick\_up\_obj("oil", "updated\_onto.ttl") #picking up the oil
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("oil", "countertop") #putting down the oil
+pick\_up\_obj("eggs", "updated\_onto.ttl") #picking up the eggs
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("eggs", "countertop") #putting down the eggs
+pick\_up\_obj("vanilla", "updated\_onto.ttl") #picking up the vanilla
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("vanilla", "countertop") #putting down the vanilla
+pick\_up\_obj("chocolate", "updated\_onto.ttl") #picking up the chocolate
+put\_down\_obj("chocolate", "stove") #putting down the chocolate on the stove
+wait(2) #waiting for 2 minutes
+pick\_up\_obj("chocolate", "updated\_onto.ttl") #picking up the chocolate
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+mix\_contents("bowl", "updated\_onto.ttl") #mixing the contents of the bowl
+put\_down\_obj("chocolate", "countertop") #putting down the chocolate
+
+3. plating and serving:
+
+Take a spoonful of the chocolate cookie dough and place it on the baking sheet. Repeat this step until no dough remains. Place the baking sheet in the oven and bake for 12 minutes.
+
+pick\_up\_rec("bowl", "updated\_onto.ttl") #picking up the bowl
+pick\_up\_obj("spoon", "updated\_onto.ttl") #picking up the spoon
+pick\_up\_obj("cutting board", "updated\_onto.ttl") #picking up the cutting board
+put\_down\_rec("bowl", "countertop") #putting down the bowl on the countertop
+pick\_up\_obj("cutting board", "updated\_onto.ttl") #picking up the cutting board
+put\_down\_rec("cutting board", "oven") #putting down the cutting board in the oven
+wait(12) #waiting for 12 minutes
+pick\_up\_rec("cutting board", "updated\_onto.ttl") #picking up the cutting board
+take\_out\_of\_oven("cutting board", "updated\_onto.ttl") #taking the cutting board out of the oven
+serve("cutting board", "updated\_onto.ttl") #serving the cookies

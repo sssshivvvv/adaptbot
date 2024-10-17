@@ -1,0 +1,19 @@
+Apologies for the confusion. Here is the updated COT and action sequence to wash the clothes using the given items ['washing_machine', 'clothes', 'detergent']:
+
+COT & ACTION SEQUENCE:
+
+To wash the clothes, I will first gather the items I need. I will bring the clothes, detergent, and the washing machine. If the washing machine is not empty, I will empty it first. I will put the clothes into the washing machine and add the detergent. After that, I will start the washing machine. I will wait for the washing cycle to complete. Once the cycle finishes, I will remove the clothes from the washing machine. The clothes are now clean!
+
+pick_up_obj("clothes", "updated_onto.ttl")  # picking up the clothes
+put_down_obj("clothes", "bedroom_floor")  # putting down the clothes on the bedroom floor
+pick_up_obj("detergent", "updated_onto.ttl")  # picking up the detergent
+put_down_obj("detergent", "bedroom_floor")  # putting down the detergent on the bedroom floor
+pick_up_rec("washing_machine", "updated_onto.ttl")  # picking up the washing machine
+put_down_rec("washing_machine", "kitchen_floor")  # putting down the washing machine on the kitchen floor
+pick_up_obj("clothes", "updated_onto.ttl")  # picking up the clothes
+put_down_obj("clothes", "washing_machine")  # putting down the clothes into the washing machine
+wait(5) #waiting for some time for the washing cycle to complete
+pick_up_obj("clothes", "updated_onto.ttl")  # picking up the clothes
+put_down_obj("clothes", "bedroom_floor")  # putting down the clean clothes on the bedroom floor
+
+Please ensure to use the updated_onto.ttl file as the argument for the actions after the initial ontology.

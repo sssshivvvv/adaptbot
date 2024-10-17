@@ -1,0 +1,541 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+# Defining classes and its properties
+
+ex:room rdf:type rdfs:Class.     # Room
+ex:room_name rdf:type rdf:Property;
+    rdfs:domain ex:room;
+    rdfs:range xsd:string.
+
+ex:receptacle rdf:type rdfs:Class. #receptacle_parent_class
+ex:rec_name rdf:type rdf:Property;
+    rdfs:domain ex:receptacle;
+    rdfs:range xsd:string.
+ex:toggleable rdf:type rdf:Property;
+    rdfs:domain ex:receptacle;
+    rdfs:range xsd:boolean.
+ex:switched_on rdf:type rdf:Property;
+    rdfs:domain ex:receptacle;
+    rdfs:range xsd:boolean.
+ex:cantakerec rdf:type rdf:Property;
+    rdfs:domain ex:receptacle;
+    rdfs:range xsd:boolean.
+
+
+ex:imreceptacle rdf:type rdfs:Class; #immobile_receptacle
+    rdfs:subClassOf ex:receptacle.
+ex:imrec_location rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range ex:room.
+ex:serving_place rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+ex:common_rec rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+ex:open_rec rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+ex:SuitableForEdibleStorage rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+ex:IsRecBig rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+ex:IsMopped rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+ex:UsedForWashing rdf:type rdf:Property;
+    rdfs:domain ex:imreceptacle;
+    rdfs:range xsd:boolean.
+
+ex:mreceptacle rdf:type rdfs:Class; #mobile_receptacle
+    rdfs:subClassOf ex:receptacle.
+ex:mrec_location rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range ex:receptacle.
+ex:IsRecCleaned rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range xsd:boolean.
+ex:IsSensitive rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range xsd:boolean.
+ex:ContStirred rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range xsd:boolean.
+ex:goto_utensil rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range xsd:boolean.
+ex:deep_rec rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range xsd:boolean.
+ex:used_for_slicing rdf:type rdf:Property;
+    rdfs:domain ex:mreceptacle;
+    rdfs:range xsd:boolean.
+
+
+ex:object rdf:type rdfs:Class.   # Object
+ex:obj_name rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:string.
+ex:obj_location rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range ex:receptacle.
+ex:IsSliceable rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:IsCleaned rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:sliced rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:Boilable rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:IsBoiled rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:IsLiquid rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:Fryable rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:IsFried rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:NeedsToBeCleaned rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:IsBig rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:mopping_material rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:is_fabric rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:is_ironed rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:can_be_ironed rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:foldable rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+ex:folded rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+
+ex:tool rdf:type rdfs:Class. # Tool
+ex:tool_name rdf:type rdf:Property;
+    rdfs:domain ex:tool;
+    rdfs:range xsd:string.
+ex:tool_location rdf:type rdf:Property;
+    rdfs:domain ex:tool;
+    rdfs:range ex:receptacle.
+ex:IsSlicingTool rdf:type rdf:Property;
+    rdfs:domain ex:tool;
+    rdfs:range xsd:boolean.
+ex:IsEatingTool rdf:type rdf:Property;
+    rdfs:domain ex:tool;
+    rdfs:range xsd:boolean.
+ex:IsToolCleaned rdf:type rdf:Property;
+    rdfs:domain ex:object;
+    rdfs:range xsd:boolean.
+
+ex:agent rdf:type rdfs:Class. # Agent
+ex:agent_near rdf:type rdf:Property;
+    rdfs:domain ex:agent;
+    rdfs:range ex:imreceptacle.
+ex:agent_location rdf:type rdf:Property;
+    rdfs:domain ex:agent;
+    rdfs:range ex:room.
+ex:obj_in_hand rdf:type rdf:Property;
+    rdfs:domain ex:agent;
+    rdfs:range ex:object.
+ex:rec_in_hand rdf:type rdf:Property;
+    rdfs:domain ex:agent;
+    rdfs:range ex:mreceptacle.
+ex:tool_in_hand rdf:type rdf:Property;
+    rdfs:domain ex:agent;
+    rdfs:range ex:tool.
+
+
+# Making instances of classes
+
+# Room
+ex:kitchen rdf:type ex:room ;
+    ex:room_name "kitchen" .
+
+ex:washroom rdf:type ex:room ;
+    ex:room_name "washroom" .
+
+ex:bedroom rdf:type ex:room ;
+    ex:room_name "bedroom" .
+
+ex:living_room rdf:type ex:room ;
+    ex:room_name "living_room" .
+
+# Receptacles
+ex:fridge rdf:type ex:imreceptacle ;
+    ex:rec_name "fridge" ;
+    ex:SuitableForEdibleStorage true;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:imrec_location ex:kitchen;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:countertop rdf:type ex:imreceptacle ;
+    ex:rec_name "countertop" ;
+    ex:imrec_location ex:kitchen;
+    ex:SuitableForEdibleStorage true;
+    ex:serving_place true;
+    ex:toggleable false;
+    ex:common_rec true;
+    ex:open_rec true;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:dustbin rdf:type ex:imreceptacle ;
+    ex:rec_name "dustbin" ;
+    ex:imrec_location ex:kitchen;
+    ex:SuitableForEdibleStorage false;
+    ex:serving_place false;
+    ex:toggleable false;
+    ex:common_rec false;
+    ex:open_rec true;
+    ex:IsMopped false;
+    ex:cantakerec false.
+
+ex:table rdf:type ex:imreceptacle ;
+    ex:rec_name "table" ;
+    ex:imrec_location ex:kitchen;
+    ex:SuitableForEdibleStorage false;
+    ex:serving_place true;
+    ex:toggleable false;
+    ex:open_rec true;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:dining_table rdf:type ex:imreceptacle ;
+    ex:rec_name "dining_table" ;
+    ex:imrec_location ex:living_room;
+    ex:SuitableForEdibleStorage false;
+    ex:serving_place true;
+    ex:toggleable false;
+    ex:open_rec true;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:side_table rdf:type ex:imreceptacle ;
+    ex:rec_name "side_table" ;
+    ex:imrec_location ex:bedroom;
+    ex:SuitableForEdibleStorage false;
+    ex:serving_place true;
+    ex:toggleable false;
+    ex:open_rec true;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:toy_box rdf:type ex:imreceptacle ;
+    ex:rec_name "toy_box" ;
+    ex:imrec_location ex:bedroom;
+    ex:SuitableForEdibleStorage false;
+    ex:serving_place true;
+    ex:toggleable false;
+    ex:open_rec true;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:sink rdf:type ex:imreceptacle ;
+    ex:rec_name "sink" ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:imrec_location ex:kitchen;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+
+ex:rack rdf:type ex:imreceptacle ;
+    ex:rec_name "rack" ;
+    ex:imrec_location ex:kitchen ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable true;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:washing_machine rdf:type ex:imreceptacle ;
+    ex:rec_name "washing_machine" ;
+    ex:imrec_location ex:washroom ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable true;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:UsedForWashing true;
+    ex:cantakerec true.
+
+ex:wardrobe rdf:type ex:imreceptacle ;
+    ex:rec_name "wardrobe" ;
+    ex:imrec_location ex:bedroom ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:ironing_board rdf:type ex:imreceptacle ;
+    ex:rec_name "ironing_board" ;
+    ex:imrec_location ex:bedroom ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:kitchen_floor rdf:type ex:imreceptacle ;
+    ex:rec_name "kitchen_floor" ;
+    ex:imrec_location ex:kitchen ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:bedroom_floor rdf:type ex:imreceptacle ;
+    ex:rec_name "bedroom_floor" ;
+    ex:imrec_location ex:bedroom ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:window rdf:type ex:imreceptacle ;
+    ex:rec_name "window" ;
+    ex:imrec_location ex:living_room ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec false.
+
+ex:living_room_floor rdf:type ex:imreceptacle ;
+    ex:rec_name "living_room_floor" ;
+    ex:imrec_location ex:living_room_floor;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable false;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped false;
+    ex:cantakerec true.
+
+ex:laundry_bag rdf:type ex:imreceptacle ;
+    ex:rec_name "laundry_bag" ;
+    ex:imrec_location ex:washroom ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable true;
+    ex:open_rec false;
+    ex:switched_on false;
+    ex:IsMopped true;
+    ex:cantakerec true.
+
+
+ex:charging_pod rdf:type ex:mreceptacle ;
+    ex:rec_name "charging_pod" ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable true;
+    ex:switched_on false;
+    ex:ContStirred false;
+    ex:used_for_slicing false;
+    ex:deep_rec false;
+    ex:IsRecBig true;
+    ex:goto_utensil false;
+    ex:mrec_location ex:side_table;
+    ex:cantakerec false.
+
+ex:music_player rdf:type ex:mreceptacle ;
+    ex:rec_name "music_player" ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable true;
+    ex:switched_on false;
+    ex:ContStirred false;
+    ex:used_for_slicing false;
+    ex:deep_rec false;
+    ex:IsRecBig true;
+    ex:goto_utensil false;
+    ex:mrec_location ex:side_table;
+    ex:cantakerec false.
+
+ex:iron rdf:type ex:mreceptacle ;
+    ex:rec_name "iron" ;
+    ex:SuitableForEdibleStorage false;
+    ex:toggleable true;
+    ex:switched_on false;
+    ex:ContStirred false;
+    ex:used_for_slicing false;
+    ex:deep_rec false;
+    ex:IsRecBig false;
+    ex:goto_utensil false;
+    ex:mrec_location ex:ironing_board;
+    ex:cantakerec false.
+
+ex:glass rdf:type ex:mreceptacle ;
+    ex:rec_name "glass" ;
+    ex:mrec_location ex:rack ;
+    ex:IsRecCleaned false;
+    ex:IsSensitive true;
+    ex:toggleable false;
+    ex:used_for_slicing false;
+    ex:deep_rec false;
+    ex:goto_utensil false;
+    ex:IsRecBig false;
+    ex:ContStirred false;
+    ex:cantakerec false.
+
+ex:plate rdf:type ex:mreceptacle ;
+    ex:rec_name "plate" ;
+    ex:mrec_location ex:rack ;
+    ex:IsRecCleaned false;
+    ex:toggleable false;
+    ex:IsSensitive true;
+    ex:deep_rec false;
+    ex:goto_utensil true;
+    ex:used_for_slicing false;
+    ex:ContStirred false;
+    ex:IsRecBig false;
+    ex:cantakerec true.
+
+ex:bowl rdf:type ex:mreceptacle ;
+    ex:rec_name "bowl" ;
+    ex:mrec_location ex:rack;
+    ex:IsRecCleaned false;
+    ex:IsSensitive true;
+    ex:toggleable false;
+    ex:deep_rec true;
+    ex:goto_utensil false;
+    ex:used_for_slicing false;
+    ex:ContStirred false;
+    ex:IsRecBig false;
+    ex:cantakerec false.
+
+
+# Objects
+ex:water rdf:type ex:object ;
+    ex:obj_name "water" ;
+    ex:IsBoiled false ;
+    ex:Boilable true;
+    ex:IsLiquid true ;
+    ex:is_fabric false;
+    ex:obj_location ex:fridge;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false.
+
+ex:clothes rdf:type ex:object ;
+    ex:obj_name "clothes" ;
+    ex:IsBoiled false ;
+    ex:Boilable false;
+    ex:IsLiquid false ;
+    ex:is_fabric true;
+    ex:is_ironed false;
+    ex:can_be_ironed true;
+    ex:obj_location ex:laundry_bag;
+    ex:IsBig false;
+    ex:foldable true;
+    ex:folded false;
+    ex:NeedsToBeCleaned true.
+
+ex:plant rdf:type ex:object ;
+    ex:obj_name "plant";
+    ex:obj_location ex:dining_table ;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false. 
+
+ex:cleaning_solution rdf:type ex:object ;
+    ex:obj_name "cleaning_solution" ;
+    ex:IsSliceable false ;
+    ex:IsCleaned false ;
+    ex:sliced false ;
+    ex:obj_location ex:rack ;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned true.
+
+ex:oil rdf:type ex:object ;
+    ex:obj_name "oil";
+    ex:obj_location ex:rack;
+    ex:IsBig false;
+    ex:is_fabric false;
+    ex:NeedsToBeCleaned false.
+
+ex:toy_1 rdf:type ex:object ;
+    ex:obj_name "toy_1" ;
+    ex:obj_location ex:living_room_floor;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false.
+
+ex:toy_4 rdf:type ex:object ;
+    ex:obj_name "toy_4" ;
+    ex:obj_location ex:living_room_floor;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false.
+
+ex:toy_2 rdf:type ex:object ;
+    ex:obj_name "toy_2" ;
+    ex:obj_location ex:living_room_floor;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false.
+
+ex:toy_3 rdf:type ex:object ;
+    ex:obj_name "toy_3" ;
+    ex:obj_location ex:living_room_floor;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false.
+
+# Tools
+ex:spoon rdf:type ex:tool ;
+    ex:tool_name "spoon" ;
+    ex:tool_location ex:rack ;
+    ex:IsEatingTool true ;
+    ex:IsSlicingTool false ;
+    ex:IsToolCleaned false .
+
+#agent
+ex:robot rdf:type rdfs:agent;
+    ex:agent_near ex:dining_table ;
+    ex:agent_location ex:living_room.
+
+ex:robot_arm rdf:type ex:mreceptacle ;
+    ex:rec_name "robot_arm" ;
+    ex:mrec_location ex:dining_table .
+ 
+ex:plant rdf:type ex:object ;
+    ex:obj_name "plant";
+    ex:obj_location ex:dining_table ;
+    ex:is_fabric false;
+    ex:IsBig false;
+    ex:NeedsToBeCleaned false. 
+                

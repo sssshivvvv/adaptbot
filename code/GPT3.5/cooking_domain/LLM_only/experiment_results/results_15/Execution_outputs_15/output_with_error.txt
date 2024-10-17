@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/streamlined_for_experiments/for_knowledge_expansion/./LLM_only/final_run.py", line 6, in <module>
+    put_down_obj("blender", "countertop")
+  File "/home/shivam/Desktop/side_quests/generalisation_project/OKG/frameworks/GPT3.5/streamlined_for_experiments/for_knowledge_expansion/LLM_only/functions/actions.py", line 444, in put_down_obj
+    raise RuntimeError(f"put_down_obj({obj}, {loc}) #Wrong function choice!")
+RuntimeError: put_down_obj(blender, countertop) #Wrong function choice!

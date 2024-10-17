@@ -1,0 +1,4 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. Make sure to strictly USE All THE INGREDIENTS GIVEN BY THE USER IN THE PROMPT.
+
+put_down_obj("pot", "countertop") #item "pot" not found! Please use the ingredients provided by the user
+mash_contents("bowl", ".llm_kg_humanupdated_onto.ttl") #action "mash_contents" is not present in ther knowledge base!

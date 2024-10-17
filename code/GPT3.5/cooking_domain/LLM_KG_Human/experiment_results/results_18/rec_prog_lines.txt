@@ -1,0 +1,9 @@
+[pan]
+robot picks up pan from cabinet ----> robot puts down pan to stove ----> robot puts down butter to pan ----> robot puts down carrot to pan ----> robot puts down sugar to pan ----> robot puts down milk to pan ----> contents of pan are ['butter', 'carrot', 'milk', 'sugar'] ----> contents of pan are stirred! ----> robot picks up pan from stove ----> robot puts down pan to countertop ----> contents of pan are ['butter', 'carrot', 'milk', 'sugar'] ----> contents of pan poured to bowl
+
+[bowl]
+robot picks up bowl from cabinet ----> robot puts down bowl to sink ----> bowl successfully cleaned! ----> robot picks up bowl from sink ----> robot puts down bowl to countertop ----> Cant put bowl to pan! skipping this action ----> contents of pan poured to bowl
+
+[cutting_board]
+robot puts down carrot to cutting_board ----> robot picks up sliced_carrot from cutting_board
+

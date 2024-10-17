@@ -1,0 +1,46 @@
+robot moved from cabinet to fridge
+robot picks up apple from fridge
+robot moved from fridge to countertop
+robot puts down apple to countertop
+robot moved from countertop to fridge
+robot picks up mango from fridge
+robot moved from fridge to countertop
+robot puts down mango to countertop
+robot moved from countertop to cabinet
+robot picks up bowl from cabinet
+robot moved from cabinet to sink
+robot puts down bowl to sink
+bowl successfully cleaned!
+robot picks up bowl from sink
+robot moved from sink to countertop
+robot puts down bowl to countertop
+robot moved from countertop to cabinet
+robot picks up knife from cabinet
+robot moved from cabinet to countertop
+robot puts down knife to countertop
+robot picks up apple from countertop
+robot moved from countertop to sink
+robot puts down apple to sink
+apple successfully cleaned!
+robot picks up apple from sink
+robot moved from sink to countertop
+robot puts down apple to cutting_board
+robot picks up knife from countertop
+apple sliced!
+robot puts down knife to countertop
+robot picks up mango from countertop
+robot moved from countertop to sink
+robot puts down mango to sink
+mango successfully cleaned!
+robot picks up mango from sink
+robot moved from sink to countertop
+robot puts down mango to cutting_board
+robot picks up knife from countertop
+mango sliced!
+robot puts down knife to countertop
+robot picks up sliced_apple from cutting_board
+robot puts down apple to bowl
+robot picks up sliced_mango from cutting_board
+robot puts down mango to bowl
+contents of bowl are ['apple', 'mango']
+contents of bowl are mixed!

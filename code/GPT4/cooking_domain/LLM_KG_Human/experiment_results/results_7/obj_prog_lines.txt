@@ -1,0 +1,15 @@
+[bread]
+robot picks up bread from countertop ----> robot puts down bread to countertop ----> robot picks up bread from countertop ----> robot puts down bread to bowl ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract'] ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract'] ----> robot picks up bread from cake_pan ----> robot puts down bread to plate
+
+[vanilla_extract]
+robot picks up vanilla_extract from cabinet ----> robot puts down vanilla_extract to countertop ----> robot picks up vanilla_extract from countertop ----> robot puts down vanilla_extract to bowl ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract'] ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract']
+
+[milk]
+robot picks up milk from fridge ----> robot puts down milk to countertop ----> robot picks up milk from countertop ----> robot puts down milk to bowl ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract'] ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract']
+
+[egg]
+robot picks up egg from fridge ----> robot puts down egg to countertop ----> robot picks up egg from countertop ----> robot puts down egg to bowl ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract'] ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract']
+
+[sugar]
+robot picks up sugar from countertop ----> robot puts down sugar to bowl ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract'] ----> contents of bowl are ['bread', 'egg', 'milk', 'sugar', 'vanilla_extract']
+

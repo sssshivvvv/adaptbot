@@ -1,0 +1,12 @@
+There were some issue(s) in the action sequence you gave. The error is reflected below. Give me the cot and task sequence again. You can refer to the environemnt description to rectify this issue.
+
+put_down_obj("garlic", "countertop") #item "garlic" is not present in ther knowledge base!
+put_down_obj("cumin_seed", "countertop") #item "cumin_seed" is not present in ther knowledge base!
+put_down_obj("paprika", "countertop") #item "paprika" is not present in ther knowledge base!
+put_down_obj("cumin_seed", "countertop") #item "cumin_seed" is not present in ther knowledge base!
+put_down_obj("paprika", "countertop") #item "paprika" is not present in ther knowledge base!
+
+ 
+    Additional instructions:
+    - STRICTLY USE THE OBJECTS, TOOLS, RECEPTACLES AND THE ACTIONS GIVEN IN THE ENVIRONMENT. 
+    
