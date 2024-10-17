@@ -1,0 +1,244 @@
+{
+    "chocolate_cookies": [
+        "flour",
+        "baking_powder",
+        "salt",
+        "sugar",
+        "oil",
+        "egg",
+        "vanilla_extract",
+        "chocolate"
+    ],
+    "peanut_butter_cookies": [
+        "flour",
+        "baking_soda",
+        "butter",
+        "peanut_butter",
+        "sugar",
+        "egg"
+    ],
+    "italian_burger": [
+        "beef",
+        "onion",
+        "italian_dressing",
+        "cheese",
+        "bun",
+        "pasta_sauce",
+        "basil"
+    ],
+    "bbq_crunch_burger": [
+        "mayonnaise",
+        "onion",
+        "barbecue_sauce",
+        "beef",
+        "bun",
+        "potato_chips"
+    ],
+    "mac_and_cheese_burger": [
+        "ground_chuck",
+        "salt",
+        "onion",
+        "macaroni",
+        "bun"
+    ],
+    "onion_sandwich": [
+        "brioche",
+        "mayonnaise",
+        "onion",
+        "parsley",
+        "salt"
+    ],
+    "mushroom_sandwich": [
+        "mushroom",
+        "butter",
+        "mayonnaise",
+        "salt",
+        "pepper",
+        "bread"
+    ],
+    "chicken_salad_sandwich": [
+        "chicken",
+        "oil",
+        "salt",
+        "mayonnaise",
+        "tarragon",
+        "celery",
+        "bread"
+    ],
+    "french_toast_sandwich": [
+        "egg",
+        "milk",
+        "cheese",
+        "ham",
+        "bread",
+        "oil"
+    ],
+    "tomato_soup": [
+        "tomato",
+        "water",
+        "garlic",
+        "onion",
+        "oil",
+        "basil",
+        "salt",
+        "black_pepper"
+    ],
+    "cucumber_salad": [
+        "cucumber",
+        "tomato",
+        "onion",
+        "vinegar",
+        "sugar"
+    ],
+    "greek_salad": [
+        "tomato",
+        "cucumber",
+        "onion",
+        "oil",
+        "vinegar",
+        "salt",
+        "sugar",
+        "black_pepper",
+        "cheese"
+    ],
+    "peppermint_ice_tea": [
+        "black_tea",
+        "water",
+        "peppermint",
+        "lemon",
+        "sugar"
+    ],
+    "chai_tea_latte": [
+        "water",
+        "tea",
+        "honey",
+        "sugar",
+        "milk"
+    ],
+    "ginger_iced_tea": [
+        "ginger",
+        "lemon",
+        "water",
+        "honey"
+    ],
+
+    "chargrilled_bbq_burger": [
+        "beef", 
+        "crumbs", 
+        "egg", 
+        "barbecue_sauce", 
+        "bun", 
+        "tomato", 
+        "onion"
+    ],
+    "chili_burer": [
+        "red_chilly", 
+        "oil", 
+        "salt", 
+        "ground_chuck", 
+        "cheese", 
+        "bun"
+    ], 
+    "tea_scones": [
+        "flour", 
+        "sugar", 
+        "baking_powder", 
+        "salt", 
+        "butter", 
+        "egg", 
+        "milk"
+    ], 
+    "stop_and_go_tea_sandwich": [
+        "mayonnaise", 
+        "bread", 
+        "cucumber", 
+        "tomato", 
+        "butter", 
+        "salt", 
+        "pepper"
+    ],
+    "green_tea_lava_cake": [
+        "chocolate", 
+        "sugar", 
+        "butter", 
+        "egg", 
+        "flour", 
+        "green_tea"
+    ], 
+    "egg_and_spinach_sandwich": [
+        "bread", 
+        "mayonnaise", 
+        "spinach", 
+        "egg"
+    ], 
+    "chocolate_and_banana_toasted_sandwich": [
+        "bread", 
+        "chocolate", 
+        "banana", 
+        "butter"
+    ], 
+    "veggie_sandwich_panini": [
+        "mushroom", 
+        "oil", 
+        "garlic", 
+        "bread", 
+        "spinach"
+    ], 
+    "split_pea_soup": [
+        "peas", 
+        "ham", 
+        "water", 
+        "salt", 
+        "pepper"
+    ],
+    "potato_soup": [
+        "potato", 
+        "onion", 
+        "oil", 
+        "parsley", 
+        "salt", 
+        "pepper", 
+        "water"
+    ], 
+    "weight_watchers_golden_cream_soup": [
+        "potato", 
+        "water", 
+        "celery", 
+        "carrot", 
+        "salt", 
+        "pepper"
+    ],
+    "basil_tomato_mozzarella_salad": [
+        "tomato", 
+        "oil", 
+        "salt", 
+        "pepper", 
+        "cheese", 
+        "basil"
+    ],
+    "ham_pea_and_cheese_salad ": [
+        "water", 
+        "salt", 
+        "rice", 
+        "peas", 
+        "onion", 
+        "cheese", 
+        "ham", 
+        "mayonnaise"
+    ], 
+    "anjas_egg_salad": [
+        "egg", 
+        "onion", 
+        "tomato", 
+        "mayonnaise", 
+        "ham"
+    ], 
+    "mozzarella_beef_burger": [
+        "beef", 
+        "cheese", 
+        "crumbs", 
+        "barbecue_sauce", 
+        "bun"
+    ]
+    
+}

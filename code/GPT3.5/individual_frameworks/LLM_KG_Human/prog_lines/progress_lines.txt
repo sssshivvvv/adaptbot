@@ -1,0 +1,49 @@
+robot picks up plate from cabinet
+robot puts down plate to sink
+plate successfully cleaned!
+robot picks up plate from sink
+robot puts down plate to countertop
+robot picks up chicken from fridge
+robot puts down chicken to countertop
+robot picks up bread from cabinet
+robot puts down bread to countertop
+robot picks up tomato from fridge
+robot puts down tomato to countertop
+robot picks up butter from fridge
+robot puts down butter to countertop
+robot picks up salt from cabinet
+robot puts down salt to countertop
+robot picks up pepper from cabinet
+robot puts down pepper to countertop
+robot picks up knife from cabinet
+robot puts down knife to countertop
+robot picks up chicken from countertop
+robot puts down chicken to sink
+chicken successfully cleaned!
+robot picks up chicken from sink
+robot puts down chicken to cutting_board
+robot picks up knife from countertop
+chicken sliced!
+robot puts down knife to countertop
+robot picks up sliced_chicken from cutting_board
+robot picks up pan from cabinet
+robot puts down pan to table
+robot puts down chicken to pan
+robot picks up salt from countertop
+robot puts down salt to pan
+robot picks up pepper from countertop
+robot puts down pepper to pan
+robot picks up pan from table
+robot puts down pan to stove
+robot picks up oil from rack
+robot puts down oil to pan
+stove switched on!
+chicken Fried!
+robot picks up bread from countertop
+robot puts down bread to plate
+robot picks up tomato from countertop
+robot puts down tomato to plate
+robot picks up butter from countertop
+robot puts down butter to plate
+robot picks up sliced_chicken from pan
+robot puts down chicken to plate

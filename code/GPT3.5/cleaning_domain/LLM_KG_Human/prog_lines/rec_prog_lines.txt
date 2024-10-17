@@ -1,0 +1,3 @@
+[plate]
+robot picks up plate from rack ----> robot puts down plate to table ----> robot puts down cleaning_solution to plate
+

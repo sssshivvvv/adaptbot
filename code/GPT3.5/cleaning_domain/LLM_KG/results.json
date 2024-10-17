@@ -1,0 +1,19 @@
+{
+    "dish_name": "clean spoon",
+    "dish_ingd": [
+        "spoon"
+    ],
+    "ingd_used": [
+        "countertop",
+        "spoon",
+        "sink",
+        "rack",
+        "dining_table",
+        "cleaning_solution"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 1,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#token_used": 2582
+}

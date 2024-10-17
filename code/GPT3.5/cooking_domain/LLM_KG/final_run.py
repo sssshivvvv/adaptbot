@@ -1,0 +1,5 @@
+import rdflib
+from functions.actions import *
+pick_up_tool("spoon", "./LLM_KG/initial_onto.ttl")
+clean("spoon", "./LLM_KG/updated_onto.ttl")
+clean("spoon", "./LLM_KG/updated_onto.ttl")

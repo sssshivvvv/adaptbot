@@ -1,0 +1,14 @@
+{
+    "dish_name": "banana_chips",
+    "dish_ingd": [
+        "banana",
+        "oil",
+        "salt"
+    ],
+    "ingd_used": [],
+    "percentage_ingd_used": 0.0,
+    "#feedback_used": 3,
+    "#execution_errors": 4,
+    "#human_involvement": 0,
+    "#token_used": 8181
+}

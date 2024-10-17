@@ -1,0 +1,147 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare the omelette, I will first fetch the items I need. I will bring the pan, eggs, onion, tomato, salt, pepper, and spatula. If the pan is not cleaned, I will clean it first.
+
+pick_up_obj("pan", "updated_onto.ttl")  #picking up the pan
+put_down_obj("pan", "countertop")  #putting down the pan on the countertop
+pick_up_obj("eggs", "updated_onto.ttl")  #picking up the eggs
+put_down_obj("eggs", "countertop")  #putting down the eggs on the countertop
+pick_up_obj("onion", "updated_onto.ttl")  #picking up the onion 
+put_down_obj("onion", "countertop")  #putting down the onion on the countertop
+pick_up_obj("tomato", "updated_onto.ttl")  #picking up the tomato 
+put_down_obj("tomato", "countertop")  #putting down the tomato on the countertop
+pick_up_obj("salt", "updated_onto.ttl")  #picking up the salt 
+put_down_obj("salt", "countertop")  #putting down the salt on the countertop
+pick_up_obj("pepper", "updated_onto.ttl")  #picking up the pepper 
+put_down_obj("pepper", "countertop")  #putting down the pepper on the countertop
+clean("pan", "updated_onto.ttl")  #cleaning the pan
+pick_up_rec("pan", "updated_onto.ttl")  #picking up the pan
+put_down_rec("pan", "countertop")  #putting down the pan on the countertop
+pick_up_tool("spatula", "updated_onto.ttl")  #picking up the spatula
+put_down_tool("spatula", "countertop")  #putting down the spatula on the countertop
+
+2. Cooking process:
+
+To prepare the omelette, I will crack the eggs into the pan, add chopped onion and tomato, season with salt and pepper, and cook the mixture.
+
+pick_up_obj("eggs", "updated_onto.ttl")  #picking up the eggs
+put_down_obj("eggs", "pan")  #putting down the eggs into the pan
+pick_up_obj("onion", "updated_onto.ttl")  #picking up the onion 
+put_down_obj("onion", "pan")  #putting down the chopped onion into the pan
+pick_up_obj("tomato", "updated_onto.ttl")  #picking up the tomato 
+put_down_obj("tomato", "pan")  #putting down the chopped tomato into the pan
+pick_up_obj("salt", "updated_onto.ttl")  #picking up the salt 
+put_down_obj("salt", "pan")  #putting down the salt into the pan
+pick_up_obj("pepper", "updated_onto.ttl")  #picking up the pepper 
+put_down_obj("pepper", "pan")  #putting down the pepper into the pan
+fry("egg", "updated_onto.ttl")  #cooking the omelette mixture
+
+3. Plating and serving:
+
+I will use the spatula to flip the omelette, cook it on the other side, and then transfer it to a plate. The omelette is ready to be served!
+
+pick_up_tool("spatula", "updated_onto.ttl")  #picking up the spatula
+flip("omelette", "updated_onto.ttl")  #flipping the omelette
+fry("egg", "updated_onto.ttl")  #cooking the other side of the omelette
+pick_up_obj("plate", "updated_onto.ttl")  #picking up the plate
+put_down_obj("plate", "countertop")  #putting down the plate on the countertop
+put_down_obj("omelette", "plate")  #putting down the omelette onto the plate
+
+
+
+
+\\ OUTPUT
+
+robot picks up pan from cabinet
+robot moved from cabinet to countertop
+robot puts down pan to countertop
+robot moved from countertop to fridge
+robot picks up eggs from fridge
+robot moved from fridge to countertop
+robot puts down eggs to countertop
+onion is not present in the environment!
+////////////
+onion not present in the environment!
+////////////
+tomato is not present in the environment!
+////////////
+tomato not present in the environment!
+////////////
+robot moved from countertop to cabinet
+robot picks up salt from cabinet
+robot moved from cabinet to countertop
+robot puts down salt to countertop
+robot moved from countertop to cabinet
+robot picks up pepper from cabinet
+robot moved from cabinet to countertop
+robot puts down pepper to countertop
+pan already cleaned!
+robot picks up pan from countertop
+robot puts down pan to countertop
+robot moved from countertop to cabinet
+robot picks up spatula from cabinet
+robot moved from cabinet to countertop
+robot puts down spatula to countertop
+
+
+
+robot moved from cabinet to fridge
+robot picks up eggs from fridge
+robot moved from fridge to cabinet
+robot picks up pan from cabinet
+robot moved from cabinet to countertop
+robot puts down pan to countertop
+robot puts down eggs to pan
+onion is not present in the environment!
+////////////
+onion not present in the environment!
+////////////
+tomato is not present in the environment!
+////////////
+tomato not present in the environment!
+////////////
+robot moved from countertop to cabinet
+robot picks up salt from cabinet
+robot moved from cabinet to countertop
+robot puts down salt to pan
+robot moved from countertop to cabinet
+robot picks up pepper from cabinet
+robot moved from cabinet to countertop
+robot puts down pepper to pan
+robot picks up pan from countertop
+robot moved from countertop to stove
+robot puts down pan to stove
+robot moved from stove to countertop
+robot picks up oil from countertop
+robot moved from countertop to stove
+robot puts down oil to pan
+robot moved from stove to fridge
+robot picks up egg from fridge
+robot moved from fridge to stove
+robot puts down egg to pan
+stove switched on
+egg Fried!
+
+
+robot picks up spatula from cabinet
+robot picks up pan from cabinet
+robot moved from cabinet to stove
+robot puts down pan to stove
+robot moved from stove to countertop
+robot picks up oil from countertop
+robot moved from countertop to stove
+robot puts down oil to pan
+robot moved from stove to fridge
+robot picks up egg from fridge
+robot moved from fridge to stove
+robot puts down egg to pan
+stove switched on
+egg Fried!
+robot moved from stove to cabinet
+robot picks up plate from cabinet
+robot moved from cabinet to countertop
+robot puts down plate to countertop
+omelette not present in the environment!
+////////////

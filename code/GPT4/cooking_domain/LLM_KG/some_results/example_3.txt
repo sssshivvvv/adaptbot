@@ -1,0 +1,32 @@
+COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To fry the egg, I will first fetch the items I need. I will bring the pan, egg and spatula. If pan is not cleaned, I will clean it first.
+
+pick_up_obj("egg", "updated_onto.ttl")
+put_down_obj("egg", "countertop")
+pick_up_tool("spatula", "updated_onto.ttl")
+put_down_tool("spatula", "countertop")
+clean("pan", "updated_onto.ttl")
+pick_up_rec("pan", "updated_onto.ttl")
+put_down_rec("pan", "countertop")
+
+2. Cooking process: 
+
+To fry the egg, I will put oil in the pan, heat it on the stove, crack the egg into the pan, and cook until desired doneness.
+
+pick_up_obj("oil", "updated_onto.ttl")
+put_down_obj("oil", "pan")
+switch_on_stove("updated_onto.ttl")
+put_down_obj("egg", "pan")
+fry("egg", "updated_onto.ttl")
+
+3. Plating and serving:
+
+I will use the spatula to lift the fried egg from the pan and transfer it to a plate. The egg is now ready to be served.
+
+pick_up_tool("spatula", "updated_onto.ttl")
+put_down_tool("spatula", "plate")
+pick_up_obj("egg", "updated_onto.ttl")
+put_down_obj("egg", "plate")

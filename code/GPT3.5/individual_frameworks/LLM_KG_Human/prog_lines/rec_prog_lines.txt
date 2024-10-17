@@ -1,0 +1,9 @@
+[cutting_board]
+robot puts down chicken to cutting_board ----> robot picks up sliced_chicken from cutting_board
+
+[plate]
+robot picks up plate from cabinet ----> robot puts down plate to sink ----> plate successfully cleaned! ----> robot picks up plate from sink ----> robot puts down plate to countertop ----> robot puts down bread to plate ----> robot puts down tomato to plate ----> robot puts down butter to plate ----> robot puts down chicken to plate
+
+[pan]
+robot picks up pan from cabinet ----> robot puts down pan to table ----> robot puts down chicken to pan ----> robot puts down salt to pan ----> robot puts down pepper to pan ----> robot picks up pan from table ----> robot puts down pan to stove ----> robot puts down oil to pan ----> robot picks up sliced_chicken from pan
+

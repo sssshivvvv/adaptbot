@@ -1,0 +1,19 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To clean the spoon, I will first fetch the spoon.
+
+pick_up_tool("spoon", "initial_onto.ttl") #picking up the spoon
+
+2. Cleaning process:
+
+Since the task is to clean the spoon, this will be done immediately after fetching it.
+
+clean("spoon", "updated_onto.ttl") #cleaning the spoon
+
+3. plating and serving:
+
+After cleaning, I will place the spoon on the countertop to finish the task.
+
+put_down_tool("spoon", "countertop") #putting down the cleaned spoon on the countertop

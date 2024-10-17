@@ -1,0 +1,4 @@
+put_down_rec("bowl", "sink")
+switch_on_device("oven", "updated_onto.ttl")
+pour_contents("bowl", "pan")
+switch_off_device("oven", "updated_onto.ttl")

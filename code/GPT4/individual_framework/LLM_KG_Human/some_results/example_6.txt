@@ -1,0 +1,43 @@
+COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare Guacamole, I will first fetch the items I need. I will bring the avocado, lime, onion, tomato, knife, spoon, and bowl. If the bowl is not cleaned, I will clean it first.
+
+pick_up_obj("avocado", "updated_onto.ttl") #picking up the avocado
+put_down_obj("avocado", "countertop") #putting down the avocado on the countertop
+pick_up_obj("lime", "updated_onto.ttl") #picking up the lime
+put_down_obj("lime", "countertop") #putting down the lime on the countertop
+pick_up_obj("onion", "updated_onto.ttl") #picking up the onion
+put_down_obj("onion", "countertop") #putting down the onion on the countertop
+pick_up_obj("tomato", "updated_onto.ttl") #picking up the tomato
+put_down_obj("tomato", "countertop") #putting down the tomato on the countertop
+pick_up_tool("knife", "updated_onto.ttl") #picking up the knife
+put_down_tool("knife", "countertop") #putting down the knife on the countertop
+pick_up_tool("spoon", "updated_onto.ttl") #picking up the spoon
+put_down_tool("spoon", "countertop") #putting down the spoon on the countertop
+clean("bowl", "updated_onto.ttl") #cleaning the bowl
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "countertop") #putting down the bowl on the countertop
+
+2. Cooking process: 
+
+To prepare Guacamole, I will slice the avocado, onion, and tomato. Then I will squeeze the lime onto the sliced avocado. Finally, I will mix the contents in the bowl.
+
+slice("avocado", "knife", "updated_onto.ttl") #slicing the avocado
+slice("onion", "knife", "updated_onto.ttl") #slicing the onion
+slice("tomato", "knife", "updated_onto.ttl") #slicing the tomato
+pick_up_obj("lime", "updated_onto.ttl") #picking up the lime
+squeeze("lime", "avocado", "updated_onto.ttl") #squeezing lime onto the sliced avocado
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_obj("avocado", "bowl") #putting the sliced avocado into the bowl
+put_down_obj("onion", "bowl") #putting the sliced onion into the bowl
+put_down_obj("tomato", "bowl") #putting the sliced tomato into the bowl
+mix_contents("bowl", "updated_onto.ttl") #mixing the contents in the bowl
+
+3. Plating and serving:
+
+I will put the prepared Guacamole into a bowl and it will be ready to serve.
+
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl with Guacamole
+put_down_rec("bowl", "countertop") #putting down the bowl with Guacamole on the countertop

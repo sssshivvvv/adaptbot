@@ -1,0 +1,124 @@
+{
+    "chocolate_cookies": [
+        "flour",
+        "baking_powder",
+        "salt",
+        "sugar",
+        "oil",
+        "egg",
+        "vanilla",
+        "chocolate"
+    ],
+    "peanut_butter_cookies": [
+        "flour",
+        "baking_soda",
+        "butter",
+        "peanut_butter",
+        "sugar",
+        "egg"
+    ],
+    "italian_burger": [
+        "beef",
+        "onion",
+        "italian_dressing",
+        "cheese",
+        "buns",
+        "pasta_sauce",
+        "basil"
+    ],
+    "bbq_crunch_burger": [
+        "mayonnaise",
+        "onion",
+        "barbecue_sauce",
+        "beef",
+        "buns",
+        "potato_chips"
+    ],
+    "mac_and_cheese_burger": [
+        "ground_chuck",
+        "salt",
+        "onion",
+        "macaroni",
+        "buns"
+    ],
+    "onion_sandwich": [
+        "brioche",
+        "mayonnaise",
+        "onion",
+        "parsley",
+        "salt"
+    ],
+    "mushroom_sandwich": [
+        "mushroom",
+        "butter",
+        "mayonnaise",
+        "salt",
+        "pepper",
+        "bread"
+    ],
+    "chicken_salad_sandwich": [
+        "chicken",
+        "oil",
+        "salt",
+        "mayonnaise",
+        "tarragon",
+        "celery",
+        "bread"
+    ],
+    "french_toast_sandwich": [
+        "egg",
+        "milk",
+        "cheese",
+        "ham",
+        "bread",
+        "oil"
+    ],
+    "tomato_soup": [
+        "tomato",
+        "water",
+        "garlic",
+        "onion",
+        "oil",
+        "basil",
+        "salt",
+        "black_pepper"
+    ],
+    "cucumber_salad": [
+        "cucumber",
+        "tomato",
+        "onion",
+        "vinegar",
+        "sugar"
+    ],
+    "greek_salad": [
+        "tomato",
+        "cucumber",
+        "onion",
+        "oil",
+        "vinegar",
+        "salt",
+        "sugar",
+        "black_pepper",
+        "cheese"
+    ],
+    "peppermint_ice_tea": [
+        "black_tea",
+        "water",
+        "peppermint",
+        "lemon",
+        "sugar"
+    ],
+    "chai_tea_latte": [
+        "water",
+        "tea",
+        "honey",
+        "sugar",
+        "milk"
+    ],
+    "ginger_iced_tea": [
+        "ginger",
+        "lemon",
+        "water",
+        "honey"
+    ]
+}

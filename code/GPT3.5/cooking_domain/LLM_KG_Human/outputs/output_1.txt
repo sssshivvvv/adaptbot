@@ -1,0 +1,5 @@
+robot picks up spoon from cabinet
+robot moved from cabinet to sink
+robot puts down spoon to sink
+spoon successfully cleaned!
+spoon already cleaned!

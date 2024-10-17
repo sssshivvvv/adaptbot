@@ -1,0 +1,16 @@
+{
+    "dish_name": "clean spoon",
+    "dish_ingd": [
+        "spoon"
+    ],
+    "ingd_used": [
+        "cabinet",
+        "sink",
+        "spoon"
+    ],
+    "percentage_ingd_used": 100.0,
+    "#feedback_used": 0,
+    "#execution_errors": 0,
+    "#human_involvement": 0,
+    "#token_used": 1398
+}

@@ -1,0 +1,18 @@
+robot moved from dining_table to rack
+robot picks up spoon from rack
+robot picks up cleaning_solution from rack
+robot picks up plate from rack
+robot moved from rack to table
+robot puts down plate to table
+robot puts down cleaning_solution to plate
+robot moved from table to sink
+robot puts down spoon to sink
+spoon successfully cleaned!
+robot moved from sink to fridge
+robot picks up water from fridge
+robot moved from fridge to countertop
+robot puts down water to countertop
+robot moved from countertop to sink
+robot picks up spoon from sink
+robot moved from sink to countertop
+robot puts down spoon to countertop

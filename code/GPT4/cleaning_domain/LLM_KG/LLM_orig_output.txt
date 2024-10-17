@@ -1,0 +1,8 @@
+COT & ACTION SEQUENCE:
+
+To clean the spoon, I will first pick up the spoon. Since cleaning requires water, I will move to the sink where water is available. I will then proceed to clean the spoon using the sink. After cleaning, I will place the spoon back in its designated location.
+
+pick_up_tool("spoon", "initial_onto.ttl") #picking up the spoon
+move("sink", "updated_onto.ttl") #moving to the sink
+clean("spoon", "updated_onto.ttl") #cleaning the spoon using the sink
+put_down_tool("spoon", "countertop") #putting down the spoon on the countertop

@@ -1,0 +1,6 @@
+[cleaning_solution]
+robot picks up cleaning_solution from rack ----> robot puts down cleaning_solution to plate
+
+[water]
+robot picks up water from fridge ----> robot puts down water to countertop
+

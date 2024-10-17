@@ -1,0 +1,129 @@
+COT & ACTION SEQUENCE: 
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare a basic cake, I will first fetch the items I need. I will bring the bowl, all-purpose flour, baking powder, sugar, butter, eggs, vanilla extract, and cake pan.
+
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "countertop") #putting down the bowl on the countertop
+pick_up_obj("all_purpose_flour", "updated_onto.ttl") #picking up the all-purpose flour
+put_down_obj("all_purpose_flour", "countertop") #putting down the all-purpose flour on the countertop
+pick_up_obj("baking_powder", "updated_onto.ttl") #picking up the baking powder
+put_down_obj("baking_powder", "countertop") #putting down the baking powder on the countertop
+pick_up_obj("sugar", "updated_onto.ttl") #picking up the sugar
+put_down_obj("sugar", "countertop") #putting down the sugar on the countertop
+pick_up_obj("butter", "updated_onto.ttl") #picking up the butter
+put_down_obj("butter", "countertop") #putting down the butter on the countertop
+pick_up_obj("eggs", "updated_onto.ttl") #picking up the eggs
+put_down_obj("eggs", "countertop") #putting down the eggs on the countertop
+pick_up_obj("vanilla_extract", "updated_onto.ttl") #picking up the vanilla extract
+put_down_obj("vanilla_extract", "countertop") #putting down the vanilla extract on the countertop
+pick_up_rec("cake_pan", "updated_onto.ttl") #picking up the cake pan
+put_down_rec("cake_pan", "countertop") #putting down the cake pan on the countertop
+
+2. Cooking process: 
+
+To prepare the cake batter, I will mix the dry ingredients, add the wet ingredients, and then mix everything together in the bowl.
+
+mix_contents("bowl", "updated_onto.ttl") #mixing the dry ingredients in the bowl
+pick_up_obj("eggs", "updated_onto.ttl") #picking up the eggs
+put_down_obj("eggs", "bowl") #putting the eggs into the bowl
+pick_up_obj("vanilla_extract", "updated_onto.ttl") #picking up the vanilla extract
+put_down_obj("vanilla_extract", "bowl") #putting the vanilla extract into the bowl
+pick_up_obj("butter", "updated_onto.ttl") #picking up the butter
+put_down_obj("butter", "bowl") #putting the butter into the bowl
+mix_contents("bowl", "updated_onto.ttl") #mixing all the ingredients together in the bowl
+
+3. Plating and serving:
+
+I will pour the cake batter into the cake pan and then bake it in the oven.
+
+pick_up_rec("cake_pan", "updated_onto.ttl") #picking up the cake pan
+put_down_rec("cake_pan", "oven") #putting the cake batter into the cake pan
+switch_on_device("oven", "updated_onto.ttl") #switching on the oven
+put_down_rec("cake_pan", "oven") #putting the cake pan with batter into the oven to bake
+
+
+
+
+
+
+
+
+pick_up_rec("bowl", "initial_onto.ttl")
+put_down_rec("bowl", "countertop")
+pick_up_obj("all_purpose_flour", "updated_onto.ttl")
+put_down_obj("all_purpose_flour", "countertop")
+pick_up_obj("baking_powder", "updated_onto.ttl")
+put_down_obj("baking_powder", "countertop")
+pick_up_obj("sugar", "updated_onto.ttl")
+put_down_obj("sugar", "countertop")
+pick_up_obj("butter", "updated_onto.ttl")
+put_down_obj("butter", "countertop")
+pick_up_obj("eggs", "updated_onto.ttl")
+put_down_obj("eggs", "countertop")
+pick_up_obj("vanilla_extract", "updated_onto.ttl")
+put_down_obj("vanilla_extract", "countertop")
+pick_up_rec("cake_pan", "updated_onto.ttl")
+put_down_rec("cake_pan", "countertop")
+mix_contents("bowl", "updated_onto.ttl")
+pick_up_obj("eggs", "updated_onto.ttl")
+put_down_obj("eggs", "bowl")
+pick_up_obj("vanilla_extract", "updated_onto.ttl")
+put_down_obj("vanilla_extract", "bowl")
+pick_up_obj("butter", "updated_onto.ttl")
+put_down_obj("butter", "bowl")
+mix_contents("bowl", "updated_onto.ttl")
+pick_up_rec("cake_pan", "updated_onto.ttl")
+put_down_rec("cake_pan", "oven")
+switch_on_device("oven", "updated_onto.ttl")
+put_down_rec("cake_pan", "oven")
+
+
+
+
+robot picks up bowl from cabinet
+robot moved from cabinet to countertop
+robot puts down bowl to countertop
+robot moved from countertop to cabinet
+robot picks up all_purpose_flour from cabinet
+robot moved from cabinet to countertop
+robot puts down all_purpose_flour to countertop
+robot moved from countertop to cabinet
+robot picks up baking_powder from cabinet
+robot moved from cabinet to countertop
+robot puts down baking_powder to countertop
+robot moved from countertop to cabinet
+robot picks up sugar from cabinet
+robot moved from cabinet to countertop
+robot puts down sugar to countertop
+robot moved from countertop to cabinet
+robot picks up butter from cabinet
+robot moved from cabinet to countertop
+robot puts down butter to countertop
+robot moved from countertop to fridge
+robot picks up eggs from fridge
+robot moved from fridge to countertop
+robot puts down eggs to countertop
+robot moved from countertop to cabinet
+robot picks up vanilla_extract from cabinet
+robot moved from cabinet to countertop
+robot puts down vanilla_extract to countertop
+robot moved from countertop to cabinet
+robot picks up cake_pan from cabinet
+robot moved from cabinet to countertop
+robot puts down cake_pan to countertop
+bowl is empty! Cant mix the contents.
+////////////
+robot picks up eggs from countertop
+robot puts down eggs to bowl
+robot picks up vanilla_extract from countertop
+robot puts down vanilla_extract to bowl
+robot picks up butter from countertop
+robot puts down butter to bowl
+contents of bowl are ['butter', 'eggs', 'vanilla_extract']
+contents of bowl are mixed!
+robot picks up cake_pan from countertop
+robot moved from countertop to oven
+robot puts down cake_pan to oven
+oven switched on!

@@ -1,0 +1,54 @@
+                             COT & ACTION SEQUENCE:
+
+1. Fetching the ingredients and tools required for the cooking task:
+
+To prepare chicken shawarma, I will first fetch the items I need. I will bring the chicken, onion, garlic, yogurt, lemon, olive oil, salt, pepper, cumin, paprika, and a bowl. If the bowl is not cleaned, I will clean it first.
+
+clean("bowl", "updated_onto.ttl") #cleaning the bowl
+pick_up_rec("bowl", "updated_onto.ttl") #picking up the bowl
+put_down_rec("bowl", "countertop") #putting down the bowl on the countertop
+pick_up_obj("chicken", "updated_onto.ttl") #picking up the chicken
+put_down_obj("chicken", "countertop") #putting down the chicken on the countertop
+pick_up_obj("onion", "updated_onto.ttl") #picking up the onion
+put_down_obj("onion", "countertop") #putting down the onion on the countertop
+pick_up_obj("garlic_clove", "updated_onto.ttl") #picking up the garlic
+put_down_obj("garlic_clove", "countertop") #putting down the garlic on the countertop
+pick_up_obj("yogurt", "updated_onto.ttl") #picking up the yogurt
+put_down_obj("yogurt", "countertop") #putting down the yogurt on the countertop
+pick_up_obj("lemon", "updated_onto.ttl") #picking up the lemon
+put_down_obj("lemon", "countertop") #putting down the lemon on the countertop
+pick_up_obj("olive_oil", "updated_onto.ttl") #picking up the olive oil
+put_down_obj("olive_oil", "countertop") #putting down the olive oil on the countertop
+pick_up_obj("salt", "updated_onto.ttl") #picking up the salt
+put_down_obj("salt", "countertop") #putting down the salt on the countertop
+pick_up_obj("pepper", "updated_onto.ttl") #picking up the pepper
+put_down_obj("pepper", "countertop") #putting down the pepper on the countertop
+pick_up_obj("cumin_powder", "updated_onto.ttl") #picking up the cumin powder
+put_down_obj("cumin_powder", "countertop") #putting down the cumin powder on the countertop
+pick_up_obj("paprika", "updated_onto.ttl") #picking up the paprika
+put_down_obj("paprika", "countertop") #putting down the paprika on the countertop
+
+2. Cooking process:
+
+To prepare chicken shawarma, I will marinate the chicken with onion, garlic, yogurt, lemon juice, olive oil, salt, pepper, cumin, and paprika. Then I will cook the marinated chicken.
+
+mix_contents("bowl", "updated_onto.ttl") #mixing the contents in the bowl (onion, garlic, yogurt, lemon juice, olive oil, salt, pepper, cumin, paprika)
+pick_up_obj("chicken", "updated_onto.ttl") #picking up the chicken
+put_down_obj("chicken", "pan") #putting down the chicken in the pan
+marinate("chicken", "updated_onto.ttl") #marinating the chicken with the mixture
+cook("chicken", "updated_onto.ttl") #cooking the marinated chicken
+
+3. Plating and serving:
+
+To plate and serve chicken shawarma, I will put the cooked chicken onto a plate and garnish it with desired toppings.
+
+pick_up_obj("plate", "updated_onto.ttl") #picking up the plate
+put_down_obj("plate", "countertop") #putting down the plate on the countertop
+pick_up_obj("cooked_chicken", "updated_onto.ttl") #picking up the cooked chicken
+put_down_obj("cooked_chicken", "plate") #putting down the cooked chicken onto the plate
+pick_up_obj("cumin_powder", "updated_onto.ttl") #picking up the cumin powder
+put_down_obj("cumin_powder", "countertop") #putting down the cumin powder on the countertop
+pick_up_obj("paprika", "updated_onto.ttl") #picking up the paprika
+put_down_obj("paprika", "countertop") #putting down the paprika on the countertop
+
+The chicken shawarma is ready to be served!

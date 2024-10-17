@@ -1,0 +1,10 @@
+COT & ACTION SEQUENCE:
+
+To clean the spoon, I will first pick up the spoon. Then, I will pick up a cleaning solution. I will put some cleaning solution onto the spoon. Next, I will clean the spoon using a sponge or a cloth. After cleaning, I will rinse the spoon with water. Finally, I will put down the clean spoon onto the countertop.
+
+pick_up_obj("spoon", "updated_onto.ttl") #picking up the spoon
+pick_up_obj("cleaning_solution", "updated_onto.ttl") #picking up the cleaning solution
+put_down_obj("cleaning_solution", "spoon") #putting some cleaning solution onto the spoon
+clean("spoon", "updated_onto.ttl") #cleaning the spoon with a sponge or a cloth
+pour_contents("water", "countertop") #rinsing the spoon with water
+put_down_obj("spoon", "countertop") #putting down the clean spoon onto the countertop

@@ -1,0 +1,18 @@
+COT & ACTION SEQUENCE:
+
+1. Fetching the spoon:
+
+To clean the spoon, I will first fetch the spoon. If the spoon is not cleaned, I will clean it.
+
+pick_up_obj("spoon", "updated_onto.ttl") #picking up the spoon
+clean("spoon", "updated_onto.ttl") #cleaning the spoon
+
+2. Cleaning process:
+
+I will now clean the spoon.
+
+clean("spoon", "updated_onto.ttl") #cleaning the spoon
+
+3. Plating and serving:
+
+Cleaning process of the spoon is completed.

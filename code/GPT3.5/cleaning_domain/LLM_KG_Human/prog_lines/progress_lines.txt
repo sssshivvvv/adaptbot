@@ -1,0 +1,11 @@
+robot picks up spoon from rack
+robot picks up cleaning_solution from rack
+robot picks up plate from rack
+robot puts down plate to table
+robot puts down cleaning_solution to plate
+robot puts down spoon to sink
+spoon successfully cleaned!
+robot picks up water from fridge
+robot puts down water to countertop
+robot picks up spoon from sink
+robot puts down spoon to countertop

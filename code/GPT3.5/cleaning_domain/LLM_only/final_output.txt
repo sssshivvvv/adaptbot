@@ -1,0 +1,4 @@
+robot moved from dining_table to fridge
+robot picks up water from fridge
+robot moved from fridge to countertop
+robot puts down water to countertop
