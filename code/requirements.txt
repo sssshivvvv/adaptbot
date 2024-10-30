@@ -1,0 +1,8 @@
+rdflib
+networkx
+matplotlib
+openai
+nltk
+numpy
+tiktoken
+

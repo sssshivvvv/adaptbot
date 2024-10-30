@@ -60,7 +60,7 @@ cd code/GPT3.5/cooking_domain
 python3 stitching_everything.py <no-of-feedback> <state-file>
 
 ```
-3. **Note:** All tasks are listed in the `kitchen.json` file located in the `code/GPT3.5/cooking_domain directory`.
+3. **Note:** All tasks are listed in the `kitchen.json` file located in the `code/GPT3.5/cooking_domain` directory.
 
 4. **Example command:**
 

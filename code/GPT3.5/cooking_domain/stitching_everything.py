@@ -16,6 +16,7 @@ actions, funcs = fetch_actions()
 def prompt(onto_file):
 
     o,r,t,im = fetch_details(onto_file)
+    actions, funcs = fetch_actions()
 
     main_prompt = f"""
 - I am working on a project where I am using LLM along with knowledge graph to perform task planning in the given environment.
