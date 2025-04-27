@@ -1,5 +1,5 @@
 import rdflib
-from LLM_KG_Human.functions.misc_funcs import *
+from LLM_KG_Human.utils.misc_funcs import *
 from LLM_only.stitching_everything_exp import LLM_only
 from LLM_KG.stitching_everything_exp import LLM_KG
 from LLM_KG_Human.stitching_everything_exp import LLM_KG_Human

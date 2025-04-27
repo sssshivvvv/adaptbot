@@ -1,6 +1,6 @@
 import rdflib
-from LLM_KG.functions.actions import *
-from LLM_KG.functions.misc_funcs import *
+from LLM_KG.utils.actions import *
+from LLM_KG.utils.misc_funcs import *
 import os
 import argparse
 import subprocess

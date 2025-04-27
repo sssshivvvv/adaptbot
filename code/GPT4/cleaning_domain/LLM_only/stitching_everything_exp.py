@@ -1,7 +1,7 @@
 import rdflib
 import sys
-from LLM_only.functions.actions import *
-from LLM_only.functions.misc_funcs import *
+from LLM_only.utils.actions import *
+from LLM_only.utils.misc_funcs import *
 import os
 import argparse
 import subprocess
